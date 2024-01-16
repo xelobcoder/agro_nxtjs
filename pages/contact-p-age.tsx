@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useState, useCallback, useEffect } from "react";
-import NavDesktop1 from "../components/nav-desktop1";
+import NavDesktop11 from "../components/nav-desktop1";
 import DrwawerMenu from "../components/drwawer-menu";
 import PortalDrawer from "../components/portal-drawer";
 import FrameComponent6 from "../components/frame-component6";
@@ -121,16 +121,16 @@ const ContactPAge: NextPage = () => {
     <>
       <div className="relative bg-darkolivegreen-600 w-full overflow-hidden flex flex-col items-center justify-start">
         <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
-          <NavDesktop1 />
+          <NavDesktop11 />
           <nav
             className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex md:hidden sm:hidden"
             id="navBar"
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos2]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos1]:hover:flex">
                   <div
-                    className="oursubsidiarylogos2 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos1 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -142,13 +142,13 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group11@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group12@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -160,7 +160,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-12@2x.png"
                   />
                 </button>
                 <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -277,27 +277,33 @@ const ContactPAge: NextPage = () => {
         </section>
         <section className="self-stretch overflow-hidden flex flex-col items-start justify-start text-left text-lgi text-goldenrod-200 font-poppins">
           <div className="self-stretch bg-gray-500 overflow-hidden flex flex-col items-center justify-start py-[60px] px-0 relative gap-[20px] text-center text-white lg:hidden md:hover:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[757.6px] left-[295px] w-[835.5px] h-[1191px] z-[0]"
-              alt=""
-              src="/vector-21.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[-634.4px] left-[-273px] w-[835.5px] h-[1191px] z-[1]"
-              alt=""
-              src="/vector-23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[757.6px] left-[295px] w-[835.5px] h-[1191px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.841)]"
+                alt=""
+                src="/vector-215.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[-634.4px] left-[-273px] w-[835.5px] h-[1191px] flex items-center justify-center z-[1]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.841)]"
+                alt=""
+                src="/vector-234.svg"
+              />
+            </div>
             <div className="self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-5 gap-[5px] z-[2] text-goldenrod-200">
               <div className="self-stretch relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
               </div>
               <div className="self-stretch relative text-21xl leading-[100%] font-extrabold text-white">{`Our Teams & Experts`}</div>
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[1604.6px] left-[1070px] w-[835.5px] h-[1191px] z-[3]"
-              alt=""
-              src="/vector-22.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[1604.6px] left-[1070px] w-[835.5px] h-[1191px] flex items-center justify-center z-[3]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.841)]"
+                alt=""
+                src="/vector-224.svg"
+              />
+            </div>
             <div
               className="self-stretch flex flex-row items-center justify-center gap-[8px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] z-[4] text-left text-6xl font-lexend-deca"
               data-animate-on-scroll
@@ -307,7 +313,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-12xl w-[317px] h-[373px] object-cover"
                     alt=""
-                    src="/base@2x.png"
+                    src="/base27@2x.png"
                   />
                   <div className="absolute top-[315px] left-[0px] w-[317.4px] h-[101px]">
                     <div className="absolute top-[0px] left-[0px] w-[317.4px] h-[101px]">
@@ -328,7 +334,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-11xl w-[383.2px] h-[433.2px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base28@2x.png"
                 />
                 <div className="absolute top-[377px] left-[0px] w-[383.2px] h-[120px]">
                   <div className="absolute top-[0px] left-[0px] rounded-11xl bg-dimgray-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-[383.2px] h-[120px] border-[1px] border-solid border-gray-1500" />
@@ -346,7 +352,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-11xl w-[336.4px] h-[362.4px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base29@2x.png"
                 />
                 <div className="absolute top-[305.9px] left-[0px] w-[336.4px] h-[110.1px]">
                   <div className="absolute top-[0px] left-[0px] w-[336.4px] h-[110.1px]">
@@ -372,7 +378,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="relative w-[555px] h-[487.3px] object-contain"
                     alt=""
-                    src="/group-206@2x.png"
+                    src="/group-2061@2x.png"
                   />
                   <div className="flex-1 flex flex-col items-start justify-start gap-[60px]">
                     <b
@@ -420,11 +426,13 @@ const ContactPAge: NextPage = () => {
             </div>
           </div>
           <div className="bg-gray-500 w-[1200px] overflow-hidden hidden flex-col items-center justify-start py-[41.222713470458984px] px-0 box-border relative gap-[13.74px] text-sm-1 lg:flex md:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-435.9px] left-[-187.6px] w-[574px] h-[818.3px] z-[0]"
-              alt=""
-              src="/vector-23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-435.9px] left-[-187.6px] w-[574px] h-[818.3px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-23.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[13.740903854370117px] gap-[3.44px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -440,7 +448,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-2xl-3 w-[217.8px] h-[256.3px] object-cover"
                     alt=""
-                    src="/base@2x.png"
+                    src="/base30@2x.png"
                   />
                   <div className="absolute top-[216.4px] left-[0px] w-[218px] h-[69.4px]">
                     <div className="absolute top-[0px] left-[0px] w-[218px] h-[69.4px]">
@@ -464,7 +472,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-[20.61px] w-[263.3px] h-[297.6px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base31@2x.png"
                 />
                 <div className="absolute top-[259px] left-[0px] w-[263.3px] h-[82.4px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[20.61px] bg-dimgray-200 shadow-[0px_16.5px_32.98px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(44.82px)] box-border w-[263.3px] h-[82.4px] border-[0.7px] border-solid border-gray-1500" />
@@ -485,7 +493,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-[20.61px] w-[231.1px] h-[249px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base32@2x.png"
                 />
                 <div className="absolute top-[210.2px] left-[0px] w-[231.1px] h-[75.6px]">
                   <div className="absolute top-[0px] left-[0px] w-[231.1px] h-[75.6px]">
@@ -505,16 +513,20 @@ const ContactPAge: NextPage = () => {
               <div className="relative bg-goldenrod-200 w-[20.6px] h-[4.1px]" />
               <div className="relative bg-gainsboro-300 w-[10.3px] h-[4.1px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[520.4px] left-[202.7px] w-[574px] h-[818.3px] z-[4]"
-              alt=""
-              src="/vector-21.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[1102.4px] left-[735.1px] w-[574px] h-[818.3px] z-[5]"
-              alt=""
-              src="/vector-22.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[520.4px] left-[202.7px] w-[574px] h-[818.3px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-211.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[1102.4px] left-[735.1px] w-[574px] h-[818.3px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-22.svg"
+              />
+            </div>
             <div className="relative w-[962.6px] h-[439px] z-[6] text-2xs-3 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[61.5px] left-[55.3px] bg-white w-[906.9px] h-[307.8px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -525,7 +537,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[42.6px] w-[42.6px] h-[41.2px] object-contain"
                   alt=""
-                  src="/base.svg"
+                  src="/base14.svg"
                 />
                 <img
                   className="absolute top-[14.4px] left-[11px] w-[13.7px] h-[13.7px] overflow-hidden"
@@ -548,7 +560,7 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[-0.4px] left-[-0.3px] w-[480.9px] h-[471.3px] overflow-hidden object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients@2x.png"
+                src="/gradients4@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -587,36 +599,38 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon8@2x.png"
                 />
                 <div className="absolute top-[44px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
                 <img
                   className="absolute top-[55px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon9@2x.png"
                 />
                 <div className="absolute top-[98.9px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
                 <img
                   className="absolute top-[109.9px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon10@2x.png"
                 />
                 <div className="absolute top-[153.9px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
                 <img
                   className="absolute top-[164.9px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon11@2x.png"
                 />
                 <div className="absolute top-[208.9px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
               </div>
             </div>
           </div>
           <div className="bg-gray-500 w-[960px] overflow-hidden hidden flex-col items-center justify-start py-[33.10615158081055px] px-0 box-border relative gap-[11.04px] text-2xs-5 md:flex sm:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-350.2px] left-[-150.6px] w-[461px] h-[657.2px] z-[0]"
-              alt=""
-              src="/vector-23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-350.2px] left-[-150.6px] w-[461px] h-[657.2px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-231.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[11.035383224487305px] gap-[2.76px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -632,7 +646,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-mid-1 w-[174.9px] h-[205.8px] object-cover"
                     alt=""
-                    src="/base@2x.png"
+                    src="/base33@2x.png"
                   />
                   <div className="absolute top-[173.8px] left-[0px] w-[175.1px] h-[55.7px]">
                     <div className="absolute top-[0px] left-[0px] w-[175.1px] h-[55.7px]">
@@ -656,7 +670,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[16.55px] w-[211.4px] h-[239px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base34@2x.png"
                 />
                 <div className="absolute top-[208px] left-[0px] w-[211.4px] h-[66.2px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[16.55px] bg-dimgray-200 shadow-[0px_13.2px_26.48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(36px)] box-border w-[211.4px] h-[66.2px] border-[0.6px] border-solid border-gray-1500" />
@@ -677,7 +691,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[16.55px] w-[185.6px] h-[199.9px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base35@2x.png"
                 />
                 <div className="absolute top-[168.8px] left-[0px] w-[185.6px] h-[60.7px]">
                   <div className="absolute top-[0px] left-[0px] w-[185.6px] h-[60.7px]">
@@ -697,16 +711,20 @@ const ContactPAge: NextPage = () => {
               <div className="relative bg-goldenrod-200 w-[16.6px] h-[3.3px]" />
               <div className="relative bg-gainsboro-300 w-[8.3px] h-[3.3px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[417.9px] left-[162.8px] w-[461px] h-[657.2px] z-[4]"
-              alt=""
-              src="/vector-21.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[885.2px] left-[590.4px] w-[461px] h-[657.2px] z-[5]"
-              alt=""
-              src="/vector-22.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[417.9px] left-[162.8px] w-[461px] h-[657.2px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-212.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[885.2px] left-[590.4px] w-[461px] h-[657.2px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-221.svg"
+              />
+            </div>
             <div className="relative w-[773px] h-[352.6px] z-[6] text-4xs-3 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[49.3px] left-[44.4px] bg-white w-[728.3px] h-[247.2px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -720,12 +738,12 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[34.2px] w-[34.2px] h-[33.1px] object-contain"
                   alt=""
-                  src="/base.svg"
+                  src="/base18.svg"
                 />
                 <img
                   className="absolute top-[11.6px] left-[8.8px] w-[11px] h-[11px] overflow-hidden"
                   alt=""
-                  src="/arrowright.svg"
+                  src="/arrowright1.svg"
                 />
               </div>
               <div className="absolute top-[223.7px] left-[427.9px] uppercase font-semibold">
@@ -743,7 +761,7 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[-0.4px] left-[-0.3px] w-[386.2px] h-[378.5px] overflow-hidden object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients@2x.png"
+                src="/gradients5@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -782,36 +800,38 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon12@2x.png"
                 />
                 <div className="absolute top-[35.3px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
                 <img
                   className="absolute top-[44.1px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon13@2x.png"
                 />
                 <div className="absolute top-[79.5px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
                 <img
                   className="absolute top-[88.3px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon14@2x.png"
                 />
                 <div className="absolute top-[123.6px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
                 <img
                   className="absolute top-[132.4px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/icon15@2x.png"
                 />
                 <div className="absolute top-[167.7px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
               </div>
             </div>
           </div>
           <div className="bg-gray-500 w-[420px] overflow-hidden hidden flex-col items-center justify-start py-[15.49566650390625px] px-0 box-border relative gap-[5.17px] text-8xs-9 sm:flex mq350small:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-164.1px] left-[-70.5px] w-[215.8px] h-[307.6px] z-[0]"
-              alt=""
-              src="/vector-23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-164.1px] left-[-70.5px] w-[215.8px] h-[307.6px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-232.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[5.16522216796875px] gap-[1.29px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -830,7 +850,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-[8.01px] w-[81.9px] h-[96.3px] object-cover"
                     alt=""
-                    src="/base@2x.png"
+                    src="/base36@2x.png"
                   />
                   <div className="absolute top-[81.4px] left-[0px] w-[82px] h-[26.1px]">
                     <div className="absolute top-[0px] left-[0px] w-[82px] h-[26.1px]">
@@ -854,7 +874,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[7.75px] w-[99px] h-[111.9px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base37@2x.png"
                 />
                 <div className="absolute top-[97.4px] left-[0px] w-[99px] h-[31px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[7.75px] bg-dimgray-200 shadow-[0px_6.2px_12.4px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(16.85px)] box-border w-[99px] h-[31px] border-[0.3px] border-solid border-gray-1500" />
@@ -875,7 +895,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[7.75px] w-[86.9px] h-[93.6px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base38@2x.png"
                 />
                 <div className="absolute top-[79px] left-[0px] w-[86.9px] h-[28.4px]">
                   <div className="absolute top-[0px] left-[0px] w-[86.9px] h-[28.4px]">
@@ -895,16 +915,20 @@ const ContactPAge: NextPage = () => {
               <div className="relative bg-goldenrod-200 w-[7.7px] h-[1.5px]" />
               <div className="relative bg-gainsboro-300 w-[3.9px] h-[1.5px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[195.4px] left-[76.2px] w-[215.8px] h-[307.6px] z-[4]"
-              alt=""
-              src="/vector-21.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[414.2px] left-[276.3px] w-[215.8px] h-[307.6px] z-[5]"
-              alt=""
-              src="/vector-22.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[195.4px] left-[76.2px] w-[215.8px] h-[307.6px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-213.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[414.2px] left-[276.3px] w-[215.8px] h-[307.6px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-222.svg"
+              />
+            </div>
             <div className="relative w-[340px] h-[122px] z-[6] text-9xs-9 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[18.4px] left-[30px] bg-white box-border w-[281px] h-[93px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] border-[1px] border-solid border-black"
@@ -918,12 +942,12 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[16px] w-4 h-[15.5px] object-contain"
                   alt=""
-                  src="/base.svg"
+                  src="/base22.svg"
                 />
                 <img
                   className="absolute top-[5.4px] left-[4.1px] w-[5.2px] h-[5.2px] overflow-hidden"
                   alt=""
-                  src="/arrowright.svg"
+                  src="/arrowright2.svg"
                 />
                 <div className="absolute top-[5.2px] left-[21.7px] uppercase font-semibold">
                   view produCts
@@ -941,7 +965,7 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[11.4px] left-[20px] w-[117px] h-[115px] overflow-hidden object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients@2x.png"
+                src="/gradients6@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -979,16 +1003,18 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[79.7px] left-[0px] w-[147.2px] h-[78.8px] object-contain"
                 alt=""
-                src="/group-893@2x.png"
+                src="/group-8932@2x.png"
               />
             </div>
           </div>
           <div className="bg-gray-500 w-[351px] overflow-hidden hidden flex-col items-center justify-start py-[12.949950218200684px] px-0 box-border relative gap-[4.32px] text-8xs-1 mq350small:flex">
-            <img
-              className="absolute my-0 mx-[!important] top-[-137.2px] left-[-58.9px] w-[180.3px] h-[257.1px] z-[0]"
-              alt=""
-              src="/vector-23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-137.2px] left-[-58.9px] w-[180.3px] h-[257.1px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-233.svg"
+              />
+            </div>
             <div className="self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-[4.316649913787842px] gap-[1.08px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -1004,7 +1030,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-[6.69px] w-[68.4px] h-[80.5px] object-cover"
                     alt=""
-                    src="/base@2x.png"
+                    src="/base39@2x.png"
                   />
                   <div className="absolute top-[68px] left-[0px] w-[68.5px] h-[21.8px]">
                     <div className="absolute top-[0px] left-[0px] w-[68.5px] h-[21.8px]">
@@ -1028,7 +1054,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0px] rounded-[6.47px] w-[82.7px] h-[93.5px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base40@2x.png"
                 />
                 <div className="absolute top-[81.4px] left-[0px] w-[82.7px] h-[25.9px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[6.47px] bg-dimgray-200 shadow-[0px_5.2px_10.36px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(14.08px)] box-border w-[82.7px] h-[25.9px] border-[0.2px] border-solid border-gray-1500" />
@@ -1049,7 +1075,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[6.47px] w-[72.6px] h-[78.2px] object-cover"
                   alt=""
-                  src="/base@2x.png"
+                  src="/base41@2x.png"
                 />
                 <div className="absolute top-[66px] left-[0px] w-[72.6px] h-[23.8px]">
                   <div className="absolute top-[0px] left-[0px] w-[72.6px] h-[23.8px]">
@@ -1069,16 +1095,20 @@ const ContactPAge: NextPage = () => {
               <div className="relative bg-goldenrod-200 w-[6.5px] h-[1.3px]" />
               <div className="relative bg-gainsboro-300 w-[3.2px] h-[1.3px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[163.2px] left-[63.7px] w-[180.3px] h-[257.1px] z-[4]"
-              alt=""
-              src="/vector-21.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[346.1px] left-[230.9px] w-[180.3px] h-[257.1px] z-[5]"
-              alt=""
-              src="/vector-22.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[163.2px] left-[63.7px] w-[180.3px] h-[257.1px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-214.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[346.1px] left-[230.9px] w-[180.3px] h-[257.1px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-223.svg"
+              />
+            </div>
             <div className="relative w-[284.1px] h-[102px] z-[6] text-9xs-2 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[15.3px] left-[25.1px] bg-white w-[234.8px] h-[77.7px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -1089,12 +1119,12 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[13.4px] w-[13.4px] h-[12.9px] object-contain"
                   alt=""
-                  src="/base.svg"
+                  src="/base26.svg"
                 />
                 <img
                   className="absolute top-[4.5px] left-[3.5px] w-[4.3px] h-[4.3px] overflow-hidden"
                   alt=""
-                  src="/arrowright.svg"
+                  src="/arrowright3.svg"
                 />
                 <div className="absolute top-[4.3px] left-[18.1px] uppercase font-semibold">
                   view produCts
@@ -1112,7 +1142,7 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[9.5px] left-[16.7px] w-[97.8px] h-[96.1px] overflow-hidden object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients@2x.png"
+                src="/gradients7@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -1150,7 +1180,7 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[66.6px] left-[0px] w-[123px] h-[65.8px] object-contain"
                 alt=""
-                src="/group-893@2x.png"
+                src="/group-8933@2x.png"
               />
             </div>
           </div>
@@ -1168,114 +1198,114 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="absolute top-[13.2px] left-[1327.5px] w-[43px] h-[43px] object-cover"
                       alt=""
-                      src="/download-2@2x.png"
+                      src="/download-29@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[218.7px] w-[72.2px] h-[47.2px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-518@2x.png"
                     />
                     <img
                       className="absolute top-[4.9px] left-[1219.9px] w-[47.2px] h-[52.1px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download9@2x.png"
                     />
                     <img
                       className="absolute top-[10.4px] left-[0px] w-[58.3px] h-[48.6px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-519@2x.png"
                     />
                     <img
                       className="absolute top-[16.7px] left-[112.5px] w-[41px] h-[40.3px] object-cover"
                       alt=""
-                      src="/download-3@2x.png"
+                      src="/download-39@2x.png"
                     />
                     <img
                       className="absolute top-[9px] left-[336px] w-[117.3px] h-[51.4px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture10@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[493.6px] w-[205.5px] h-[43px] object-cover"
                       alt=""
-                      src="/mofa-color@2x.png"
+                      src="/mofa-color10@2x.png"
                     />
                     <img
                       className="absolute top-[20.1px] left-[728.3px] w-[95.8px] h-[32.6px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images9@2x.png"
                     />
                     <img
                       className="absolute top-[9.7px] left-[849.1px] w-[86.1px] h-[49.3px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-610@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[969.2px] w-[69.4px] h-[69.4px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-110@2x.png"
                     />
                     <img
                       className="absolute top-[12.5px] left-[1075.5px] w-[113.9px] h-[45.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-110@2x.png"
                     />
                   </div>
                   <div className="absolute top-[0px] left-[1412.2px] w-[1370.5px] h-[69.4px]">
                     <img
                       className="absolute top-[13.2px] left-[1327.5px] w-[43px] h-[43px] object-cover"
                       alt=""
-                      src="/download-2@2x.png"
+                      src="/download-210@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[218.7px] w-[72.2px] h-[47.2px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-520@2x.png"
                     />
                     <img
                       className="absolute top-[4.9px] left-[1219.9px] w-[47.2px] h-[52.1px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download10@2x.png"
                     />
                     <img
                       className="absolute top-[10.4px] left-[0px] w-[58.3px] h-[48.6px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-521@2x.png"
                     />
                     <img
                       className="absolute top-[16.7px] left-[112.5px] w-[41px] h-[40.3px] object-cover"
                       alt=""
-                      src="/download-3@2x.png"
+                      src="/download-310@2x.png"
                     />
                     <img
                       className="absolute top-[9px] left-[336px] w-[117.3px] h-[51.4px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture11@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[493.6px] w-[205.5px] h-[43px] object-cover"
                       alt=""
-                      src="/mofa-color@2x.png"
+                      src="/mofa-color11@2x.png"
                     />
                     <img
                       className="absolute top-[20.1px] left-[728.3px] w-[95.8px] h-[32.6px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images10@2x.png"
                     />
                     <img
                       className="absolute top-[9.7px] left-[849.1px] w-[86.1px] h-[49.3px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-611@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[969.2px] w-[69.4px] h-[69.4px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-111@2x.png"
                     />
                     <img
                       className="absolute top-[12.5px] left-[1075.5px] w-[113.9px] h-[45.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-111@2x.png"
                     />
                   </div>
                 </div>
@@ -1410,7 +1440,7 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="relative w-[23.4px] h-0 cursor-pointer"
                       alt=""
-                      src="/arrow-6.svg"
+                      src="/arrow-62.svg"
                       onClick={onArrowIconClick}
                     />
                     <div
@@ -1451,28 +1481,28 @@ const ContactPAge: NextPage = () => {
                         <img
                           className="relative w-[9.7px] h-[10.4px]"
                           alt=""
-                          src="/group.svg"
+                          src="/group1.svg"
                         />
                       </div>
                       <div className="rounded-[25.59px] bg-darkgray-400 w-[32.9px] h-[33.9px] flex flex-row items-center justify-center py-[13.834328651428223px] px-[17.292909622192383px] box-border">
                         <img
                           className="relative w-[5.4px] h-[10.4px]"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector3.svg"
                         />
                       </div>
                       <div className="rounded-[40.47px] bg-darkgray-400 w-[31.5px] h-[31.5px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[13.834328651428223px] px-[12.105037689208984px] box-border">
                         <img
                           className="relative w-[11.6px] h-[9.7px]"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector4.svg"
                         />
                       </div>
                       <div className="rounded-[28.01px] bg-darkgray-400 w-[34.2px] h-[33.9px] flex flex-col items-center justify-center p-[13.834328651428223px] box-border">
                         <img
                           className="relative w-[11.2px] h-[10.4px]"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector5.svg"
                         />
                       </div>
                     </div>
@@ -1502,114 +1532,114 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="absolute top-[10.6px] left-[1062.2px] w-[34.4px] h-[34.4px] object-cover"
                       alt=""
-                      src="/download-2@2x.png"
+                      src="/download-211@2x.png"
                     />
                     <img
                       className="absolute top-[11.1px] left-[175px] w-[57.8px] h-[37.8px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-522@2x.png"
                     />
                     <img
                       className="absolute top-[3.9px] left-[976.1px] w-[37.8px] h-[41.7px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download11@2x.png"
                     />
                     <img
                       className="absolute top-[8.3px] left-[0px] w-[46.7px] h-[38.9px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-523@2x.png"
                     />
                     <img
                       className="absolute top-[13.3px] left-[90px] w-[32.8px] h-[32.2px] object-cover"
                       alt=""
-                      src="/download-3@2x.png"
+                      src="/download-311@2x.png"
                     />
                     <img
                       className="absolute top-[7.2px] left-[268.9px] w-[93.9px] h-[41.1px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture12@2x.png"
                     />
                     <img
                       className="absolute top-[11.1px] left-[395px] w-[164.4px] h-[34.4px] object-cover"
                       alt=""
-                      src="/mofa-color@2x.png"
+                      src="/mofa-color12@2x.png"
                     />
                     <img
                       className="absolute top-[16.1px] left-[582.8px] w-[76.7px] h-[26.1px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images11@2x.png"
                     />
                     <img
                       className="absolute top-[7.8px] left-[679.4px] w-[68.9px] h-[39.4px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-612@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[775.6px] w-[55.6px] h-[55.6px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-112@2x.png"
                     />
                     <img
                       className="absolute top-[10px] left-[860.6px] w-[91.1px] h-[36.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-112@2x.png"
                     />
                   </div>
                   <div className="absolute top-[0px] left-[1130px] w-[1096.7px] h-[55.6px]">
                     <img
                       className="absolute top-[10.6px] left-[1062.2px] w-[34.4px] h-[34.4px] object-cover"
                       alt=""
-                      src="/download-2@2x.png"
+                      src="/download-211@2x.png"
                     />
                     <img
                       className="absolute top-[11.1px] left-[175px] w-[57.8px] h-[37.8px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-522@2x.png"
                     />
                     <img
                       className="absolute top-[3.9px] left-[976.1px] w-[37.8px] h-[41.7px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download11@2x.png"
                     />
                     <img
                       className="absolute top-[8.3px] left-[0px] w-[46.7px] h-[38.9px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-523@2x.png"
                     />
                     <img
                       className="absolute top-[13.3px] left-[90px] w-[32.8px] h-[32.2px] object-cover"
                       alt=""
-                      src="/download-3@2x.png"
+                      src="/download-311@2x.png"
                     />
                     <img
                       className="absolute top-[7.2px] left-[268.9px] w-[93.9px] h-[41.1px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture12@2x.png"
                     />
                     <img
                       className="absolute top-[11.1px] left-[395px] w-[164.4px] h-[34.4px] object-cover"
                       alt=""
-                      src="/mofa-color@2x.png"
+                      src="/mofa-color12@2x.png"
                     />
                     <img
                       className="absolute top-[16.1px] left-[582.8px] w-[76.7px] h-[26.1px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images11@2x.png"
                     />
                     <img
                       className="absolute top-[7.8px] left-[679.4px] w-[68.9px] h-[39.4px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-612@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[775.6px] w-[55.6px] h-[55.6px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-112@2x.png"
                     />
                     <img
                       className="absolute top-[10px] left-[860.6px] w-[91.1px] h-[36.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-112@2x.png"
                     />
                   </div>
                 </div>
@@ -1744,7 +1774,7 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="relative w-[18.7px] h-0 cursor-pointer"
                       alt=""
-                      src="/arrow-6.svg"
+                      src="/arrow-63.svg"
                       onClick={onArrowIcon2Click}
                     />
                     <div
@@ -1785,28 +1815,28 @@ const ContactPAge: NextPage = () => {
                         <img
                           className="relative w-[7.7px] h-[8.3px]"
                           alt=""
-                          src="/group.svg"
+                          src="/group2.svg"
                         />
                       </div>
                       <div className="rounded-[20.48px] bg-darkgray-400 w-[26.3px] h-[27.1px] flex flex-row items-center justify-center py-[11.069880485534668px] px-[13.837349891662598px] box-border">
                         <img
                           className="relative w-[4.3px] h-[8.3px]"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector6.svg"
                         />
                       </div>
                       <div className="rounded-[32.38px] bg-darkgray-400 w-[25.2px] h-[25.2px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[11.069880485534668px] px-[9.686145782470703px] box-border">
                         <img
                           className="relative w-[9.3px] h-[7.8px]"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector7.svg"
                         />
                       </div>
                       <div className="rounded-[22.42px] bg-darkgray-400 w-[27.4px] h-[27.1px] flex flex-col items-center justify-center p-[11.069880485534668px] box-border">
                         <img
                           className="relative w-[9px] h-[8.3px]"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector8.svg"
                         />
                       </div>
                     </div>
@@ -1838,114 +1868,114 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[11.6px] left-[1163.4px] w-[37.7px] h-[37.7px] object-cover"
                     alt=""
-                    src="/download-2@2x.png"
+                    src="/download-212@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[191.7px] w-[63.3px] h-[41.4px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-524@2x.png"
                   />
                   <img
                     className="absolute top-[4.3px] left-[1069.1px] w-[41.4px] h-[45.6px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download12@2x.png"
                   />
                   <img
                     className="absolute top-[9.1px] left-[0px] w-[51.1px] h-[42.6px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-525@2x.png"
                   />
                   <img
                     className="absolute top-[14.6px] left-[98.6px] w-[35.9px] h-[35.3px] object-cover"
                     alt=""
-                    src="/download-3@2x.png"
+                    src="/download-312@2x.png"
                   />
                   <img
                     className="absolute top-[7.9px] left-[294.5px] w-[102.8px] h-[45px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture13@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[432.6px] w-[180.1px] h-[37.7px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color13@2x.png"
                   />
                   <img
                     className="absolute top-[17.6px] left-[638.3px] w-[84px] h-[28.6px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images12@2x.png"
                   />
                   <img
                     className="absolute top-[8.5px] left-[744.2px] w-[75.5px] h-[43.2px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-613@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[849.4px] w-[60.8px] h-[60.8px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-113@2x.png"
                   />
                   <img
                     className="absolute top-[11px] left-[942.5px] w-[99.8px] h-[39.6px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-113@2x.png"
                   />
                 </div>
                 <div className="absolute top-[0px] left-[1237.6px] w-[1201.1px] h-[60.8px]">
                   <img
                     className="absolute top-[11.6px] left-[1163.4px] w-[37.7px] h-[37.7px] object-cover"
                     alt=""
-                    src="/download-2@2x.png"
+                    src="/download-213@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[191.7px] w-[63.3px] h-[41.4px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-526@2x.png"
                   />
                   <img
                     className="absolute top-[4.3px] left-[1069.1px] w-[41.4px] h-[45.6px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download13@2x.png"
                   />
                   <img
                     className="absolute top-[9.1px] left-[0px] w-[51.1px] h-[42.6px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-527@2x.png"
                   />
                   <img
                     className="absolute top-[14.6px] left-[98.6px] w-[35.9px] h-[35.3px] object-cover"
                     alt=""
-                    src="/download-3@2x.png"
+                    src="/download-313@2x.png"
                   />
                   <img
                     className="absolute top-[7.9px] left-[294.5px] w-[102.8px] h-[45px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture14@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[432.6px] w-[180.1px] h-[37.7px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color14@2x.png"
                   />
                   <img
                     className="absolute top-[17.6px] left-[638.3px] w-[84px] h-[28.6px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images13@2x.png"
                   />
                   <img
                     className="absolute top-[8.5px] left-[744.2px] w-[75.5px] h-[43.2px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-614@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[849.4px] w-[60.8px] h-[60.8px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-114@2x.png"
                   />
                   <img
                     className="absolute top-[11px] left-[942.5px] w-[99.8px] h-[39.6px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-114@2x.png"
                   />
                 </div>
               </div>
@@ -2064,7 +2094,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="relative w-[24.4px] h-0 cursor-pointer"
                   alt=""
-                  src="/arrow-6.svg"
+                  src="/arrow-64.svg"
                   onClick={onArrowIcon3Click}
                 />
                 <div
@@ -2085,28 +2115,28 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="relative w-[10.1px] h-[10.9px]"
                       alt=""
-                      src="/group.svg"
+                      src="/group3.svg"
                     />
                   </div>
                   <div className="rounded-[26.78px] bg-darkgray-400 w-[34.4px] h-[35.5px] flex flex-row items-center justify-center py-[14.475349426269531px] px-[18.094186782836914px] box-border">
                     <img
                       className="relative w-[5.7px] h-[10.9px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector9.svg"
                     />
                   </div>
                   <div className="rounded-[42.34px] bg-darkgray-400 w-[32.9px] h-[32.9px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[14.475349426269531px] px-[12.665931701660156px] box-border">
                     <img
                       className="relative w-[12.1px] h-[10.2px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector10.svg"
                     />
                   </div>
                   <div className="rounded-[29.31px] bg-darkgray-400 w-[35.8px] h-[35.5px] flex flex-col items-center justify-center p-[14.475349426269531px] box-border">
                     <img
                       className="relative w-[11.7px] h-[10.9px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector11.svg"
                     />
                   </div>
                 </div>
@@ -2160,114 +2190,114 @@ const ContactPAge: NextPage = () => {
                   <img
                     className="absolute top-[9.5px] left-[954.2px] w-[30.9px] h-[30.9px] object-cover"
                     alt=""
-                    src="/download-2@2x.png"
+                    src="/download-214@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[157.2px] w-[51.9px] h-[33.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-528@2x.png"
                   />
                   <img
                     className="absolute top-[3.5px] left-[876.9px] w-[33.9px] h-[37.4px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download14@2x.png"
                   />
                   <img
                     className="absolute top-[7.5px] left-[0px] w-[41.9px] h-[34.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-529@2x.png"
                   />
                   <img
                     className="absolute top-[12px] left-[80.8px] w-[29.4px] h-[28.9px] object-cover"
                     alt=""
-                    src="/download-3@2x.png"
+                    src="/download-314@2x.png"
                   />
                   <img
                     className="absolute top-[6.5px] left-[241.6px] w-[84.3px] h-[36.9px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture15@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[354.8px] w-[147.7px] h-[30.9px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color15@2x.png"
                   />
                   <img
                     className="absolute top-[14.5px] left-[523.5px] w-[68.9px] h-[23.5px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images14@2x.png"
                   />
                   <img
                     className="absolute top-[7px] left-[610.4px] w-[61.9px] h-[35.4px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-615@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[696.7px] w-[49.9px] h-[49.9px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-115@2x.png"
                   />
                   <img
                     className="absolute top-[9px] left-[773.1px] w-[81.8px] h-[32.4px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-115@2x.png"
                   />
                 </div>
                 <div className="absolute top-[0px] left-[1015.1px] w-[985.2px] h-[49.9px]">
                   <img
                     className="absolute top-[9.5px] left-[954.2px] w-[30.9px] h-[30.9px] object-cover"
                     alt=""
-                    src="/download-2@2x.png"
+                    src="/download-215@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[157.2px] w-[51.9px] h-[33.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-530@2x.png"
                   />
                   <img
                     className="absolute top-[3.5px] left-[876.9px] w-[33.9px] h-[37.4px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download15@2x.png"
                   />
                   <img
                     className="absolute top-[7.5px] left-[0px] w-[41.9px] h-[34.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-531@2x.png"
                   />
                   <img
                     className="absolute top-[12px] left-[80.9px] w-[29.4px] h-[28.9px] object-cover"
                     alt=""
-                    src="/download-3@2x.png"
+                    src="/download-315@2x.png"
                   />
                   <img
                     className="absolute top-[6.5px] left-[241.6px] w-[84.3px] h-[36.9px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture16@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[354.8px] w-[147.7px] h-[30.9px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color16@2x.png"
                   />
                   <img
                     className="absolute top-[14.5px] left-[523.5px] w-[68.9px] h-[23.5px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images15@2x.png"
                   />
                   <img
                     className="absolute top-[7px] left-[610.4px] w-[61.9px] h-[35.4px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-616@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[696.7px] w-[49.9px] h-[49.9px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-116@2x.png"
                   />
                   <img
                     className="absolute top-[9px] left-[773.1px] w-[81.8px] h-[32.4px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-116@2x.png"
                   />
                 </div>
               </div>
@@ -2380,7 +2410,7 @@ const ContactPAge: NextPage = () => {
                 <img
                   className="relative w-5 h-0 cursor-pointer"
                   alt=""
-                  src="/arrow-6.svg"
+                  src="/arrow-65.svg"
                   onClick={onArrowIcon4Click}
                 />
                 <div
@@ -2401,28 +2431,28 @@ const ContactPAge: NextPage = () => {
                     <img
                       className="relative w-[8.3px] h-[8.9px]"
                       alt=""
-                      src="/group.svg"
+                      src="/group4.svg"
                     />
                   </div>
                   <div className="rounded-[21.96px] bg-darkgray-400 w-[28.2px] h-[29.1px] flex flex-row items-center justify-center py-[11.872894287109375px] px-[14.841116905212402px] box-border">
                     <img
                       className="relative w-[4.6px] h-[8.9px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector12.svg"
                     />
                   </div>
                   <div className="rounded-[34.73px] bg-darkgray-400 w-[27px] h-[27px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[11.872894287109375px] px-[10.38878345489502px] box-border">
                     <img
                       className="relative w-[9.9px] h-[8.3px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector13.svg"
                     />
                   </div>
                   <div className="rounded-[24.04px] bg-darkgray-400 w-[29.4px] h-[29.1px] flex flex-col items-center justify-center p-[11.872894287109375px] box-border">
                     <img
                       className="relative w-[9.6px] h-[8.9px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector14.svg"
                     />
                   </div>
                 </div>

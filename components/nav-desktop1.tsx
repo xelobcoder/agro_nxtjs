@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
 
-const NavDesktop1: NextPage = () => {
+const NavDesktop11: NextPage = () => {
   const router = useRouter();
 
   const onClipPathGroupClick = useCallback(() => {
@@ -18,7 +18,7 @@ const NavDesktop1: NextPage = () => {
   }, []);
 
   const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onProducAndServicesClick = useCallback(() => {
@@ -30,7 +30,7 @@ const NavDesktop1: NextPage = () => {
   }, [router]);
 
   const onMediaClick = useCallback(() => {
-    router.push("/");
+    router.push("/media");
   }, [router]);
 
   const onContactUsContainerClick = useCallback(() => {
@@ -58,13 +58,13 @@ const NavDesktop1: NextPage = () => {
               <img
                 className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                 alt=""
-                src="/clip-path-group@2x.png"
+                src="/clip-path-group9@2x.png"
                 onClick={onClipPathGroup1Click}
               />
               <img
                 className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                 alt=""
-                src="/clip-path-group@2x.png"
+                src="/clip-path-group10@2x.png"
                 onClick={onClipPathGroup2Click}
               />
               <img
@@ -148,4 +148,4 @@ const NavDesktop1: NextPage = () => {
   );
 };
 
-export default NavDesktop1;
+export default NavDesktop11;

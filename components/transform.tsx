@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useCallback, useEffect } from "react";
 import { useRouter } from "next/router";
 
-const Transform: NextPage = () => {
+const Transform1: NextPage = () => {
   const router = useRouter();
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -86,4 +86,4 @@ const Transform: NextPage = () => {
   );
 };
 
-export default Transform;
+export default Transform1;

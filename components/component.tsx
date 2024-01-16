@@ -51,7 +51,7 @@ const Component: NextPage = () => {
           <img
             className="relative w-[53.5px] h-[54.5px] object-contain opacity-[0.78]"
             alt=""
-            src="/left-group@2x.png"
+            src="/left-group1@2x.png"
           />
         </div>
       </div>

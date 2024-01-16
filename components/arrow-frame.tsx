@@ -17,7 +17,11 @@ const ArrowFrame: NextPage = () => {
   return (
     <button className="cursor-pointer [border:none] p-0 bg-[transparent] w-[38.4px] h-[40.9px]">
       <div className="absolute top-[43px] left-[-171px] rounded-xl bg-gainsboro-100 hidden flex-col items-start justify-start p-5 gap-[20px]">
-        <img className="relative w-[184.9px] h-8" alt="" src="/group-939.svg" />
+        <img
+          className="relative w-[184.9px] h-8"
+          alt=""
+          src="/group-9391.svg"
+        />
         <img
           className="relative w-[125.6px] h-[33px] overflow-hidden shrink-0 object-cover cursor-pointer"
           alt=""
@@ -40,7 +44,7 @@ const ArrowFrame: NextPage = () => {
       <img
         className="absolute top-[10px] left-[-1px] w-8 h-[22px] object-contain mix-blend-exclusion"
         alt=""
-        src="/images-2-1@2x.png"
+        src="/images-2-13@2x.png"
       />
     </button>
   );

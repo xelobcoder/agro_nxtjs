@@ -78,114 +78,114 @@ const DEKTOPFOOTER: NextPage = () => {
               <img
                 className="absolute top-[19px] left-[1912px] w-[62px] h-[62px] object-cover"
                 alt=""
-                src="/download-2@2x.png"
+                src="/download-21@2x.png"
               />
               <img
                 className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                 alt=""
-                src="/download-5@2x.png"
+                src="/download-52@2x.png"
               />
               <img
                 className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                 alt=""
-                src="/download@2x.png"
+                src="/download1@2x.png"
               />
               <img
                 className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
                 alt=""
-                src="/download-5@2x.png"
+                src="/download-53@2x.png"
               />
               <img
                 className="absolute top-[24px] left-[162px] w-[59px] h-[58px] object-cover"
                 alt=""
-                src="/download-3@2x.png"
+                src="/download-31@2x.png"
               />
               <img
                 className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                 alt=""
-                src="/capture@2x.png"
+                src="/capture2@2x.png"
               />
               <img
                 className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                 alt=""
-                src="/mofa-color@2x.png"
+                src="/mofa-color2@2x.png"
               />
               <img
                 className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                 alt=""
-                src="/images@2x.png"
+                src="/images1@2x.png"
               />
               <img
                 className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                 alt=""
-                src="/download-6@2x.png"
+                src="/download-62@2x.png"
               />
               <img
                 className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                 alt=""
-                src="/images-1@2x.png"
+                src="/images-12@2x.png"
               />
               <img
                 className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
                 alt=""
-                src="/download-1@2x.png"
+                src="/download-12@2x.png"
               />
             </div>
             <div className="absolute top-[0px] left-[2034px] w-[1974px] h-[100px]">
               <img
                 className="absolute top-[19px] left-[1912px] w-[62px] h-[62px] object-cover"
                 alt=""
-                src="/download-2@2x.png"
+                src="/download-21@2x.png"
               />
               <img
                 className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                 alt=""
-                src="/download-5@2x.png"
+                src="/download-52@2x.png"
               />
               <img
                 className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                 alt=""
-                src="/download@2x.png"
+                src="/download1@2x.png"
               />
               <img
                 className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
                 alt=""
-                src="/download-5@2x.png"
+                src="/download-53@2x.png"
               />
               <img
                 className="absolute top-[24px] left-[162px] w-[59px] h-[58px] object-cover"
                 alt=""
-                src="/download-3@2x.png"
+                src="/download-31@2x.png"
               />
               <img
                 className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                 alt=""
-                src="/capture@2x.png"
+                src="/capture2@2x.png"
               />
               <img
                 className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                 alt=""
-                src="/mofa-color@2x.png"
+                src="/mofa-color2@2x.png"
               />
               <img
                 className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                 alt=""
-                src="/images@2x.png"
+                src="/images1@2x.png"
               />
               <img
                 className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                 alt=""
-                src="/download-6@2x.png"
+                src="/download-62@2x.png"
               />
               <img
                 className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                 alt=""
-                src="/images-1@2x.png"
+                src="/images-12@2x.png"
               />
               <img
                 className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
                 alt=""
-                src="/download-1@2x.png"
+                src="/download-12@2x.png"
               />
             </div>
           </div>
@@ -321,12 +321,14 @@ const DEKTOPFOOTER: NextPage = () => {
           </div>
           <div className="w-[441px] flex flex-col items-start justify-start py-[30px] px-[5px] box-border gap-[44px] text-base">
             <div className="self-stretch flex flex-row items-center justify-start gap-[43px] text-white">
-              <img
-                className="relative max-h-full w-[33.6px] cursor-pointer"
-                alt=""
-                src="/arrow-6.svg"
-                onClick={onArrowIconClick}
-              />
+              <div className="relative w-[33.6px] cursor-pointer flex items-center justify-center">
+                <img
+                  className="max-h-full w-full cursor-pointer object-contain absolute left-[0px] top-[0px] h-full [transform:scale(1.089)]"
+                  alt=""
+                  src="/arrow-61.svg"
+                  onClick={onArrowIconClick}
+                />
+              </div>
               <div
                 className="flex-1 relative h-0 cursor-pointer"
                 onClick={onNowWereContainerClick}
@@ -385,14 +387,14 @@ const DEKTOPFOOTER: NextPage = () => {
                   <img
                     className="relative w-[16.7px] h-3.5"
                     alt=""
-                    src="/vector.svg"
+                    src="/vector1.svg"
                   />
                 </div>
                 <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
                   <img
                     className="relative w-[16.1px] h-[15px]"
                     alt=""
-                    src="/vector.svg"
+                    src="/vector2.svg"
                   />
                 </div>
               </div>

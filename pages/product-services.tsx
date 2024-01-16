@@ -21,7 +21,7 @@ const ProductServices: NextPage = () => {
   }, []);
 
   const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onProducAndServicesClick = useCallback(() => {
@@ -33,7 +33,7 @@ const ProductServices: NextPage = () => {
   }, [router]);
 
   const onMediaClick = useCallback(() => {
-    router.push("/");
+    router.push("/media");
   }, [router]);
 
   const onContactUsContainerClick = useCallback(() => {
@@ -120,9 +120,9 @@ const ProductServices: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos7]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos8]:hover:flex">
                   <div
-                    className="oursubsidiarylogos7 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos8 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -134,13 +134,13 @@ const ProductServices: NextPage = () => {
                     <img
                       className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group5@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group6@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -227,9 +227,9 @@ const ProductServices: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos7]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
                   <div
-                    className="oursubsidiarylogos7 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -241,13 +241,13 @@ const ProductServices: NextPage = () => {
                     <img
                       className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group7@2x.png"
                       onClick={onClipPathGroup12Click}
                     />
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group8@2x.png"
                       onClick={onClipPathGroup22Click}
                     />
                     <img
@@ -259,7 +259,7 @@ const ProductServices: NextPage = () => {
                   <img
                     className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-12@2x.png"
                   />
                 </button>
                 <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -267,7 +267,7 @@ const ProductServices: NextPage = () => {
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
                     alt=""
-                    src="/logo3@2x.png"
+                    src="/logo31@2x.png"
                   />
                 </div>
               </div>
@@ -289,14 +289,16 @@ const ProductServices: NextPage = () => {
             </div>
           </nav>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-center text-center text-53xl">
+        <div className="self-stretch flex flex-col items-center justify-center text-center text-[72px]">
           <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-[200px] bg-[url('/12001@3x.png')] bg-cover bg-no-repeat bg-[top] lg:hidden">
             <div className="self-stretch flex flex-col items-center justify-start relative gap-[10px]">
-              <img
-                className="absolute my-0 mx-[!important] top-[-330px] left-[482px] w-[763.2px] h-[1142.9px] z-[0]"
-                alt=""
-                src="/bg-blur.svg"
-              />
+              <div className="absolute my-0 mx-[!important] top-[-330px] left-[482px] w-[763.2px] h-[1142.9px] flex items-center justify-center z-[0]">
+                <img
+                  className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.828)]"
+                  alt=""
+                  src="/bg-blur7.svg"
+                />
+              </div>
               <div className="self-stretch [filter:drop-shadow(0px_4px_10px_rgba(0,_0,_0,_0.25))] flex flex-row items-center justify-center p-2.5 z-[1]">
                 <div className="flex-1 relative tracking-[0.04em] leading-[111%] lg:text-46xl">
                   <span className="font-light">{`Empowering `}</span>
@@ -318,11 +320,13 @@ const ProductServices: NextPage = () => {
           </div>
           <div className="w-[968px] overflow-hidden hidden flex-col items-center justify-center py-[56.01852035522461px] px-20 box-border bg-[url('/960350@3x.png')] bg-cover bg-no-repeat bg-[top] text-[40.3px] md:flex md:pl-[60px] md:pr-[60px] md:box-border">
             <div className="self-stretch flex flex-col items-center justify-start relative gap-[5.6px]">
-              <img
-                className="absolute my-0 mx-[!important] top-[-184.9px] left-[270px] w-[427.5px] h-[640.3px] z-[0]"
-                alt=""
-                src="/bg-blur.svg"
-              />
+              <div className="absolute my-0 mx-[!important] top-[-184.9px] left-[270px] w-[427.5px] h-[640.3px] flex items-center justify-center z-[0]">
+                <img
+                  className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.828)]"
+                  alt=""
+                  src="/bg-blur8.svg"
+                />
+              </div>
               <div className="self-stretch [filter:drop-shadow(0px_2.2px_5.6px_rgba(0,_0,_0,_0.25))] flex flex-row items-center justify-center p-[5.601851940155029px] z-[1]">
                 <div className="flex-1 relative tracking-[0.04em] leading-[111%] lg:text-46xl">
                   <span className="font-light">{`Empowering `}</span>
@@ -379,7 +383,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover sm:flex-[unset] sm:self-stretch"
                 alt=""
-                src="/ottisimage@2x.png"
+                src="/ottisimage1@2x.png"
               />
               <div className="flex-1 flex flex-col items-start justify-start gap-[11.14px] sm:flex-[unset] sm:self-stretch">
                 <div className="self-stretch relative text-[35.1px] leading-[96.75%]">
@@ -425,7 +429,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover"
                 alt=""
-                src="/ottisimage@2x.png"
+                src="/ottisimage2@2x.png"
               />
             </div>
           </div>
@@ -448,7 +452,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover sm:flex-[unset] sm:self-stretch"
                 alt=""
-                src="/ottisimage@2x.png"
+                src="/ottisimage3@2x.png"
               />
             </div>
           </div>
@@ -491,7 +495,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="relative w-[270.4px] h-[387.5px] object-cover"
                 alt=""
-                src="/frame-108-2@2x.png"
+                src="/frame-108-21@2x.png"
               />
               <div className="flex-1 flex flex-col items-start justify-start gap-[10.95px] sm:flex-[unset] sm:self-stretch">
                 <div className="self-stretch relative text-[34.5px] leading-[96.75%]">
@@ -538,7 +542,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="relative w-[494px] h-[708px] object-cover"
                 alt=""
-                src="/frame-108-2@2x.png"
+                src="/frame-108-22@2x.png"
               />
             </div>
           </div>
@@ -560,7 +564,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="relative w-[273.5px] h-[392px] object-cover"
                 alt=""
-                src="/frame-108-2@2x.png"
+                src="/frame-108-23@2x.png"
               />
             </div>
           </div>
@@ -572,114 +576,114 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[19px] left-[1912px] w-[62px] h-[62px] object-cover"
                   alt=""
-                  src="/download-2@2x.png"
+                  src="/download-227@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-552@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download26@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-553@2x.png"
                 />
                 <img
                   className="absolute top-[24px] left-[162px] w-[59px] h-[58px] object-cover"
                   alt=""
-                  src="/download-3@2x.png"
+                  src="/download-326@2x.png"
                 />
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture27@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                   alt=""
-                  src="/mofa-color@2x.png"
+                  src="/mofa-color27@2x.png"
                 />
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images26@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                   alt=""
-                  src="/download-6@2x.png"
+                  src="/download-627@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-127@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
                   alt=""
-                  src="/download-1@2x.png"
+                  src="/download-127@2x.png"
                 />
               </div>
               <div className="absolute top-[0px] left-[2034px] w-[1974px] h-[100px]">
                 <img
                   className="absolute top-[19px] left-[1912px] w-[62px] h-[62px] object-cover"
                   alt=""
-                  src="/download-2@2x.png"
+                  src="/download-227@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-552@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download26@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-553@2x.png"
                 />
                 <img
                   className="absolute top-[24px] left-[162px] w-[59px] h-[58px] object-cover"
                   alt=""
-                  src="/download-3@2x.png"
+                  src="/download-326@2x.png"
                 />
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture27@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                   alt=""
-                  src="/mofa-color@2x.png"
+                  src="/mofa-color27@2x.png"
                 />
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images26@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                   alt=""
-                  src="/download-6@2x.png"
+                  src="/download-627@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-127@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
                   alt=""
-                  src="/download-1@2x.png"
+                  src="/download-127@2x.png"
                 />
               </div>
             </div>
@@ -812,12 +816,14 @@ const ProductServices: NextPage = () => {
             </div>
             <div className="flex-1 h-[416px] flex flex-col items-start justify-start py-[30px] px-[5px] box-border gap-[44px] text-base lg:flex-[unset] lg:self-stretch">
               <div className="self-stretch flex flex-row items-center justify-start gap-[43px] text-white">
-                <img
-                  className="relative max-h-full w-[33.6px] cursor-pointer"
-                  alt=""
-                  src="/arrow-6.svg"
-                  onClick={onArrowIconClick}
-                />
+                <div className="relative w-[33.6px] cursor-pointer flex items-center justify-center">
+                  <img
+                    className="max-h-full w-full cursor-pointer object-contain absolute left-[0px] top-[0px] h-full [transform:scale(1.089)]"
+                    alt=""
+                    src="/arrow-6.svg"
+                    onClick={onArrowIconClick}
+                  />
+                </div>
                 <div
                   className="flex-1 relative h-0 cursor-pointer"
                   onClick={onNowWereContainerClick}
@@ -870,14 +876,14 @@ const ProductServices: NextPage = () => {
                     <img
                       className="relative w-[16.7px] h-3.5"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector1.svg"
                     />
                   </div>
                   <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
                     <img
                       className="relative w-[16.1px] h-[15px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector2.svg"
                     />
                   </div>
                 </div>

@@ -21,7 +21,7 @@ const Projectspartners: NextPage = () => {
   }, []);
 
   const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onProducAndServicesClick = useCallback(() => {
@@ -33,7 +33,7 @@ const Projectspartners: NextPage = () => {
   }, [router]);
 
   const onMediaClick = useCallback(() => {
-    router.push("/");
+    router.push("/media");
   }, [router]);
 
   const onContactUsContainerClick = useCallback(() => {
@@ -124,9 +124,9 @@ const Projectspartners: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
                   <div
-                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -138,13 +138,13 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group13@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group14@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -164,7 +164,7 @@ const Projectspartners: NextPage = () => {
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
                     alt=""
-                    src="/logo@2x.png"
+                    src="/logo6@2x.png"
                   />
                 </div>
               </div>
@@ -245,13 +245,13 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group7@2x.png"
                       onClick={onClipPathGroup12Click}
                     />
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group15@2x.png"
                       onClick={onClipPathGroup22Click}
                     />
                     <img
@@ -263,7 +263,7 @@ const Projectspartners: NextPage = () => {
                   <img
                     className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-12@2x.png"
                   />
                 </button>
                 <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -311,7 +311,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base42@2x.png"
                     />
                     <div className="absolute top-[172px] left-[11px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[250px]">
                       A flagship program of the MoFA(Ghana) that used
@@ -335,7 +335,7 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base43@2x.png"
                       />
                       <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] inline-block w-[242px]">
                         <span className="font-light">{`A credit program spearheaded by `}</span>
@@ -365,7 +365,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base44@2x.png"
                     />
                     <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[235px]">
                       An enumeration program by the Government of Ghana through
@@ -387,7 +387,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base45@2x.png"
                     />
                     <div className="absolute top-[170px] left-[11px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[250px]">{`Our climate-smart solution empowers farmers across languages with vital information like weather forecasts, disaster preparedness & agro-advice.`}</div>
                     <div className="absolute top-[128px] left-[-2px] w-44 h-[33.7px] text-smi text-darkslategray-200">
@@ -410,7 +410,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-contain"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base46@2x.png"
                     />
                     <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[232px]">{`Imagine a future of digitization of the agribusiness were reliable technology become your allies for informed decision making `}</div>
                     <div className="absolute top-[129px] left-[-2px] w-[153px] h-[33.7px] text-smi text-darkslategray-200">
@@ -432,7 +432,7 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base47@2x.png"
                       />
                       <div className="absolute top-[170px] left-[10px] text-xs tracking-[0.01em] leading-[15px] inline-block w-[250px]">
                         <p className="m-0">
@@ -491,24 +491,24 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="relative w-[92px] h-[76.7px] object-cover"
                         alt=""
-                        src="/download-5@2x.png"
+                        src="/download-548@2x.png"
                       />
                       <img
                         className="relative w-[59.8px] h-[63.6px] object-cover"
                         alt=""
-                        src="/download-3@2x.png"
+                        src="/download-324@2x.png"
                       />
                     </section>
                     <section className="flex flex-row items-start justify-start gap-[68px] lg:flex-row">
                       <img
                         className="relative w-[171.4px] h-[81.1px] object-cover"
                         alt=""
-                        src="/capture@2x.png"
+                        src="/capture25@2x.png"
                       />
                       <img
                         className="relative w-[135.9px] h-[77.8px] object-cover"
                         alt=""
-                        src="/download-6@2x.png"
+                        src="/download-625@2x.png"
                       />
                     </section>
                   </div>
@@ -517,29 +517,29 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="relative w-[88.2px] h-[62.5px] object-cover"
                         alt=""
-                        src="/download-5@2x.png"
+                        src="/download-549@2x.png"
                       />
                       <img
                         className="relative w-[65.7px] h-[71.2px] object-cover"
                         alt=""
-                        src="/download-2@2x.png"
+                        src="/download-225@2x.png"
                       />
                       <img
                         className="relative w-[138px] h-[47px] object-cover mix-blend-difference"
                         alt=""
-                        src="/images@2x.png"
+                        src="/images24@2x.png"
                       />
                     </section>
                     <section className="h-[72.4px] flex flex-row items-center justify-start gap-[43.76px] text-left text-5xs-6 text-black font-montserrat lg:items-center lg:justify-center">
                       <img
                         className="relative w-[140px] h-[59.9px] object-cover"
                         alt=""
-                        src="/download-1@2x.png"
+                        src="/download-125@2x.png"
                       />
                       <img
                         className="relative w-[85.4px] h-[92.2px] object-cover"
                         alt=""
-                        src="/images-1@2x.png"
+                        src="/images-125@2x.png"
                       />
                       <div className="relative w-[55.9px] h-[71.5px]">
                         <div className="absolute top-[62.5px] left-[4.9px] tracking-[0.1em] font-medium flex items-center w-[46.9px] h-[9px]">
@@ -548,7 +548,7 @@ const Projectspartners: NextPage = () => {
                         <img
                           className="absolute top-[0px] left-[0px] w-[55.9px] h-[61.7px] object-cover"
                           alt=""
-                          src="/download@2x.png"
+                          src="/download24@2x.png"
                         />
                       </div>
                     </section>
@@ -557,7 +557,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="relative w-[303.5px] h-[67.9px] object-cover"
                       alt=""
-                      src="/mofa-color@2x.png"
+                      src="/mofa-color25@2x.png"
                     />
                   </section>
                 </div>
@@ -572,114 +572,114 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[19px] left-[1912px] w-[62px] h-[62px] object-cover"
                   alt=""
-                  src="/download-2@2x.png"
+                  src="/download-226@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-550@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download25@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-551@2x.png"
                 />
                 <img
                   className="absolute top-[24px] left-[162px] w-[59px] h-[58px] object-cover"
                   alt=""
-                  src="/download-3@2x.png"
+                  src="/download-325@2x.png"
                 />
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture26@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                   alt=""
-                  src="/mofa-color@2x.png"
+                  src="/mofa-color26@2x.png"
                 />
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images25@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                   alt=""
-                  src="/download-6@2x.png"
+                  src="/download-626@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-126@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
                   alt=""
-                  src="/download-1@2x.png"
+                  src="/download-126@2x.png"
                 />
               </div>
               <div className="absolute top-[0px] left-[2034px] w-[1974px] h-[100px]">
                 <img
                   className="absolute top-[19px] left-[1912px] w-[62px] h-[62px] object-cover"
                   alt=""
-                  src="/download-2@2x.png"
+                  src="/download-226@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-550@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download25@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-551@2x.png"
                 />
                 <img
                   className="absolute top-[24px] left-[162px] w-[59px] h-[58px] object-cover"
                   alt=""
-                  src="/download-3@2x.png"
+                  src="/download-325@2x.png"
                 />
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture26@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                   alt=""
-                  src="/mofa-color@2x.png"
+                  src="/mofa-color26@2x.png"
                 />
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images25@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                   alt=""
-                  src="/download-6@2x.png"
+                  src="/download-626@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-126@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
                   alt=""
-                  src="/download-1@2x.png"
+                  src="/download-126@2x.png"
                 />
               </div>
             </div>
@@ -874,14 +874,14 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="relative w-[16.7px] h-3.5"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector1.svg"
                     />
                   </div>
                   <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
                     <img
                       className="relative w-[16.1px] h-[15px]"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector2.svg"
                     />
                   </div>
                 </div>

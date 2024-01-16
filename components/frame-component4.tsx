@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 
-const FrameComponent4: NextPage = () => {
+const FrameComponent41: NextPage = () => {
   const onArrowIconClick = useCallback(() => {
     window.open(
       "https://www.google.com/maps/place/Agrospectrum+Limited/@5.6353051,-0.1755855,17z/data=!3m1!4b1!4m6!3m5!1s0xfdf9bbdee369f39:0xa57b6b7babf17392!8m2!3d5.6352998!4d-0.1730106!16s%2Fg%2F11v60sh254?entry=ttu"
@@ -17,12 +17,14 @@ const FrameComponent4: NextPage = () => {
   return (
     <div className="flex-1 h-[416px] flex flex-col items-start justify-start py-[30px] px-[5px] box-border gap-[44px] text-left text-base text-seagreen-100 font-poppins lg:flex-[unset] lg:self-stretch">
       <div className="self-stretch flex flex-row items-center justify-start gap-[43px] text-white">
-        <img
-          className="relative max-h-full w-[33.6px] cursor-pointer"
-          alt=""
-          src="/arrow-6.svg"
-          onClick={onArrowIconClick}
-        />
+        <div className="relative w-[33.6px] cursor-pointer flex items-center justify-center">
+          <img
+            className="max-h-full w-full cursor-pointer object-contain absolute left-[0px] top-[0px] h-full [transform:scale(1.089)]"
+            alt=""
+            src="/arrow-6.svg"
+            onClick={onArrowIconClick}
+          />
+        </div>
         <div
           className="flex-1 relative h-0 cursor-pointer"
           onClick={onNowWereContainerClick}
@@ -75,14 +77,14 @@ const FrameComponent4: NextPage = () => {
             <img
               className="relative w-[16.7px] h-3.5"
               alt=""
-              src="/vector.svg"
+              src="/vector1.svg"
             />
           </div>
           <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
             <img
               className="relative w-[16.1px] h-[15px]"
               alt=""
-              src="/vector.svg"
+              src="/vector2.svg"
             />
           </div>
         </div>
@@ -91,4 +93,4 @@ const FrameComponent4: NextPage = () => {
   );
 };
 
-export default FrameComponent4;
+export default FrameComponent41;

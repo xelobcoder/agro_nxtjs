@@ -54,7 +54,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
   }, []);
 
   const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onProductsSevicesClick = useCallback(() => {
@@ -66,7 +66,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
   }, [router]);
 
   const onMediaClick = useCallback(() => {
-    router.push("/");
+    router.push("/media");
   }, [router]);
 
   const onCareersClick = useCallback(() => {
@@ -110,7 +110,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
                 className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                 id="logo"
                 alt=""
-                src="/logo8@2x.png"
+                src="/logo82@2x.png"
               />
             </button>
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[38.4px] [&_.oursubsiadiries1]:active:flex">
@@ -118,18 +118,18 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
                 <img
                   className="relative w-[184.9px] h-8"
                   alt=""
-                  src="/group-939.svg"
+                  src="/group-9391.svg"
                 />
                 <img
                   className="relative w-[125.6px] h-[33px] overflow-hidden shrink-0 object-cover cursor-pointer"
                   alt=""
-                  src="/bdp-1@2x.png"
+                  src="/bdp-11@2x.png"
                   onClick={onClose}
                 />
                 <img
                   className="relative w-[113px] h-[31px] overflow-hidden shrink-0 object-cover cursor-pointer"
                   alt=""
-                  src="/spectrum-1@2x.png"
+                  src="/spectrum-11@2x.png"
                   onClick={onClose}
                 />
                 <img
@@ -142,7 +142,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
               <img
                 className="absolute top-[10px] left-[-1px] w-8 h-[22px] object-contain mix-blend-exclusion"
                 alt=""
-                src="/images-2-1@2x.png"
+                src="/images-2-13@2x.png"
               />
             </button>
           </div>
@@ -203,27 +203,29 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
             <img
               className="relative w-[125.6px] h-[33px] overflow-hidden shrink-0 object-cover cursor-pointer"
               alt=""
-              src="/bdp-1@2x.png"
+              src="/bdp-12@2x.png"
               onClick={onClose}
             />
             <img
               className="relative w-[113px] h-[31px] overflow-hidden shrink-0 object-cover cursor-pointer"
               alt=""
-              src="/spectrum-1@2x.png"
+              src="/spectrum-12@2x.png"
               onClick={onClose}
             />
             <img
               className="relative w-[71px] h-[34px] overflow-hidden shrink-0 object-cover cursor-pointer"
               alt=""
-              src="/isg-1@2x.png"
+              src="/isg-11@2x.png"
               onClick={onClose}
             />
-            <img
-              className="relative w-11 h-[29px] overflow-hidden shrink-0 object-cover mix-blend-normal cursor-pointer"
-              alt=""
-              src="/bslmain-6@2x.png"
-              onClick={onClose}
-            />
+            <div className="relative w-11 h-[29px] shrink-0 mix-blend-normal cursor-pointer flex items-center justify-center">
+              <img
+                className="w-full h-full overflow-hidden shrink-0 mix-blend-normal cursor-pointer object-contain absolute left-[0px] top-[1px] [transform:scale(3.164)]"
+                alt=""
+                src="/bslmain-6@2x.png"
+                onClick={onClose}
+              />
+            </div>
           </div>
         </div>
       </div>

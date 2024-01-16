@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useState, useCallback } from "react";
-import NavDesktop from "./nav-desktop";
+import NavDesktop1 from "./nav-desktop";
 import DrwawerMenu from "./drwawer-menu";
 import PortalDrawer from "./portal-drawer";
 
@@ -30,7 +30,7 @@ const Allnavs: NextPage = () => {
   return (
     <>
       <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] h-20 flex flex-col items-start justify-start">
-        <NavDesktop />
+        <NavDesktop1 />
         <nav
           className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex md:hidden sm:hidden"
           id="navBar"
@@ -51,13 +51,13 @@ const Allnavs: NextPage = () => {
                   <img
                     className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                     alt=""
-                    src="/clip-path-group@2x.png"
+                    src="/clip-path-group7@2x.png"
                     onClick={onClipPathGroup1Click}
                   />
                   <img
                     className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                     alt=""
-                    src="/clip-path-group@2x.png"
+                    src="/clip-path-group8@2x.png"
                     onClick={onClipPathGroup2Click}
                   />
                   <img
@@ -69,7 +69,7 @@ const Allnavs: NextPage = () => {
                 <img
                   className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                   alt=""
-                  src="/images-2-1@2x.png"
+                  src="/images-2-12@2x.png"
                 />
               </button>
               <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -77,7 +77,7 @@ const Allnavs: NextPage = () => {
                   className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                   id="logo"
                   alt=""
-                  src="/logo3@2x.png"
+                  src="/logo31@2x.png"
                 />
               </div>
             </div>

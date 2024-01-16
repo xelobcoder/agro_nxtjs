@@ -12,14 +12,14 @@ const Faqs1: NextPage = () => {
           <img
             className="relative w-[159px] h-12 object-cover"
             alt=""
-            src="/frame-2098@2x.png"
+            src="/frame-20982@2x.png"
           />
         </div>
         <div className="self-stretch relative bg-goldenrod-200 h-px" />
       </div>
       <Faq1
         whatIsHostingUsed="How can I access the platform ?"
-        frame2097="/frame-2097@2x.png"
+        frame2097="/frame-20971@2x.png"
         propDisplay="inline-block"
         propMinWidth="308px"
         propWidth="110px"
@@ -32,7 +32,7 @@ const Faqs1: NextPage = () => {
           <img
             className="relative w-[106px] h-12 object-cover"
             alt=""
-            src="/frame-2096@2x.png"
+            src="/frame-20961@2x.png"
           />
         </div>
         <div className="self-stretch relative bg-goldenrod-200 h-px" />
@@ -45,14 +45,14 @@ const Faqs1: NextPage = () => {
           <img
             className="relative w-[101px] h-12 object-cover"
             alt=""
-            src="/frame-2095@2x.png"
+            src="/frame-20951@2x.png"
           />
         </div>
         <div className="self-stretch relative bg-goldenrod-200 h-px" />
       </div>
       <Faq1
         whatIsHostingUsed="What are some of your partners ?"
-        frame2097="/frame-2098@2x.png"
+        frame2097="/frame-20983@2x.png"
         propDisplay="flex"
         propMinWidth="unset"
         propWidth="94px"

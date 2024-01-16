@@ -35,7 +35,7 @@ const Homepage1: NextPage = () => {
   }, []);
 
   const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onProducAndServicesClick = useCallback(() => {
@@ -47,7 +47,7 @@ const Homepage1: NextPage = () => {
   }, [router]);
 
   const onMediaClick = useCallback(() => {
-    router.push("/");
+    router.push("/media");
   }, [router]);
 
   const onContactUsContainerClick = useCallback(() => {
@@ -181,11 +181,11 @@ const Homepage1: NextPage = () => {
   }, []);
 
   const onFrameButton3Click = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onFrameButton4Click = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/");
   }, [router]);
 
   const onFrameButton5Click = useCallback(() => {
@@ -282,39 +282,39 @@ const Homepage1: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos10]:hover:flex">
                   <div
-                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos10 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
                       className="absolute h-[86.21%] w-[23.7%] top-[12.41%] right-[76.3%] bottom-[1.38%] left-[0%] max-w-full overflow-hidden max-h-full cursor-pointer"
                       alt=""
-                      src="/clip-path-group.svg"
+                      src="/clip-path-group19.svg"
                       onClick={onClipPathGroupClick}
                     />
                     <img
                       className="absolute h-[83.45%] w-[12.66%] top-[-1.38%] right-[59.24%] bottom-[17.93%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group15@2x.png"
+                      src="/clip-path-group151@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group16@2x.png"
+                      src="/clip-path-group161@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
                       className="absolute h-[68.97%] w-[29.27%] top-[10.34%] right-[1.87%] bottom-[20.69%] left-[68.86%] max-w-full overflow-hidden max-h-full"
                       alt=""
-                      src="/group-939.svg"
+                      src="/group-9392.svg"
                     />
                   </div>
                   <img
                     className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-14@2x.png"
                   />
                 </button>
                 <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -342,7 +342,7 @@ const Homepage1: NextPage = () => {
                   <img
                     className="relative max-h-full w-10 object-cover"
                     alt=""
-                    src="/line-1@2x.png"
+                    src="/line-12@2x.png"
                   />
                 </div>
                 <button
@@ -403,7 +403,7 @@ const Homepage1: NextPage = () => {
                     <img
                       className="absolute h-[86.21%] w-[23.7%] top-[12.41%] right-[76.3%] bottom-[1.38%] left-[0%] max-w-full overflow-hidden max-h-full cursor-pointer"
                       alt=""
-                      src="/clip-path-group.svg"
+                      src="/clip-path-group19.svg"
                       onClick={onClipPathGroup3Click}
                     />
                     <img
@@ -415,19 +415,19 @@ const Homepage1: NextPage = () => {
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group16@2x.png"
+                      src="/clip-path-group161@2x.png"
                       onClick={onClipPathGroup22Click}
                     />
                     <img
                       className="absolute h-[68.97%] w-[29.27%] top-[10.34%] right-[1.87%] bottom-[20.69%] left-[68.86%] max-w-full overflow-hidden max-h-full"
                       alt=""
-                      src="/group-939.svg"
+                      src="/group-9392.svg"
                     />
                   </div>
                   <img
                     className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-14@2x.png"
                   />
                 </button>
                 <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -462,15 +462,15 @@ const Homepage1: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos12]:hover:flex">
                   <div
-                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos12 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
                       className="absolute h-[86.21%] w-[23.7%] top-[12.41%] right-[76.3%] bottom-[1.38%] left-[0%] max-w-full overflow-hidden max-h-full cursor-pointer"
                       alt=""
-                      src="/clip-path-group.svg"
+                      src="/clip-path-group19.svg"
                       onClick={onClipPathGroup4Click}
                     />
                     <img
@@ -482,19 +482,19 @@ const Homepage1: NextPage = () => {
                     <img
                       className="absolute h-[80.69%] w-[21.65%] top-[6.9%] right-[34.3%] bottom-[12.41%] left-[44.05%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group16@2x.png"
+                      src="/clip-path-group161@2x.png"
                       onClick={onClipPathGroup23Click}
                     />
                     <img
                       className="absolute h-[68.97%] w-[29.27%] top-[10.34%] right-[1.87%] bottom-[20.69%] left-[68.86%] max-w-full overflow-hidden max-h-full"
                       alt=""
-                      src="/group-939.svg"
+                      src="/group-9392.svg"
                     />
                   </div>
                   <img
                     className="absolute top-[7px] left-[5px] w-[15px] h-[21.9px] object-cover"
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-14@2x.png"
                   />
                 </button>
                 <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
@@ -537,21 +537,21 @@ const Homepage1: NextPage = () => {
                     src="/logo81@2x.png"
                   />
                 </div>
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[27.7px] [&_.oursubsidiarylogos14]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[27.7px] [&_.oursubsidiarylogos13]:hover:flex">
                   <div
-                    className="oursubsidiarylogos14 absolute top-[1.1px] left-[35.1px] w-[314.9px] h-[23.1px] hidden"
+                    className="oursubsidiarylogos13 absolute top-[1.1px] left-[35.1px] w-[314.9px] h-[23.1px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
                       className="absolute h-[86.15%] w-[23.69%] top-[12.55%] right-[76.31%] bottom-[1.3%] left-[0%] max-w-full overflow-hidden max-h-full cursor-pointer"
                       alt=""
-                      src="/clip-path-group3.svg"
+                      src="/clip-path-group31.svg"
                       onClick={onClipPathGroup5Click}
                     />
                     <img
                       className="absolute h-[83.55%] w-[12.67%] top-[-1.3%] right-[59.23%] bottom-[17.75%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group17@2x.png"
+                      src="/clip-path-group171@2x.png"
                       onClick={onClipPathGroup14Click}
                     />
                     <img
@@ -563,13 +563,13 @@ const Homepage1: NextPage = () => {
                     <img
                       className="absolute h-[68.83%] w-[29.25%] top-[10.39%] right-[1.91%] bottom-[20.78%] left-[68.85%] max-w-full overflow-hidden max-h-full"
                       alt=""
-                      src="/group-9391.svg"
+                      src="/group-93911.svg"
                     />
                   </div>
                   <img
                     className="absolute top-[8.3px] left-[18.7px] w-[17.5px] h-3 object-contain"
                     alt=""
-                    src="/images-2-11@2x.png"
+                    src="/images-2-111@2x.png"
                   />
                 </button>
               </div>
@@ -599,21 +599,21 @@ const Homepage1: NextPage = () => {
                     src="/logo91@2x.png"
                   />
                 </div>
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[23.5px] [&_.oursubsidiarylogos15]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[23.5px] [&_.oursubsidiarylogos14]:hover:flex">
                   <div
-                    className="oursubsidiarylogos15 absolute top-[0.9px] left-[29.8px] w-[267.6px] h-[19.6px] hidden"
+                    className="oursubsidiarylogos14 absolute top-[0.9px] left-[29.8px] w-[267.6px] h-[19.6px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
                       className="absolute h-[86.22%] w-[23.69%] top-[12.76%] right-[76.31%] bottom-[1.02%] left-[0%] max-w-full overflow-hidden max-h-full cursor-pointer"
                       alt=""
-                      src="/clip-path-group6.svg"
+                      src="/clip-path-group61.svg"
                       onClick={onClipPathGroup6Click}
                     />
                     <img
                       className="absolute h-[83.67%] w-[12.67%] top-[-1.02%] right-[59.23%] bottom-[17.35%] left-[28.1%] max-w-full overflow-hidden max-h-full object-cover cursor-pointer"
                       alt=""
-                      src="/clip-path-group19@2x.png"
+                      src="/clip-path-group191@2x.png"
                       onClick={onClipPathGroup15Click}
                     />
                     <img
@@ -625,7 +625,7 @@ const Homepage1: NextPage = () => {
                     <img
                       className="absolute h-[69.39%] w-[29.26%] top-[10.2%] right-[1.87%] bottom-[20.41%] left-[68.87%] max-w-full overflow-hidden max-h-full"
                       alt=""
-                      src="/group-9392.svg"
+                      src="/group-93921.svg"
                     />
                   </div>
                   <img
@@ -689,12 +689,12 @@ const Homepage1: NextPage = () => {
                 <img
                   className="absolute top-[18.8px] left-[65.8px] w-[13px] h-[13px]"
                   alt=""
-                  src="/group-188.svg"
+                  src="/group-1886.svg"
                 />
                 <img
                   className="absolute top-[18.8px] left-[112.8px] w-[13px] h-[13px]"
                   alt=""
-                  src="/group-188.svg"
+                  src="/group-1886.svg"
                 />
               </div>
               <div className="relative w-[42px] h-[18px]">
@@ -710,7 +710,7 @@ const Homepage1: NextPage = () => {
               <img
                 className="relative rounded-3xl w-[35px] h-[81px] overflow-hidden shrink-0"
                 alt=""
-                src="/frame-7.svg"
+                src="/frame-75.svg"
               />
             </div>
           </section>
@@ -756,12 +756,12 @@ const Homepage1: NextPage = () => {
                 <img
                   className="absolute top-[17.8px] left-[62.4px] w-[12.3px] h-[12.3px]"
                   alt=""
-                  src="/group-1881.svg"
+                  src="/group-18811.svg"
                 />
                 <img
                   className="absolute top-[17.8px] left-[106.9px] w-[12.3px] h-[12.3px]"
                   alt=""
-                  src="/group-189.svg"
+                  src="/group-1895.svg"
                 />
               </div>
               <div className="relative w-[39.8px] h-[17px]">
@@ -777,7 +777,7 @@ const Homepage1: NextPage = () => {
               <img
                 className="relative rounded-[20.64px] w-[32.8px] h-[76px] overflow-hidden shrink-0 [&.animate]:animate-[3s_ease_0s_infinite_normal_forwards_bounce-top] opacity-[1]"
                 alt=""
-                src="/frame-71.svg"
+                src="/frame-711.svg"
                 data-animate-on-scroll
               />
             </div>
@@ -823,12 +823,12 @@ const Homepage1: NextPage = () => {
                 <img
                   className="absolute top-[14.5px] left-[50.9px] w-[10.1px] h-[10.1px]"
                   alt=""
-                  src="/group-1882.svg"
+                  src="/group-18821.svg"
                 />
                 <img
                   className="absolute top-[14.5px] left-[87.3px] w-[10.1px] h-[10.1px]"
                   alt=""
-                  src="/group-1891.svg"
+                  src="/group-18911.svg"
                 />
               </div>
               <div className="relative w-[32.6px] h-3.5">
@@ -844,7 +844,7 @@ const Homepage1: NextPage = () => {
               <img
                 className="relative rounded-[16.34px] w-[26px] h-[60.1px] overflow-hidden shrink-0 [&.animate]:animate-[3s_ease_0s_infinite_normal_forwards_bounce-top] opacity-[1]"
                 alt=""
-                src="/frame-72.svg"
+                src="/frame-721.svg"
                 data-animate-on-scroll
               />
             </div>
@@ -886,12 +886,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[6.4px] left-[22.3px] w-[4.4px] h-[4.4px]"
                   alt=""
-                  src="/group-1883.svg"
+                  src="/group-18831.svg"
                 />
                 <img
                   className="absolute top-[6.4px] left-[38.2px] w-[4.4px] h-[4.4px]"
                   alt=""
-                  src="/group-1892.svg"
+                  src="/group-18921.svg"
                 />
               </div>
               <div className="relative w-[15.1px] h-1.5">
@@ -907,7 +907,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="relative rounded-[7.15px] w-[11.4px] h-[26.3px] overflow-hidden shrink-0 [&.animate]:animate-[3s_ease_0s_infinite_normal_forwards_bounce-top] opacity-[1]"
                 alt=""
-                src="/frame-73.svg"
+                src="/frame-731.svg"
                 data-animate-on-scroll
               />
             </div>
@@ -943,12 +943,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[5.3px] left-[18.7px] w-[3.7px] h-[3.7px]"
                   alt=""
-                  src="/group-1884.svg"
+                  src="/group-18841.svg"
                 />
                 <img
                   className="absolute top-[5.3px] left-[32.1px] w-[3.7px] h-[3.7px]"
                   alt=""
-                  src="/group-1893.svg"
+                  src="/group-18931.svg"
                 />
               </div>
               <div className="relative w-[12.8px] h-[5px]">
@@ -964,7 +964,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="relative rounded-md w-[9.5px] h-[22.1px] overflow-hidden shrink-0 object-cover [&.animate]:mq350small:animate-[3s_ease_s_infinite_normal_forwards_bounce-top] mq350small:opacity-[1]"
                 alt=""
-                src="/frame-75@2x.png"
+                src="/frame-751@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -977,27 +977,27 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[16px] left-[1605.9px] w-[52.1px] h-[52.1px] object-cover"
                   alt=""
-                  src="/download-222@2x.png"
+                  src="/download-2221@2x.png"
                 />
                 <img
                   className="absolute top-[16.8px] left-[264.6px] w-[87.4px] h-[57.1px] object-cover"
                   alt=""
-                  src="/download-542@2x.png"
+                  src="/download-5421@2x.png"
                 />
                 <img
                   className="absolute top-[5.9px] left-[1475.7px] w-[57.1px] h-[63px] object-cover"
                   alt=""
-                  src="/download21@2x.png"
+                  src="/download211@2x.png"
                 />
                 <img
                   className="absolute top-[12.6px] left-[0px] w-[70.6px] h-[58.8px] object-cover"
                   alt=""
-                  src="/download-543@2x.png"
+                  src="/download-5431@2x.png"
                 />
                 <img
                   className="absolute top-[20.2px] left-[136.1px] w-[49.6px] h-[48.7px] object-cover"
                   alt=""
-                  src="/download-321@2x.png"
+                  src="/download-3211@2x.png"
                 />
                 <img
                   className="absolute top-[10.9px] left-[406.5px] w-[141.9px] h-[62.2px] object-cover"
@@ -1007,27 +1007,27 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[16.8px] left-[597.2px] w-[248.6px] h-[52.1px] object-cover"
                   alt=""
-                  src="/mofa-color27@2x.png"
+                  src="/mofa-color271@2x.png"
                 />
                 <img
                   className="absolute top-[24.4px] left-[881.1px] w-[115.9px] h-[39.5px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images21@2x.png"
+                  src="/images211@2x.png"
                 />
                 <img
                   className="absolute top-[11.8px] left-[1027.2px] w-[104.1px] h-[59.6px] object-cover"
                   alt=""
-                  src="/download-621@2x.png"
+                  src="/download-6211@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1172.5px] w-[84px] h-[84px] object-cover"
                   alt=""
-                  src="/images-121@2x.png"
+                  src="/images-1211@2x.png"
                 />
                 <img
                   className="absolute top-[15.1px] left-[1301px] w-[137.7px] h-[54.6px] object-cover"
                   alt=""
-                  src="/download-122@2x.png"
+                  src="/download-1221@2x.png"
                 />
               </div>
             </div>
@@ -1048,47 +1048,47 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[4.1px] left-[1026px] w-[39.7px] h-[43.8px] object-cover"
                   alt=""
-                  src="/download22@2x.png"
+                  src="/download221@2x.png"
                 />
                 <img
                   className="absolute top-[8.8px] left-[0px] w-[49.1px] h-[40.9px] object-cover"
                   alt=""
-                  src="/download-545@2x.png"
+                  src="/download-5451@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[94.6px] w-[34.5px] h-[33.9px] object-cover"
                   alt=""
-                  src="/download-322@2x.png"
+                  src="/download-3221@2x.png"
                 />
                 <img
                   className="absolute top-[7.6px] left-[282.6px] w-[98.7px] h-[43.2px] object-cover"
                   alt=""
-                  src="/capture22@2x.png"
+                  src="/capture221@2x.png"
                 />
                 <img
                   className="absolute top-[11.7px] left-[415.2px] w-[172.9px] h-[36.2px] object-cover"
                   alt=""
-                  src="/mofa-color22@2x.png"
+                  src="/mofa-color221@2x.png"
                 />
                 <img
                   className="absolute top-[16.9px] left-[612.6px] w-[80.6px] h-[27.4px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images22@2x.png"
+                  src="/images221@2x.png"
                 />
                 <img
                   className="absolute top-[8.2px] left-[714.2px] w-[72.4px] h-[41.5px] object-cover"
                   alt=""
-                  src="/download-622@2x.png"
+                  src="/download-6221@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[815.2px] w-[58.4px] h-[58.4px] object-cover"
                   alt=""
-                  src="/images-122@2x.png"
+                  src="/images-1221@2x.png"
                 />
                 <img
                   className="absolute top-[10.5px] left-[904.5px] w-[95.8px] h-[38px] object-cover"
                   alt=""
-                  src="/download-123@2x.png"
+                  src="/download-1231@2x.png"
                 />
               </div>
             </div>
@@ -1099,27 +1099,27 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[8.9px] left-[893.2px] w-[29px] h-[29px] object-cover"
                   alt=""
-                  src="/download-224@2x.png"
+                  src="/download-2241@2x.png"
                 />
                 <img
                   className="absolute top-[9.3px] left-[147.2px] w-[48.6px] h-[31.8px] object-cover"
                   alt=""
-                  src="/download-546@2x.png"
+                  src="/download-5461@2x.png"
                 />
                 <img
                   className="absolute top-[3.3px] left-[820.8px] w-[31.8px] h-[35px] object-cover"
                   alt=""
-                  src="/download23@2x.png"
+                  src="/download231@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[0px] w-[39.2px] h-[32.7px] object-cover"
                   alt=""
-                  src="/download-547@2x.png"
+                  src="/download-5471@2x.png"
                 />
                 <img
                   className="absolute top-[11.2px] left-[75.7px] w-[27.6px] h-[27.1px] object-cover"
                   alt=""
-                  src="/download-323@2x.png"
+                  src="/download-3231@2x.png"
                 />
                 <img
                   className="absolute top-[6.1px] left-[226.1px] w-[79px] h-[34.6px] object-cover"
@@ -1129,7 +1129,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[9.3px] left-[332.2px] w-[138.3px] h-[29px] object-cover"
                   alt=""
-                  src="/mofa-color23@2x.png"
+                  src="/mofa-color231@2x.png"
                 />
                 <img
                   className="absolute top-[13.5px] left-[490.1px] w-[64.5px] h-[22px] object-cover mix-blend-difference"
@@ -1139,17 +1139,17 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[6.5px] left-[571.3px] w-[57.9px] h-[33.2px] object-cover"
                   alt=""
-                  src="/download-623@2x.png"
+                  src="/download-6231@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[652.2px] w-[46.7px] h-[46.7px] object-cover"
                   alt=""
-                  src="/images-123@2x.png"
+                  src="/images-1231@2x.png"
                 />
                 <img
                   className="absolute top-[8.4px] left-[723.6px] w-[76.6px] h-[30.4px] object-cover"
                   alt=""
-                  src="/download-124@2x.png"
+                  src="/download-1241@2x.png"
                 />
               </div>
             </div>
@@ -1160,32 +1160,32 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[4.2px] left-[420.6px] w-[13.6px] h-[13.6px] object-cover"
                   alt=""
-                  src="/download-225@2x.png"
+                  src="/download-2251@2x.png"
                 />
                 <img
                   className="absolute top-[4.4px] left-[69.3px] w-[22.9px] h-[15px] object-cover"
                   alt=""
-                  src="/download-548@2x.png"
+                  src="/download-5481@2x.png"
                 />
                 <img
                   className="absolute top-[1.5px] left-[386.5px] w-[15px] h-[16.5px] object-cover"
                   alt=""
-                  src="/download24@2x.png"
+                  src="/download241@2x.png"
                 />
                 <img
                   className="absolute top-[3.3px] left-[0px] w-[18.5px] h-[15.4px] object-cover"
                   alt=""
-                  src="/download-549@2x.png"
+                  src="/download-5491@2x.png"
                 />
                 <img
                   className="absolute top-[5.3px] left-[35.6px] w-[13px] h-[12.8px] object-cover"
                   alt=""
-                  src="/download-324@2x.png"
+                  src="/download-3241@2x.png"
                 />
                 <img
                   className="absolute top-[2.9px] left-[106.5px] w-[37.2px] h-[16.3px] object-cover"
                   alt=""
-                  src="/capture24@2x.png"
+                  src="/capture241@2x.png"
                 />
                 <img
                   className="absolute top-[4.4px] left-[156.4px] w-[65.1px] h-[13.6px] object-cover"
@@ -1195,7 +1195,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[6.4px] left-[230.8px] w-[30.4px] h-[10.3px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images24@2x.png"
+                  src="/images241@2x.png"
                 />
                 <img
                   className="absolute top-[3.1px] left-[269.1px] w-[27.3px] h-[15.6px] object-cover"
@@ -1205,12 +1205,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[307.1px] w-[22px] h-[22px] object-cover"
                   alt=""
-                  src="/images-124@2x.png"
+                  src="/images-1241@2x.png"
                 />
                 <img
                   className="absolute top-[4px] left-[340.8px] w-[36.1px] h-[14.3px] object-cover"
                   alt=""
-                  src="/download-125@2x.png"
+                  src="/download-1251@2x.png"
                 />
               </div>
             </div>
@@ -1226,12 +1226,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[3.9px] left-[61px] w-[20.1px] h-[13.2px] object-cover"
                   alt=""
-                  src="/download-550@2x.png"
+                  src="/download-5501@2x.png"
                 />
                 <img
                   className="absolute top-[1.4px] left-[340.3px] w-[13.2px] h-[14.5px] object-cover"
                   alt=""
-                  src="/download25@2x.png"
+                  src="/download251@2x.png"
                 />
                 <img
                   className="absolute top-[2.9px] left-[0px] w-[16.3px] h-[13.6px] object-cover"
@@ -1241,17 +1241,17 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[4.6px] left-[31.4px] w-[11.4px] h-[11.2px] object-cover"
                   alt=""
-                  src="/download-325@2x.png"
+                  src="/download-3251@2x.png"
                 />
                 <img
                   className="absolute top-[2.5px] left-[93.7px] w-[32.7px] h-[14.3px] object-cover"
                   alt=""
-                  src="/capture25@2x.png"
+                  src="/capture251@2x.png"
                 />
                 <img
                   className="absolute top-[3.9px] left-[137.7px] w-[57.3px] h-3 object-cover"
                   alt=""
-                  src="/mofa-color25@2x.png"
+                  src="/mofa-color251@2x.png"
                 />
                 <img
                   className="absolute top-[5.6px] left-[203.2px] w-[26.7px] h-[9.1px] object-cover mix-blend-difference"
@@ -1266,12 +1266,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[270.4px] w-[19.4px] h-[19.4px] object-cover"
                   alt=""
-                  src="/images-125@2x.png"
+                  src="/images-1251@2x.png"
                 />
                 <img
                   className="absolute top-[3.5px] left-[300px] w-[31.8px] h-[12.6px] object-cover"
                   alt=""
-                  src="/download-126@2x.png"
+                  src="/download-1261@2x.png"
                 />
               </div>
             </div>
@@ -1283,12 +1283,17 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               className="absolute my-0 mx-[!important] top-[-117.9px] left-[1533px] rounded-[50%] bg-seagreen-400 [filter:blur(146.6px)] [backdrop-filter:blur(133.5px)] w-[387px] h-[387px] [&.animate]:animate-[15s_ease_0s_infinite_normal_forwards_bounce-in-top] opacity-[0] z-[0]"
               data-animate-on-scroll
             />
-            <img
-              className="absolute my-0 mx-[!important] top-[413px] left-[-177px] w-[795.4px] h-[1191px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[1]"
-              alt=""
-              src="/bg-blur7.svg"
+            <div
+              className="absolute my-0 mx-[!important] top-[413px] left-[-177px] w-[795.4px] h-[1191px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[1]"
               data-animate-on-scroll
-            />
+            >
+              <img
+                className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
+                alt=""
+                src="/bg-blur71.svg"
+                data-animate-on-scroll
+              />
+            </div>
             <div
               className="absolute my-0 mx-[!important] top-[1009px] left-[1170px] rounded-[50%] bg-goldenrod-400 [filter:blur(146.6px)] w-[650px] h-[650px] [&.animate]:animate-[30s_ease_0s_infinite_reverse_forwards_bounce-in-top] opacity-[0] z-[2] [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_jello-horizontal] sm:opacity-[1]"
               data-animate-on-scroll
@@ -1327,7 +1332,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                     <img
                       className="absolute top-[17px] left-[0px] rounded-21xl w-[475px] h-[347px] object-cover"
                       alt=""
-                      src="/rectangle-940@2x.png"
+                      src="/rectangle-9402@2x.png"
                     />
                   </div>
                   <div className="w-[486px] flex flex-col items-start justify-start p-2.5 box-border">
@@ -1384,7 +1389,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                     <img
                       className="absolute top-[17px] left-[0px] rounded-21xl w-[475px] h-[347px] object-cover"
                       alt=""
-                      src="/rectangle-9401@2x.png"
+                      src="/rectangle-94011@2x.png"
                     />
                   </div>
                 </div>
@@ -1392,11 +1397,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </section>
           <div className="bg-gray-500 w-[1199.9px] overflow-hidden hidden flex-col items-center justify-start pt-[41.663063049316406px] px-[138.87686157226562px] pb-[55.55074691772461px] box-border relative gap-[6.94px] lg:flex md:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[286.8px] left-[-122.9px] w-[552.3px] h-[827px] z-[0]"
-              alt=""
-              src="/bg-blur23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[286.8px] left-[-122.9px] w-[552.3px] h-[827px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
+                alt=""
+                src="/bg-blur23.svg"
+              />
+            </div>
             <div className="absolute my-0 mx-[!important] top-[-78.5px] left-[908.3px] rounded-[50%] bg-seagreen-400 [filter:blur(101.8px)] [backdrop-filter:blur(92.7px)] w-[268.7px] h-[268.7px] z-[1]" />
             <div className="absolute my-0 mx-[!important] top-[700.6px] left-[812.4px] rounded-[50%] bg-goldenrod-400 [filter:blur(101.8px)] w-[451.3px] h-[451.3px] z-[2]" />
             <div className="flex flex-col items-center justify-start gap-[20.83px] z-[3]">
@@ -1486,11 +1493,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="bg-gray-500 w-[964px] overflow-hidden hidden flex-col items-center justify-start pt-[33.47222137451172px] px-[111.57406616210938px] pb-[44.62963104248047px] box-border relative gap-[5.58px] text-2xs-6 md:flex sm:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[230.4px] left-[-98.7px] w-[443.7px] h-[664.4px] z-[0]"
-              alt=""
-              src="/bg-blur24.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[230.4px] left-[-98.7px] w-[443.7px] h-[664.4px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
+                alt=""
+                src="/bg-blur24.svg"
+              />
+            </div>
             <div className="absolute my-0 mx-[!important] top-[-63px] left-[729.7px] rounded-[50%] bg-seagreen-400 [filter:blur(81.78px)] [backdrop-filter:blur(74.48px)] w-[215.9px] h-[215.9px] z-[1]" />
             <div className="absolute my-0 mx-[!important] top-[562.9px] left-[652.7px] rounded-[50%] bg-goldenrod-400 [filter:blur(81.78px)] w-[362.6px] h-[362.6px] z-[2]" />
             <div className="flex flex-col items-center justify-start gap-[16.74px] z-[3]">
@@ -1664,11 +1673,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 </div>
               </div>
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[144.8px] left-[-74px] w-[194.2px] h-[290.9px] z-[3]"
-              alt=""
-              src="/bg-blur25.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[144.8px] left-[-74px] w-[194.2px] h-[290.9px] flex items-center justify-center z-[3]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
+                alt=""
+                src="/bg-blur25.svg"
+              />
+            </div>
             <img
               className="absolute my-0 mx-[!important] top-[687.6px] left-[-63.4px] w-[349.5px] h-[328.3px] object-contain z-[4]"
               alt=""
@@ -1736,7 +1747,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[5.8px] left-[0px] rounded-[13.67px] w-[162.4px] h-[118.6px] object-cover"
                     alt=""
-                    src="/rectangle-94011@2x.png"
+                    src="/rectangle-940111@2x.png"
                   />
                 </div>
                 <div
@@ -1758,16 +1769,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 </div>
               </div>
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[119.7px] left-[-61.1px] w-[160.5px] h-[240.4px] z-[3]"
-              alt=""
-              src="/bg-blur27.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[448px] left-[-27px] w-[160.5px] h-[240.4px] z-[4]"
-              alt=""
-              src="/bg-blur28.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[119.7px] left-[-61.1px] w-[160.5px] h-[240.4px] flex items-center justify-center z-[3]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
+                alt=""
+                src="/bg-blur27.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[448px] left-[-27px] w-[160.5px] h-[240.4px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
+                alt=""
+                src="/bg-blur28.svg"
+              />
+            </div>
             <div className="absolute my-0 mx-[!important] top-[256.8px] left-[276.9px] rounded-[50%] bg-goldenrod-400 [filter:blur(29.59px)] w-[131.2px] h-[131.2px] z-[5]" />
           </div>
         </div>
@@ -2393,7 +2408,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[269px] left-[-1px] w-[491px] h-[547px] overflow-hidden object-cover [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/frame-94@2x.png"
+                src="/frame-945@2x.png"
                 data-animate-on-scroll
               />
               <div
@@ -2433,7 +2448,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[851px] left-[378px] w-[43.8px] h-[16.4px]"
                 alt=""
-                src="/project-arrow.svg"
+                src="/project-arrow3.svg"
               />
             </div>
             <div
@@ -2485,7 +2500,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[187.8px] left-[-0.7px] w-[342.7px] h-[381.8px] overflow-hidden object-cover [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/frame-941@2x.png"
+                src="/frame-9411@2x.png"
                 data-animate-on-scroll
               />
               <div
@@ -2527,17 +2542,17 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[0px] w-[11.4px] h-[11.4px]"
                     alt=""
-                    src="/group-185.svg"
+                    src="/group-1851.svg"
                   />
                   <img
                     className="absolute top-[4.6px] left-[16px] w-[3.2px] h-[3.2px]"
                     alt=""
-                    src="/group-1885.svg"
+                    src="/group-18851.svg"
                   />
                   <img
                     className="absolute top-[4.6px] left-[27.4px] w-[3.2px] h-[3.2px]"
                     alt=""
-                    src="/group-1894.svg"
+                    src="/group-18941.svg"
                   />
                 </div>
               </div>
@@ -2591,7 +2606,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[149.9px] left-[-0.6px] w-[273.6px] h-[304.8px] overflow-hidden object-cover [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/frame-942@2x.png"
+                src="/frame-9421@2x.png"
                 data-animate-on-scroll
               />
               <div
@@ -2634,7 +2649,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[474.2px] left-[210.6px] w-[24.4px] h-[9.1px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/project-arrow1.svg"
+                src="/project-arrow11.svg"
                 data-animate-on-scroll
               />
             </div>
@@ -2679,7 +2694,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[211.9px] h-[187px] overflow-hidden shrink-0 object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                     alt=""
-                    src="/frame-943@2x.png"
+                    src="/frame-9431@2x.png"
                     data-animate-on-scroll
                   />
                   <div
@@ -2723,7 +2738,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[0px] left-[0px] w-[10.6px] h-1"
                 alt=""
-                src="/project-arrow2.svg"
+                src="/project-arrow21.svg"
               />
             </div>
             <div
@@ -2764,7 +2779,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[176.3px] h-[155.5px] overflow-hidden shrink-0 object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                     alt=""
-                    src="/frame-944@2x.png"
+                    src="/frame-9441@2x.png"
                     data-animate-on-scroll
                   />
                   <div
@@ -2808,7 +2823,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[0px] left-[0px] w-[9.3px] h-[3.5px]"
                 alt=""
-                src="/project-arrow3.svg"
+                src="/project-arrow31.svg"
               />
             </div>
             <div
@@ -2839,7 +2854,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[58.2px] h-[58.2px] opacity-[0.78]"
                     alt=""
-                    src="/left-group.svg"
+                    src="/left-group2.svg"
                   />
                   <div className="w-[861.8px] flex flex-row items-center justify-between relative">
                     <div className="relative tracking-[0.02em] font-extrabold z-[0]">
@@ -2853,7 +2868,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[57.1px] h-[58.2px] object-contain opacity-[0.78]"
                     alt=""
-                    src="/left-group1@2x.png"
+                    src="/left-group11@2x.png"
                   />
                 </div>
               </div>
@@ -2862,7 +2877,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[58.2px] h-[58.2px] opacity-[0.78]"
                     alt=""
-                    src="/left-group2.svg"
+                    src="/left-group21.svg"
                   />
                   <div className="w-[861.8px] flex flex-row items-center justify-between relative">
                     <div className="relative tracking-[0.02em] font-extrabold z-[0]">
@@ -2891,7 +2906,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[58.2px] h-[58.2px] opacity-[0.78]"
                     alt=""
-                    src="/left-group2.svg"
+                    src="/left-group21.svg"
                   />
                   <div className="w-[861.8px] flex flex-row items-center justify-between relative">
                     <div className="relative tracking-[0.02em] font-extrabold z-[0]">
@@ -2920,7 +2935,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[58.2px] h-[58.2px] opacity-[0.78]"
                     alt=""
-                    src="/left-group2.svg"
+                    src="/left-group21.svg"
                   />
                   <div className="self-stretch flex-1 flex flex-row items-center justify-between pt-0 px-0 pb-[3.7274200916290283px] relative">
                     <div className="relative tracking-[0.02em] font-extrabold z-[0]">
@@ -3221,7 +3236,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[13.9px] h-[14.1px] object-contain opacity-[0.78]"
                     alt=""
-                    src="/left-group21@2x.png"
+                    src="/left-group211@2x.png"
                   />
                 </div>
               </div>
@@ -3484,16 +3499,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
         </section>
         <section className="flex flex-col items-start justify-start text-left text-sm-5 text-darkolivegreen-100 font-poppins">
           <div className="relative bg-honeydew-100 w-[1727px] h-[1456.9px] overflow-hidden shrink-0 text-dimgray-100 lg:hidden">
-            <img
-              className="absolute top-[231.6px] left-[1569.4px] w-[541.1px] h-[746.7px]"
-              alt=""
-              src="/vector-215.svg"
-            />
-            <img
-              className="absolute top-[137.4px] left-[356.5px] w-[1078.3px] h-[1489.6px]"
-              alt=""
-              src="/vector-224.svg"
-            />
+            <div className="absolute top-[231.6px] left-[1569.4px] w-[541.1px] h-[746.7px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.248)]"
+                alt=""
+                src="/vector-2151.svg"
+              />
+            </div>
+            <div className="absolute top-[137.4px] left-[356.5px] w-[1078.3px] h-[1489.6px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.626)]"
+                alt=""
+                src="/vector-2241.svg"
+              />
+            </div>
             <div className="absolute top-[40.4px] left-[calc(50%_-_498.3px)] w-[987px] h-[837.1px] overflow-hidden">
               <div
                 className="absolute top-[174.9px] left-[58.6px] w-[846.7px] h-[254.7px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -3584,7 +3603,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[-1px] w-[254.7px] h-[142.2px] object-cover"
                     alt=""
-                    src="/base42@2x.png"
+                    src="/base421@2x.png"
                   />
                   <div className="absolute top-[163.4px] left-[10.6px] text-xs-5 tracking-[0.01em] leading-[14.42px] font-light inline-block w-[240.3px]">{`Our climate-smart solution empowers farmers across languages with vital information like weather forecasts, disaster preparedness & agro-advice.`}</div>
                   <div className="absolute top-[123px] left-[-1.9px] w-[169.1px] h-[32.4px] text-smi-5 text-darkslategray-200">
@@ -3640,7 +3659,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[-1px] w-[254.7px] h-[142.2px] object-contain"
                     alt=""
-                    src="/base44@2x.png"
+                    src="/base441@2x.png"
                   />
                   <div className="absolute top-[163.4px] left-[11.5px] text-xs-5 tracking-[0.01em] leading-[14.42px] font-light inline-block w-[223px]">{`Imagine a future of digitization of the agribusiness were reliable technology become your allies for informed decision making `}</div>
                   <div className="absolute top-[124px] left-[-1.9px] w-[147px] h-[32.4px] text-smi-5 text-darkslategray-200">
@@ -3680,7 +3699,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0px] w-[42.1px] h-[15.7px]"
                   alt=""
-                  src="/paginations.svg"
+                  src="/paginations1.svg"
                 />
               </div>
             </div>
@@ -3703,11 +3722,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 src="/project-arrow4.svg"
               />
             </div>
-            <img
-              className="absolute top-[315.2px] left-[-396px] w-[541.1px] h-[746.7px]"
-              alt=""
-              src="/vector-215.svg"
-            />
+            <div className="absolute top-[315.2px] left-[-396px] w-[541.1px] h-[746.7px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.248)]"
+                alt=""
+                src="/vector-2151.svg"
+              />
+            </div>
             <img
               className="absolute top-[463.2px] left-[1359.9px] w-[61.5px] h-[61.5px] overflow-hidden object-contain"
               alt=""
@@ -3721,17 +3742,17 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[7.7px] left-[0px] w-[110.5px] h-[67.3px] object-cover"
                   alt=""
-                  src="/download-552@2x.png"
+                  src="/download-5521@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[691.9px] w-[163.1px] h-[68.2px] object-cover"
                   alt=""
-                  src="/download-626@2x.png"
+                  src="/download-6261@2x.png"
                 />
                 <img
                   className="absolute top-[12.5px] left-[216.9px] w-[71.8px] h-[55.7px] object-cover"
                   alt=""
-                  src="/download-326@2x.png"
+                  src="/download-3261@2x.png"
                 />
                 <img
                   className="absolute top-[2.9px] left-[404.2px] w-[205.7px] h-[71.1px] object-cover"
@@ -3743,27 +3764,27 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[30.8px] left-[284px] w-[136.1px] h-[45.2px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images26@2x.png"
+                  src="/images261@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[644px] w-[91.3px] h-[96.1px] object-cover"
                   alt=""
-                  src="/images-126@2x.png"
+                  src="/images-1261@2x.png"
                 />
                 <img
                   className="absolute top-[16.3px] left-[442.8px] w-[149.7px] h-[62.5px] object-cover"
                   alt=""
-                  src="/download-127@2x.png"
+                  src="/download-1271@2x.png"
                 />
                 <img
                   className="absolute top-[25.9px] left-[0px] w-[79.4px] h-[54.8px] object-cover"
                   alt=""
-                  src="/download-553@2x.png"
+                  src="/download-5531@2x.png"
                 />
                 <img
                   className="absolute top-[21.1px] left-[165.7px] w-[59.2px] h-[62.5px] object-cover"
                   alt=""
-                  src="/download-227@2x.png"
+                  src="/download-2271@2x.png"
                 />
                 <div className="absolute top-[1px] left-[787.9px] w-[67.1px] h-[84px]">
                   <div className="absolute top-[73px] left-[5.9px] tracking-[0.1em] font-medium flex items-center w-[56.4px]">
@@ -3772,7 +3793,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[0px] w-[67.1px] h-[72.1px] object-cover"
                     alt=""
-                    src="/download26@2x.png"
+                    src="/download261@2x.png"
                   />
                 </div>
               </div>
@@ -3782,28 +3803,36 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 src="/group-915@2x.png"
               />
             </div>
-            <img
-              className="absolute top-[-95px] left-[-159px] w-[563px] h-[777px]"
-              alt=""
-              src="/vector-235.svg"
-            />
+            <div className="absolute top-[-95px] left-[-159px] w-[563px] h-[777px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.248)]"
+                alt=""
+                src="/vector-235.svg"
+              />
+            </div>
           </div>
           <div className="bg-honeydew-100 w-[422.9px] overflow-hidden hidden flex-col items-center justify-start py-[9.274839401245117px] px-0 box-border relative text-xs-5 sm:flex mq350small:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-19px] left-[301px] w-[139.4px] h-[192.3px] z-[0]"
-              alt=""
-              src="/vector-216.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[66.8px] left-[75.6px] w-[277.8px] h-[383.7px] z-[1]"
-              alt=""
-              src="/vector-2212.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[12.5px] left-[-16.2px] w-[139.4px] h-[192.3px] z-[2]"
-              alt=""
-              src="/vector-2311.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-19px] left-[301px] w-[139.4px] h-[192.3px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-216.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[66.8px] left-[75.6px] w-[277.8px] h-[383.7px] flex items-center justify-center z-[1]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.626)]"
+                alt=""
+                src="/vector-2212.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[12.5px] left-[-16.2px] w-[139.4px] h-[192.3px] flex items-center justify-center z-[2]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-2311.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start py-[25.97657012939453px] px-0 relative gap-[24.68px] z-[3]">
               <div className="flex flex-col items-center justify-start gap-[10px] z-[0]">
                 <div
@@ -3830,7 +3859,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         <img
                           className="absolute top-[0px] left-[-0.8px] w-[211.8px] h-[118.3px] object-cover"
                           alt=""
-                          src="/base45@2x.png"
+                          src="/base451@2x.png"
                         />
                         <div className="absolute top-[135.9px] left-[9.6px] text-3xs-6 tracking-[0.01em] leading-[11.99px] font-light font-poppins inline-block w-[187.9px]">
                           An enumeration program by the Government of Ghana
@@ -3902,7 +3931,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="absolute top-[0px] left-[-0.8px] w-[211.8px] h-[118.3px] object-cover"
                         alt=""
-                        src="/base48@2x.png"
+                        src="/base481@2x.png"
                       />
                       <div className="absolute top-[135.9px] left-[8px] text-3xs-6 tracking-[0.01em] leading-[11.99px] inline-block w-[199.8px]">
                         <p className="m-0">
@@ -3967,7 +3996,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="absolute top-[0px] left-[211px] w-[211.8px] h-[118.3px] object-contain"
                         alt=""
-                        src="/base50@2x.png"
+                        src="/base501@2x.png"
                       />
                       <div className="absolute top-[135.9px] left-[9.6px] text-3xs-6 tracking-[0.01em] leading-[11.99px] font-light inline-block w-[185.5px]">{`Imagine a future of digitization of the agribusiness were reliable technology become your allies for informed decision making `}</div>
                       <div className="absolute top-[103.1px] left-[-1.6px] w-[122.3px] h-[27px] text-2xs-4 text-darkslategray-200">
@@ -4005,7 +4034,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                     <img
                       className="absolute top-[31px] left-[180.6px] w-[34.5px] h-[34.7px] object-cover"
                       alt=""
-                      src="/images-127@2x.png"
+                      src="/images-1271@2x.png"
                     />
                     <img
                       className="absolute top-[2px] left-[162.3px] w-[56.5px] h-[22.5px] object-cover"
@@ -4037,7 +4066,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                     <img
                       className="absolute top-[0px] left-[182.3px] w-[43px] h-[24.6px] object-cover"
                       alt=""
-                      src="/download-627@2x.png"
+                      src="/download-6271@2x.png"
                     />
                     <img
                       className="absolute top-[4.5px] left-[57.2px] w-[18.9px] h-[20.1px] object-cover"
@@ -4047,7 +4076,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                     <img
                       className="absolute top-[1px] left-[106.5px] w-[54.2px] h-[25.7px] object-cover"
                       alt=""
-                      src="/capture27@2x.png"
+                      src="/capture271@2x.png"
                     />
                   </div>
                   <img
@@ -4065,16 +4094,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="relative bg-honeydew-100 w-[1200px] h-[1011.5px] overflow-hidden shrink-0 hidden text-3xs-3 text-dimgray-100 lg:flex md:hidden md:w-[1200px]">
-            <img
-              className="absolute top-[160.8px] left-[1089.6px] w-[375.6px] h-[518.4px]"
-              alt=""
-              src="/vector-217.svg"
-            />
-            <img
-              className="absolute top-[95.4px] left-[247.5px] w-[748.6px] h-[1034.2px]"
-              alt=""
-              src="/vector-226.svg"
-            />
+            <div className="absolute top-[160.8px] left-[1089.6px] w-[375.6px] h-[518.4px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-217.svg"
+              />
+            </div>
+            <div className="absolute top-[95.4px] left-[247.5px] w-[748.6px] h-[1034.2px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.626)]"
+                alt=""
+                src="/vector-226.svg"
+              />
+            </div>
             <div className="absolute top-[28px] left-[calc(50%_-_346.5px)] w-[685.2px] h-[581.2px] overflow-hidden">
               <div
                 className="absolute top-[121.4px] left-[40.7px] w-[587.8px] h-[176.8px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -4087,7 +4120,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[-0.7px] w-[176.8px] h-[98.7px] object-cover"
                     alt=""
-                    src="/base51@2x.png"
+                    src="/base511@2x.png"
                   />
                   <div className="absolute top-[113.4px] left-[8px] text-5xs tracking-[0.01em] leading-[10.01px] font-light font-poppins inline-block w-[156.8px]">
                     An enumeration program by the Government of Ghana through
@@ -4102,7 +4135,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[-0.7px] w-[176.8px] h-[98.7px] object-cover"
                     alt=""
-                    src="/base52@2x.png"
+                    src="/base521@2x.png"
                   />
                   <div className="absolute top-[114.8px] left-[7.3px] text-5xs tracking-[0.01em] leading-[10.01px] font-light inline-block w-[166.8px]">
                     A flagship program of the MoFA(Ghana) that used
@@ -4153,7 +4186,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[-0.7px] w-[176.8px] h-[98.7px] object-cover"
                     alt=""
-                    src="/base54@2x.png"
+                    src="/base541@2x.png"
                   />
                   <div className="absolute top-[113.4px] left-[7.3px] text-5xs tracking-[0.01em] leading-[10.01px] font-light inline-block w-[166.8px]">{`Our climate-smart solution empowers farmers across languages with vital information like weather forecasts, disaster preparedness & agro-advice.`}</div>
                   <div className="absolute top-[85.4px] left-[-1.3px] w-[117.4px] h-[22.5px] text-4xs-7 text-darkslategray-200">
@@ -4172,7 +4205,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[-0.7px] w-[176.8px] h-[98.7px] object-cover"
                     alt=""
-                    src="/base55@2x.png"
+                    src="/base551@2x.png"
                   />
                   <div className="absolute top-[113.4px] left-[6.7px] text-5xs tracking-[0.01em] leading-[10.01px] inline-block w-[166.8px]">
                     <p className="m-0">
@@ -4203,7 +4236,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[176.1px] w-[176.8px] h-[98.7px] object-contain"
                     alt=""
-                    src="/base56@2x.png"
+                    src="/base561@2x.png"
                   />
                   <div className="absolute top-[113.4px] left-[8px] text-5xs tracking-[0.01em] leading-[10.01px] font-light inline-block w-[154.8px]">{`Imagine a future of digitization of the agribusiness were reliable technology become your allies for informed decision making `}</div>
                   <div className="absolute top-[86.1px] left-[-1.3px] w-[102.1px] h-[22.5px] text-4xs-7 text-darkslategray-200">
@@ -4244,17 +4277,17 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[0px] w-[10.9px] h-[10.9px]"
                     alt=""
-                    src="/group-1851.svg"
+                    src="/group-18511.svg"
                   />
                   <img
                     className="absolute top-[4.4px] left-[15.3px] w-[3px] h-[3px]"
                     alt=""
-                    src="/group-1886.svg"
+                    src="/group-18861.svg"
                   />
                   <img
                     className="absolute top-[4.4px] left-[26.2px] w-[3px] h-[3px]"
                     alt=""
-                    src="/group-1895.svg"
+                    src="/group-18951.svg"
                   />
                 </div>
               </div>
@@ -4279,7 +4312,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[0px] left-[0px] w-[10.9px] h-[10.9px]"
                     alt=""
-                    src="/group-1851.svg"
+                    src="/group-18511.svg"
                   />
                   <img
                     className="absolute top-[4.4px] left-[15.3px] w-[3px] h-[3px]"
@@ -4289,16 +4322,18 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="absolute top-[4.4px] left-[26.2px] w-[3px] h-[3px]"
                     alt=""
-                    src="/group-1895.svg"
+                    src="/group-18951.svg"
                   />
                 </div>
               </div>
             </div>
-            <img
-              className="absolute top-[218.8px] left-[-274.9px] w-[375.6px] h-[518.4px]"
-              alt=""
-              src="/vector-217.svg"
-            />
+            <div className="absolute top-[218.8px] left-[-274.9px] w-[375.6px] h-[518.4px] flex items-center justify-center">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-217.svg"
+              />
+            </div>
             <div
               className="absolute top-[731.9px] left-[296.2px] w-[578.5px] h-[177.5px] [&.animate]:animate-[5s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-7xs text-black font-montserrat"
               data-animate-on-scroll
@@ -4370,22 +4405,28 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="bg-honeydew-100 w-[964px] overflow-hidden hidden flex-col items-center justify-start py-[21.162277221679688px] px-0 box-border relative text-sm-3 md:flex sm:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-43.4px] left-[686.7px] w-[318px] h-[438.9px] z-[0]"
-              alt=""
-              src="/vector-218.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[28.6px] left-[-37px] w-[318px] h-[438.9px] z-[1]"
-              alt=""
-              src="/vector-218.svg"
-            />
-            <div className="flex flex-col items-center justify-start py-[52.34640121459961px] px-0 relative gap-[49.73px] z-[2]">
+            <div className="absolute my-0 mx-[!important] top-[-43.4px] left-[686.7px] w-[318px] h-[438.9px] flex items-center justify-center z-[0]">
               <img
-                className="absolute my-0 mx-[!important] top-[523.8px] left-[-29.7px] w-[633.8px] h-[875.5px] z-[0]"
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
                 alt=""
-                src="/vector-227.svg"
+                src="/vector-218.svg"
               />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[28.6px] left-[-37px] w-[318px] h-[438.9px] flex items-center justify-center z-[1]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-218.svg"
+              />
+            </div>
+            <div className="flex flex-col items-center justify-start py-[52.34640121459961px] px-0 relative gap-[49.73px] z-[2]">
+              <div className="absolute my-0 mx-[!important] top-[523.8px] left-[-29.7px] w-[633.8px] h-[875.5px] flex items-center justify-center z-[0]">
+                <img
+                  className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.626)]"
+                  alt=""
+                  src="/vector-227.svg"
+                />
+              </div>
               <div className="flex flex-col items-center justify-start gap-[39.26px] z-[1]">
                 <div
                   className="flex flex-col items-center justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -4411,7 +4452,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         <img
                           className="absolute top-[0px] left-[-0.9px] w-[244.8px] h-[136.7px] object-cover"
                           alt=""
-                          src="/base57@2x.png"
+                          src="/base571@2x.png"
                         />
                         <div className="absolute top-[157.1px] left-[11.1px] text-xs-1 tracking-[0.01em] leading-[13.86px] font-light font-poppins inline-block w-[217.1px]">
                           An enumeration program by the Government of Ghana
@@ -4432,7 +4473,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="absolute top-[0px] left-[-0.9px] w-[244.8px] h-[136.7px] object-cover"
                         alt=""
-                        src="/base58@2x.png"
+                        src="/base581@2x.png"
                       />
                       <div className="absolute top-[158.9px] left-[10.2px] text-xs-1 tracking-[0.01em] leading-[13.86px] font-light inline-block w-[231px]">
                         A flagship program of the MoFA(Ghana) that used
@@ -4656,21 +4697,27 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="bg-honeydew-100 w-[350px] overflow-hidden hidden flex-col items-center justify-start py-[7.6750407218933105px] px-0 box-border relative text-3xs-5 mq350small:flex">
-            <img
-              className="absolute my-0 mx-[!important] top-[-15.7px] left-[249.1px] w-[115.3px] h-[159.2px] z-[0]"
-              alt=""
-              src="/vector-219.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[55.3px] left-[62.6px] w-[229.8px] h-[317.5px] z-[1]"
-              alt=""
-              src="/vector-228.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[10.4px] left-[-13.4px] w-[115.3px] h-[159.2px] z-[2]"
-              alt=""
-              src="/vector-237.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-15.7px] left-[249.1px] w-[115.3px] h-[159.2px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-219.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[55.3px] left-[62.6px] w-[229.8px] h-[317.5px] flex items-center justify-center z-[1]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.626)]"
+                alt=""
+                src="/vector-228.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[10.4px] left-[-13.4px] w-[115.3px] h-[159.2px] flex items-center justify-center z-[2]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(2.247)]"
+                alt=""
+                src="/vector-237.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start py-[21.495922088623047px] px-0 relative gap-[20.42px] z-[3]">
               <div className="flex flex-col items-center justify-start gap-[8.28px] z-[0]">
                 <div
@@ -4934,16 +4981,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
         </section>
         <section className="flex flex-col items-start justify-start gap-[10px] text-left text-lgi text-goldenrod-200 font-poppins">
           <div className="bg-gray-500 w-[1728px] overflow-hidden flex flex-col items-center justify-start py-[60px] px-0 box-border relative gap-[20px] lg:hidden md:hover:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[758px] left-[295px] w-[835.5px] h-[1191px] z-[0]"
-              alt=""
-              src="/vector-21.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[-634px] left-[-273px] w-[835.5px] h-[1191px] z-[1]"
-              alt=""
-              src="/vector-21.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[758px] left-[295px] w-[835.5px] h-[1191px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.841)]"
+                alt=""
+                src="/vector-2110.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[-634px] left-[-273px] w-[835.5px] h-[1191px] flex items-center justify-center z-[1]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.841)]"
+                alt=""
+                src="/vector-2110.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-5 gap-[5px] z-[2]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -5023,11 +5074,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative bg-goldenrod-200 w-[30px] h-1.5" />
               <div className="relative bg-gainsboro-300 w-[15px] h-1.5" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[1605px] left-[1070px] w-[835.5px] h-[1191px] z-[5]"
-              alt=""
-              src="/vector-21.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[1605px] left-[1070px] w-[835.5px] h-[1191px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.841)]"
+                alt=""
+                src="/vector-2110.svg"
+              />
+            </div>
             <div className="relative w-[1401px] h-[639px] z-[6] text-mini text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[90px] left-[80.5px] bg-white w-[1320px] h-[448px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -5041,12 +5094,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0px] w-[62px] h-[60px] object-contain"
                   alt=""
-                  src="/base3.svg"
+                  src="/base310.svg"
                 />
                 <img
                   className="absolute top-[21px] left-[16px] w-5 h-5 overflow-hidden"
                   alt=""
-                  src="/arrowright.svg"
+                  src="/arrowright4.svg"
                 />
               </div>
               <div className="absolute top-[406px] left-[775.5px] uppercase font-semibold">
@@ -5128,11 +5181,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="bg-gray-500 w-[1200px] overflow-hidden hidden flex-col items-center justify-start py-[41.222713470458984px] px-0 box-border relative gap-[13.74px] text-sm-1 lg:flex md:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-435.6px] left-[-187.6px] w-[574px] h-[818.3px] z-[0]"
-              alt=""
-              src="/vector-23.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-435.6px] left-[-187.6px] w-[574px] h-[818.3px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-236.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[13.740903854370117px] gap-[3.44px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -5218,16 +5273,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative bg-goldenrod-200 w-[20.6px] h-[4.1px]" />
               <div className="relative bg-gainsboro-300 w-[10.3px] h-[4.1px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[520.8px] left-[202.7px] w-[574px] h-[818.3px] z-[4]"
-              alt=""
-              src="/vector-211.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[1102.7px] left-[735.1px] w-[574px] h-[818.3px] z-[5]"
-              alt=""
-              src="/vector-22.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[520.8px] left-[202.7px] w-[574px] h-[818.3px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2111.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[1102.7px] left-[735.1px] w-[574px] h-[818.3px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-225.svg"
+              />
+            </div>
             <div className="relative w-[962.6px] h-[439px] z-[6] text-2xs-3 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[61.8px] left-[55.3px] bg-white w-[906.9px] h-[307.8px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -5238,12 +5297,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[42.6px] w-[42.6px] h-[41.2px] object-contain"
                   alt=""
-                  src="/base7.svg"
+                  src="/base71.svg"
                 />
                 <img
                   className="absolute top-[14.4px] left-[11px] w-[13.7px] h-[13.7px] overflow-hidden"
                   alt=""
-                  src="/arrowright1.svg"
+                  src="/arrowright11.svg"
                 />
               </div>
               <div className="absolute top-[278.9px] left-[532.8px] uppercase font-semibold">
@@ -5325,11 +5384,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="bg-gray-500 w-[960px] overflow-hidden hidden flex-col items-center justify-start py-[33.10615158081055px] px-0 box-border relative gap-[11.04px] text-2xs-5 md:flex sm:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-349.8px] left-[-150.6px] w-[461px] h-[657.2px] z-[0]"
-              alt=""
-              src="/vector-231.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-349.8px] left-[-150.6px] w-[461px] h-[657.2px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2312.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[11.035383224487305px] gap-[2.76px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -5415,16 +5476,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative bg-goldenrod-200 w-[16.6px] h-[3.3px]" />
               <div className="relative bg-gainsboro-300 w-[8.3px] h-[3.3px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[418.2px] left-[162.8px] w-[461px] h-[657.2px] z-[4]"
-              alt=""
-              src="/vector-212.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[885.6px] left-[590.4px] w-[461px] h-[657.2px] z-[5]"
-              alt=""
-              src="/vector-221.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[418.2px] left-[162.8px] w-[461px] h-[657.2px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2121.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[885.6px] left-[590.4px] w-[461px] h-[657.2px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2211.svg"
+              />
+            </div>
             <div className="relative w-[773px] h-[352.6px] z-[6] text-4xs-3 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[49.7px] left-[44.4px] bg-white w-[728.3px] h-[247.2px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -5438,12 +5503,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[34.2px] w-[34.2px] h-[33.1px] object-contain"
                   alt=""
-                  src="/base11.svg"
+                  src="/base111.svg"
                 />
                 <img
                   className="absolute top-[11.6px] left-[8.8px] w-[11px] h-[11px] overflow-hidden"
                   alt=""
-                  src="/arrowright2.svg"
+                  src="/arrowright21.svg"
                 />
               </div>
               <div className="absolute top-[224px] left-[427.9px] uppercase font-semibold">
@@ -5525,11 +5590,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
           <div className="bg-gray-500 w-[420px] overflow-hidden hidden flex-col items-center justify-start py-[15.49566650390625px] px-0 box-border relative gap-[5.17px] text-8xs-9 sm:flex mq350small:hidden">
-            <img
-              className="absolute my-0 mx-[!important] top-[-163.7px] left-[-70.5px] w-[215.8px] h-[307.6px] z-[0]"
-              alt=""
-              src="/vector-232.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-163.7px] left-[-70.5px] w-[215.8px] h-[307.6px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2321.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[5.16522216796875px] gap-[1.29px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -5618,16 +5685,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative bg-goldenrod-200 w-[7.7px] h-[1.5px]" />
               <div className="relative bg-gainsboro-300 w-[3.9px] h-[1.5px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[195.8px] left-[76.2px] w-[215.8px] h-[307.6px] z-[4]"
-              alt=""
-              src="/vector-213.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[414.5px] left-[276.3px] w-[215.8px] h-[307.6px] z-[5]"
-              alt=""
-              src="/vector-222.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[195.8px] left-[76.2px] w-[215.8px] h-[307.6px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2131.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[414.5px] left-[276.3px] w-[215.8px] h-[307.6px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2221.svg"
+              />
+            </div>
             <div className="relative w-[340px] h-[122px] z-[6] text-9xs-9 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[18.7px] left-[30px] bg-white box-border w-[281px] h-[93px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] border-[1px] border-solid border-black"
@@ -5641,12 +5712,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[16px] w-4 h-[15.5px] object-contain"
                   alt=""
-                  src="/base15.svg"
+                  src="/base151.svg"
                 />
                 <img
                   className="absolute top-[5.4px] left-[4.1px] w-[5.2px] h-[5.2px] overflow-hidden"
                   alt=""
-                  src="/arrowright3.svg"
+                  src="/arrowright31.svg"
                 />
                 <div className="absolute top-[5.2px] left-[21.7px] uppercase font-semibold">
                   view produCts
@@ -5702,16 +5773,18 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[80.1px] left-[0px] w-[147.2px] h-[78.8px] object-contain"
                 alt=""
-                src="/group-8933@2x.png"
+                src="/group-89331@2x.png"
               />
             </div>
           </div>
           <div className="bg-gray-500 w-[351px] overflow-hidden hidden flex-col items-center justify-start py-[12.949950218200684px] px-0 box-border relative gap-[4.32px] text-8xs-1 mq350small:flex">
-            <img
-              className="absolute my-0 mx-[!important] top-[-136.8px] left-[-58.9px] w-[180.3px] h-[257.1px] z-[0]"
-              alt=""
-              src="/vector-2312.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[-136.8px] left-[-58.9px] w-[180.3px] h-[257.1px] flex items-center justify-center z-[0]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-23121.svg"
+              />
+            </div>
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[4.316649913787842px] gap-[1.08px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
@@ -5777,7 +5850,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[6.47px] w-[72.6px] h-[78.2px] object-cover"
                   alt=""
-                  src="/base111@2x.png"
+                  src="/base1111@2x.png"
                 />
                 <div className="absolute top-[66px] left-[0px] w-[72.6px] h-[23.8px]">
                   <div className="absolute top-[0px] left-[0px] w-[72.6px] h-[23.8px]">
@@ -5797,16 +5870,20 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative bg-goldenrod-200 w-[6.5px] h-[1.3px]" />
               <div className="relative bg-gainsboro-300 w-[3.2px] h-[1.3px]" />
             </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[163.6px] left-[63.7px] w-[180.3px] h-[257.1px] z-[4]"
-              alt=""
-              src="/vector-2114.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[346.4px] left-[230.9px] w-[180.3px] h-[257.1px] z-[5]"
-              alt=""
-              src="/vector-2213.svg"
-            />
+            <div className="absolute my-0 mx-[!important] top-[163.6px] left-[63.7px] w-[180.3px] h-[257.1px] flex items-center justify-center z-[4]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2114.svg"
+              />
+            </div>
+            <div className="absolute my-0 mx-[!important] top-[346.4px] left-[230.9px] w-[180.3px] h-[257.1px] flex items-center justify-center z-[5]">
+              <img
+                className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.84)]"
+                alt=""
+                src="/vector-2213.svg"
+              />
+            </div>
             <div className="relative w-[284.1px] h-[102px] z-[6] text-9xs-2 text-darkslategray-200 font-lexend-deca">
               <div
                 className="absolute top-[15.7px] left-[25.1px] bg-white w-[234.8px] h-[77.7px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
@@ -5926,7 +6003,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                         alt=""
-                        src="/mofa-color26@2x.png"
+                        src="/mofa-color261@2x.png"
                       />
                       <img
                         className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
@@ -5983,7 +6060,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
                         alt=""
-                        src="/mofa-color26@2x.png"
+                        src="/mofa-color261@2x.png"
                       />
                       <img
                         className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
@@ -6155,7 +6232,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="relative max-h-full w-[33.6px] cursor-pointer"
                         alt=""
-                        src="/arrow-65.svg"
+                        src="/arrow-651.svg"
                         onClick={onArrowIconClick}
                       />
                       <div
@@ -6199,28 +6276,28 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                           <img
                             className="relative w-[13.9px] h-[15px]"
                             alt=""
-                            src="/group.svg"
+                            src="/group7.svg"
                           />
                         </div>
                         <div className="rounded-[36.86px] bg-darkgray-400 w-[47.3px] h-[48.8px] flex flex-row items-center justify-center py-[19.9257869720459px] px-[24.90723419189453px] box-border">
                           <img
                             className="relative w-[7.8px] h-[15px]"
                             alt=""
-                            src="/vector.svg"
+                            src="/vector15.svg"
                           />
                         </div>
                         <div className="rounded-[58.28px] bg-darkgray-400 w-[45.3px] h-[45.3px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[19.9257869720459px] px-[17.4350643157959px] box-border">
                           <img
                             className="relative w-[16.7px] h-3.5"
                             alt=""
-                            src="/vector1.svg"
+                            src="/vector16.svg"
                           />
                         </div>
                         <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
                           <img
                             className="relative w-[16.1px] h-[15px]"
                             alt=""
-                            src="/vector2.svg"
+                            src="/vector21.svg"
                           />
                         </div>
                       </div>
@@ -6498,7 +6575,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="relative w-[23.4px] h-0 cursor-pointer"
                         alt=""
-                        src="/arrow-61.svg"
+                        src="/arrow-611.svg"
                         onClick={onArrowIcon2Click}
                       />
                       <div
@@ -6539,28 +6616,28 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                           <img
                             className="relative w-[9.7px] h-[10.4px]"
                             alt=""
-                            src="/group1.svg"
+                            src="/group11.svg"
                           />
                         </div>
                         <div className="rounded-[25.59px] bg-darkgray-400 w-[32.9px] h-[33.9px] flex flex-row items-center justify-center py-[13.834328651428223px] px-[17.292909622192383px] box-border">
                           <img
                             className="relative w-[5.4px] h-[10.4px]"
                             alt=""
-                            src="/vector3.svg"
+                            src="/vector31.svg"
                           />
                         </div>
                         <div className="rounded-[40.47px] bg-darkgray-400 w-[31.5px] h-[31.5px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[13.834328651428223px] px-[12.105037689208984px] box-border">
                           <img
                             className="relative w-[11.6px] h-[9.7px]"
                             alt=""
-                            src="/vector4.svg"
+                            src="/vector41.svg"
                           />
                         </div>
                         <div className="rounded-[28.01px] bg-darkgray-400 w-[34.2px] h-[33.9px] flex flex-col items-center justify-center p-[13.834328651428223px] box-border">
                           <img
                             className="relative w-[11.2px] h-[10.4px]"
                             alt=""
-                            src="/vector5.svg"
+                            src="/vector51.svg"
                           />
                         </div>
                       </div>
@@ -6838,7 +6915,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="relative w-[18.7px] h-0 cursor-pointer"
                         alt=""
-                        src="/arrow-62.svg"
+                        src="/arrow-621.svg"
                         onClick={onArrowIcon3Click}
                       />
                       <div
@@ -6879,28 +6956,28 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                           <img
                             className="relative w-[7.7px] h-[8.3px]"
                             alt=""
-                            src="/group2.svg"
+                            src="/group21.svg"
                           />
                         </div>
                         <div className="rounded-[20.48px] bg-darkgray-400 w-[26.3px] h-[27.1px] flex flex-row items-center justify-center py-[11.069880485534668px] px-[13.837349891662598px] box-border">
                           <img
                             className="relative w-[4.3px] h-[8.3px]"
                             alt=""
-                            src="/vector6.svg"
+                            src="/vector61.svg"
                           />
                         </div>
                         <div className="rounded-[32.38px] bg-darkgray-400 w-[25.2px] h-[25.2px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[11.069880485534668px] px-[9.686145782470703px] box-border">
                           <img
                             className="relative w-[9.3px] h-[7.8px]"
                             alt=""
-                            src="/vector7.svg"
+                            src="/vector71.svg"
                           />
                         </div>
                         <div className="rounded-[22.42px] bg-darkgray-400 w-[27.4px] h-[27.1px] flex flex-col items-center justify-center p-[11.069880485534668px] box-border">
                           <img
                             className="relative w-[9px] h-[8.3px]"
                             alt=""
-                            src="/vector8.svg"
+                            src="/vector81.svg"
                           />
                         </div>
                       </div>
@@ -7158,7 +7235,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-[24.4px] h-0 cursor-pointer"
                     alt=""
-                    src="/arrow-63.svg"
+                    src="/arrow-631.svg"
                     onClick={onArrowIcon4Click}
                   />
                   <div
@@ -7179,28 +7256,28 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="relative w-[10.1px] h-[10.9px]"
                         alt=""
-                        src="/group3.svg"
+                        src="/group31.svg"
                       />
                     </div>
                     <div className="rounded-[26.78px] bg-darkgray-400 w-[34.4px] h-[35.5px] flex flex-row items-center justify-center py-[14.475349426269531px] px-[18.094186782836914px] box-border">
                       <img
                         className="relative w-[5.7px] h-[10.9px]"
                         alt=""
-                        src="/vector9.svg"
+                        src="/vector91.svg"
                       />
                     </div>
                     <div className="rounded-[42.34px] bg-darkgray-400 w-[32.9px] h-[32.9px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[14.475349426269531px] px-[12.665931701660156px] box-border">
                       <img
                         className="relative w-[12.1px] h-[10.2px]"
                         alt=""
-                        src="/vector10.svg"
+                        src="/vector101.svg"
                       />
                     </div>
                     <div className="rounded-[29.31px] bg-darkgray-400 w-[35.8px] h-[35.5px] flex flex-col items-center justify-center p-[14.475349426269531px] box-border">
                       <img
                         className="relative w-[11.7px] h-[10.9px]"
                         alt=""
-                        src="/vector11.svg"
+                        src="/vector111.svg"
                       />
                     </div>
                   </div>
@@ -7473,7 +7550,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className="relative w-5 h-0 cursor-pointer"
                     alt=""
-                    src="/arrow-64.svg"
+                    src="/arrow-641.svg"
                     onClick={onArrowIcon5Click}
                   />
                   <div
@@ -7494,28 +7571,28 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className="relative w-[8.3px] h-[8.9px]"
                         alt=""
-                        src="/group4.svg"
+                        src="/group41.svg"
                       />
                     </div>
                     <div className="rounded-[21.96px] bg-darkgray-400 w-[28.2px] h-[29.1px] flex flex-row items-center justify-center py-[11.872894287109375px] px-[14.841116905212402px] box-border">
                       <img
                         className="relative w-[4.6px] h-[8.9px]"
                         alt=""
-                        src="/vector12.svg"
+                        src="/vector121.svg"
                       />
                     </div>
                     <div className="rounded-[34.73px] bg-darkgray-400 w-[27px] h-[27px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[11.872894287109375px] px-[10.38878345489502px] box-border">
                       <img
                         className="relative w-[9.9px] h-[8.3px]"
                         alt=""
-                        src="/vector13.svg"
+                        src="/vector131.svg"
                       />
                     </div>
                     <div className="rounded-[24.04px] bg-darkgray-400 w-[29.4px] h-[29.1px] flex flex-col items-center justify-center p-[11.872894287109375px] box-border">
                       <img
                         className="relative w-[9.6px] h-[8.9px]"
                         alt=""
-                        src="/vector14.svg"
+                        src="/vector141.svg"
                       />
                     </div>
                   </div>
