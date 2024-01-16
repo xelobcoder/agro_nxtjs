@@ -91,20 +91,23 @@ const Media: NextPage = () => {
   }, []);
 
   const onGroupClick = useCallback(() => {
-    // Please sync "1-homepage" to the project
-  }, []);
+    router.push("/homepage");
+  }, [router]);
+  // Synced "homepage" to the project
 
   const onGroupIconClick = useCallback(() => {
-    // Please sync "1-homepage" to the project
-  }, []);
+    router.push("/homepage");
+  }, [router]);
+  // Synced "homepage" to the project
 
   const onFrameButton1Click = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
   const onNowWereTextClick = useCallback(() => {
-    // Please sync "5-careers" to the project
-  }, []);
+    //Synced "homepage" to the project
+    router.push("/careers");
+  }, [router]);
 
   const onArrowIconClick = useCallback(() => {
     window.open(
