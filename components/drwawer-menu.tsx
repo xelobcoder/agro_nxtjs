@@ -113,8 +113,8 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
                 src="/logo82@2x.png"
               />
             </button>
-            <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[38.4px] [&_.oursubsiadiries1]:active:flex">
-              <div className="oursubsiadiries1 absolute top-[60px] left-[-153px] rounded-xl bg-gainsboro-100 hidden flex-col items-start justify-start p-5 gap-[20px]">
+            <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[38.4px] [&_.oursubsiadiries]:active:flex">
+              <div className="oursubsiadiries absolute top-[60px] left-[-153px] rounded-xl bg-gainsboro-100 hidden flex-col items-start justify-start p-5 gap-[20px]">
                 <img
                   className="relative w-[184.9px] h-8"
                   alt=""
@@ -218,14 +218,12 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
               src="/isg-11@2x.png"
               onClick={onClose}
             />
-            <div className="relative w-11 h-[29px] shrink-0 mix-blend-normal cursor-pointer flex items-center justify-center">
-              <img
-                className="w-full h-full overflow-hidden shrink-0 mix-blend-normal cursor-pointer object-contain absolute left-[0px] top-[1px] [transform:scale(3.164)]"
-                alt=""
-                src="/bslmain-6@2x.png"
-                onClick={onClose}
-              />
-            </div>
+            <img
+              className="relative w-11 h-[29px] overflow-hidden shrink-0 object-cover mix-blend-normal cursor-pointer"
+              alt=""
+              src="/bslmain-6@2x.png"
+              onClick={onClose}
+            />
           </div>
         </div>
       </div>

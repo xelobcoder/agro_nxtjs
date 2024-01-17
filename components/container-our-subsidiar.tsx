@@ -33,28 +33,32 @@ const ContainerOurSubsidiar: NextPage = () => {
   }, []);
   return (
     <section
-      className="self-stretch bg-darkslategray-100 overflow-hidden flex flex-row items-start justify-center py-[60px] px-5 box-border [&.animate]:animate-[2s_ease-in-out_0s_1_normal_forwards_fade-in-bottom] opacity-[0] max-w-full text-left text-base text-white font-poppins lg:pt-[25px] lg:pb-[25px] lg:box-border mq825:pt-5 mq825:pb-5 mq825:box-border"
+      className="self-stretch bg-darkslategray-100 overflow-hidden flex flex-row items-start justify-center py-[60px] px-[100px] [&.animate]:animate-[2s_ease-in-out_0s_1_normal_forwards_fade-in-bottom] opacity-[0] text-left text-base text-white font-poppins md:bg-gray-500 md:flex-col md:items-center md:justify-center md:py-[30px] md:px-10 md:box-border sm:gap-[15px] sm:pl-[30px] sm:pr-[30px] sm:box-border"
+      id="AboutUS_ourSubsidiaries"
       data-animate-on-scroll
     >
-      <div className="w-[1550px] flex flex-col items-start justify-start gap-[45px] max-w-full mq825:gap-[22px]">
+      <div className="flex-1 flex flex-col items-start justify-start gap-[45px] md:flex-[unset] md:self-stretch">
         <div
-          className="self-stretch flex flex-col items-center justify-center [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] min-h-[147px] max-w-full shrink-0 text-center text-51xl text-darkslategray-300"
+          className="self-stretch h-[147px] flex flex-col items-center justify-center [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-center text-51xl text-darkslategray-300 md:flex md:self-stretch md:w-auto md:h-[147px] md:pt-[9px] md:px-5 md:pb-5 md:box-border [&.animate]:md:animate-[1s_ease-in-out_0s_1_normal_forwards_fade-in] md:opacity-[0] md:hover:[filter:drop-shadow(0px_4px_4px_rgba(255,_248,_227,_0.25))] sm:h-auto sm:gap-[15px]"
           data-animate-on-scroll
         >
-          <div className="self-stretch flex flex-row items-center justify-center max-w-full">
-            <h1 className="m-0 flex-1 relative text-inherit leading-[100%] font-semibold font-inherit inline-block max-w-full mq825:text-37xl mq825:leading-[56px] mq450:text-23xl mq450:leading-[42px]">
+          <div className="self-stretch flex flex-row items-center justify-center">
+            <h2
+              className="m-0 flex-1 relative text-inherit leading-[100%] font-semibold font-inherit sm:text-25xl [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_fade-in] sm:opacity-[0]"
+              id="ourSubsidiaries_h2"
+              data-animate-on-scroll
+            >
               Affiliates
-            </h1>
+            </h2>
           </div>
         </div>
         <div
-          className="self-stretch flex flex-col items-start justify-start p-2.5 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] shrink-0"
+          className="self-stretch flex flex-col items-start justify-start p-2.5 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
           data-animate-on-scroll
         >
           <div className="self-stretch rounded-mini bg-darkolivegreen-800 flex flex-col items-start justify-start pt-[35px] px-[35px] pb-[38px] gap-[30px]">
             <img
-              className="relative w-[259px] h-11 overflow-hidden shrink-0 object-contain"
-              loading="eager"
+              className="relative w-[259px] h-11 overflow-hidden shrink-0 object-cover md:w-[180px] md:h-[38px]"
               alt=""
               src="/bslmain-1@2x.png"
             />
@@ -65,20 +69,22 @@ const ContainerOurSubsidiar: NextPage = () => {
               launch the first bank-backed mobile money service (G- Money) in
               Ghana.
             </div>
-            <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[50px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] h-[63px] flex flex-row items-center justify-center box-border whitespace-nowrap hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
-              <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
+            <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] h-11 flex flex-row items-center justify-center box-border hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1] md:w-[200px] sm:w-[200px] sm:h-11">
+              <h3
+                className="m-0 relative text-xl leading-[12.72px] font-normal font-poppins text-white text-left md:text-mid [&.animate]:md:animate-[1s_ease_0s_1_normal_forwards_fade-in] md:opacity-[0] sm:text-base"
+                data-animate-on-scroll
+              >
                 Learn More
-              </div>
+              </h3>
             </button>
           </div>
         </div>
         <div
-          className="self-stretch rounded-mini bg-darkolivegreen-800 flex flex-col items-start justify-start pt-[35px] px-[35px] pb-[38px] gap-[30px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1] shrink-0"
+          className="self-stretch rounded-mini bg-darkolivegreen-800 flex flex-col items-start justify-start pt-[35px] px-[35px] pb-[38px] gap-[30px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
           data-animate-on-scroll
         >
           <img
-            className="relative w-[201px] h-[55px] overflow-hidden shrink-0 object-contain"
-            loading="eager"
+            className="relative w-[164px] h-[41px] overflow-hidden shrink-0 object-cover"
             alt=""
             src="/spectrummain-1@2x.png"
           />
@@ -93,21 +99,23 @@ const ContainerOurSubsidiar: NextPage = () => {
               Region and have 4000+km of Fibre optic cable
             </p>
           </div>
-          <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[50px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] h-[63px] flex flex-row items-center justify-center box-border whitespace-nowrap hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
-            <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
+          <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] h-12 flex flex-row items-center justify-center box-border hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1] lg:w-[250px] lg:h-12">
+            <h3
+              className="m-0 relative text-xl leading-[12.72px] font-normal font-poppins text-white text-left md:text-mid md:leading-[5px] sm:text-base [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_fade-in] sm:opacity-[0]"
+              data-animate-on-scroll
+            >
               Learn More
-            </div>
+            </h3>
           </button>
         </div>
         <div
-          className="self-stretch flex flex-col items-center justify-start [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1] shrink-0"
+          className="self-stretch flex flex-col items-center justify-start [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
           data-animate-on-scroll
         >
           <div className="self-stretch flex flex-col items-start justify-start p-2.5">
-            <div className="self-stretch rounded-mini bg-darkolivegreen-800 flex flex-col items-start justify-start pt-[35px] px-[35px] pb-9 gap-[30px] mq450:pt-[23px] mq450:pb-[23px] mq450:box-border">
+            <div className="self-stretch rounded-mini bg-darkolivegreen-800 flex flex-col items-start justify-start pt-[35px] px-[35px] pb-9 gap-[30px]">
               <img
-                className="relative w-[130px] h-[62px] overflow-hidden shrink-0 object-contain"
-                loading="eager"
+                className="relative w-[130px] h-[62px] overflow-hidden shrink-0 object-cover"
                 alt=""
                 src="/isgmain-1@2x.png"
               />
@@ -128,21 +136,20 @@ const ContainerOurSubsidiar: NextPage = () => {
                 <p className="m-0">- Data Centre build and management</p>
                 <p className="m-0">- Service Maintenance and Support</p>
               </div>
-              <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-12 bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] flex flex-row items-center justify-center whitespace-nowrap">
-                <div className="relative text-mid leading-[12.72px] font-poppins text-white text-left">
+              <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] flex flex-row items-center justify-center lg:w-[250px] lg:h-12 md:w-[250px] md:h-12">
+                <h3 className="m-0 relative text-mid leading-[12.72px] font-normal font-poppins text-white text-left md:text-mid sm:text-base">
                   Learn More
-                </div>
+                </h3>
               </button>
             </div>
           </div>
         </div>
         <div
-          className="self-stretch rounded-mini bg-darkolivegreen-800 flex flex-col items-start justify-start pt-[35px] px-[35px] pb-9 gap-[30px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1] shrink-0 mq450:pt-[23px] mq450:pb-[23px] mq450:box-border"
+          className="self-stretch rounded-mini bg-darkolivegreen-800 h-[437.9px] flex flex-col items-start justify-start pt-[35px] px-[35px] pb-9 box-border gap-[30px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
           data-animate-on-scroll
         >
           <img
-            className="w-[199px] h-[52px] overflow-hidden shrink-0 object-contain"
-            loading="eager"
+            className="max-w-full overflow-hidden h-[52px] shrink-0 object-cover md:h-[43px]"
             alt=""
             src="/bdpmain-1@2x.png"
           />
@@ -157,10 +164,10 @@ const ContainerOurSubsidiar: NextPage = () => {
               million households.
             </p>
           </div>
-          <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[50px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] flex flex-row items-center justify-center whitespace-nowrap hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
-            <div className="relative text-lgi leading-[12.72px] font-poppins text-white text-left">
+          <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] flex-1 rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] flex flex-row items-center justify-center hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1] lg:w-[250px]">
+            <h3 className="m-0 relative text-lgi leading-[12.72px] font-normal font-poppins text-white text-left md:text-mid sm:text-base">
               Learn More
-            </div>
+            </h3>
           </button>
         </div>
       </div>

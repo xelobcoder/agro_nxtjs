@@ -17,14 +17,12 @@ const FrameComponent41: NextPage = () => {
   return (
     <div className="flex-1 h-[416px] flex flex-col items-start justify-start py-[30px] px-[5px] box-border gap-[44px] text-left text-base text-seagreen-100 font-poppins lg:flex-[unset] lg:self-stretch">
       <div className="self-stretch flex flex-row items-center justify-start gap-[43px] text-white">
-        <div className="relative w-[33.6px] cursor-pointer flex items-center justify-center">
-          <img
-            className="max-h-full w-full cursor-pointer object-contain absolute left-[0px] top-[0px] h-full [transform:scale(1.089)]"
-            alt=""
-            src="/arrow-6.svg"
-            onClick={onArrowIconClick}
-          />
-        </div>
+        <img
+          className="relative max-h-full w-[33.6px] cursor-pointer"
+          alt=""
+          src="/arrow-6.svg"
+          onClick={onArrowIconClick}
+        />
         <div
           className="flex-1 relative h-0 cursor-pointer"
           onClick={onNowWereContainerClick}

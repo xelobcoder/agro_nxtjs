@@ -124,9 +124,9 @@ const Projectspartners: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
                   <div
-                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -164,7 +164,7 @@ const Projectspartners: NextPage = () => {
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
                     alt=""
-                    src="/logo6@2x.png"
+                    src="/logo61@2x.png"
                   />
                 </div>
               </div>
@@ -226,7 +226,7 @@ const Projectspartners: NextPage = () => {
             </div>
           </nav>
           <nav
-            className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex md:hidden sm:hidden"
+            className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex sm:py-2.5 sm:px-[15px] sm:box-border sm:min-h-[70px]"
             id="navBar"
           >
             <div className="flex-1 flex flex-row items-center justify-between">
@@ -276,7 +276,7 @@ const Projectspartners: NextPage = () => {
                 </div>
               </div>
               <div className="flex-1 flex flex-row items-center justify-end gap-[30px]">
-                <button className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100">
+                <button className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100 sm:hidden">
                   <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#b6c2f1,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
                     Contact Us
                   </div>
@@ -293,7 +293,7 @@ const Projectspartners: NextPage = () => {
             </div>
           </nav>
         </div>
-        <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners1@3x.png')] bg-cover bg-no-repeat bg-[top] lg:items-center lg:justify-start sm:hidden">
+        <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners1@3x.png')] bg-cover bg-no-repeat bg-[top] lg:items-center lg:justify-start sm:flex">
           <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 gap-[10px] bg-[url('/frame-12111@3x.png')] bg-cover bg-no-repeat bg-[top]">
             <div className="self-stretch flex flex-col items-center justify-start py-[30px] px-0 gap-[42px]">
               <div className="self-stretch flex flex-col items-center justify-start">
@@ -302,8 +302,8 @@ const Projectspartners: NextPage = () => {
                   The nations’s best digital Agric Platform
                 </div>
               </div>
-              <section className="self-stretch flex flex-row items-start justify-center gap-[77px] lg:flex-col lg:items-center lg:justify-center">
-                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row">
+              <section className="self-stretch flex flex-row items-start justify-center gap-[77px] lg:flex-col lg:items-center lg:justify-center sm:p-2.5 sm:box-border">
+                <section className="flex flex-col items-start justify-start gap-[40px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row sm:flex-col">
                   <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-200">
                     <div className="absolute top-[229px] left-[152px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                       @Nationwide
@@ -357,7 +357,7 @@ const Projectspartners: NextPage = () => {
                     </div>
                   </div>
                 </section>
-                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row">
+                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row sm:flex-col sm:gap-[40px]">
                   <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-200">
                     <div className="absolute top-[234px] left-[122px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                       @Northern Ghana
@@ -402,7 +402,7 @@ const Projectspartners: NextPage = () => {
                     </div>
                   </div>
                 </section>
-                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row">
+                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row sm:flex-col sm:gap-[40px]">
                   <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-200">
                     <div className="absolute top-[230px] left-[149px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                       @Nationwide

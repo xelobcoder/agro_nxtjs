@@ -180,9 +180,9 @@ const Careers: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos2]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos8]:hover:flex">
                   <div
-                    className="oursubsidiarylogos2 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos8 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -220,7 +220,7 @@ const Careers: NextPage = () => {
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
                     alt=""
-                    src="/logo6@2x.png"
+                    src="/logo61@2x.png"
                   />
                 </div>
               </div>
@@ -287,9 +287,9 @@ const Careers: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos3]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos8]:hover:flex">
                   <div
-                    className="oursubsidiarylogos3 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos8 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -380,17 +380,12 @@ const Careers: NextPage = () => {
               className="absolute my-0 mx-[!important] top-[607px] left-[1211px] rounded-[50%] bg-goldenrod-300 [filter:blur(146.6px)] w-[650px] h-[650px] [&.animate]:animate-[30s_ease_0s_infinite_reverse_forwards_bounce-in-top] opacity-[0] z-[1] [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_jello-horizontal] sm:opacity-[1]"
               data-animate-on-scroll
             />
-            <div
-              className="absolute my-0 mx-[!important] top-[27px] left-[-277px] w-[795.4px] h-[1191px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[2]"
+            <img
+              className="absolute my-0 mx-[!important] top-[27px] left-[-277px] w-[795.4px] h-[1191px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
+              alt=""
+              src="/bg-blur.svg"
               data-animate-on-scroll
-            >
-              <img
-                className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
-                alt=""
-                src="/bg-blur.svg"
-                data-animate-on-scroll
-              />
-            </div>
+            />
             <div className="flex-1 flex flex-row items-start justify-center gap-[10px] z-[3]">
               <section className="flex-1 flex flex-col items-start justify-start py-5 px-0 gap-[20px] text-left text-61xl text-goldenrod-100 font-poppins">
                 <div className="self-stretch flex flex-row items-center justify-start py-[7px] px-2.5">
@@ -502,17 +497,12 @@ const Careers: NextPage = () => {
               className="absolute my-0 mx-[!important] top-[371.1px] left-[840.1px] rounded-[50%] bg-goldenrod-300 [filter:blur(101.7px)] w-[450.9px] h-[450.9px] [&.animate]:animate-[30s_ease_0s_infinite_reverse_forwards_bounce-in-top] opacity-[0] z-[1] [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_jello-horizontal] sm:opacity-[1]"
               data-animate-on-scroll
             />
-            <div
-              className="absolute my-0 mx-[!important] top-[18.7px] left-[-192.2px] w-[551.8px] h-[826.2px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[2]"
+            <img
+              className="absolute my-0 mx-[!important] top-[18.7px] left-[-192.2px] w-[551.8px] h-[826.2px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
+              alt=""
+              src="/bg-blur1.svg"
               data-animate-on-scroll
-            >
-              <img
-                className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
-                alt=""
-                src="/bg-blur1.svg"
-                data-animate-on-scroll
-              />
-            </div>
+            />
             <div className="flex-1 flex flex-row items-center justify-center gap-[6.94px] z-[3]">
               <section className="w-[371.1px] flex flex-col items-center justify-center py-[13.874284744262695px] px-0 box-border gap-[13.87px] text-left text-[55.5px] text-goldenrod-100 font-poppins">
                 <div className="self-stretch flex flex-row items-center justify-start py-[4.855999946594238px] px-[6.937142372131348px]">
@@ -641,17 +631,12 @@ const Careers: NextPage = () => {
               className="absolute my-0 mx-[!important] top-[299.1px] left-[677.1px] rounded-[50%] bg-goldenrod-300 [filter:blur(81.96px)] w-[363.4px] h-[363.4px] [&.animate]:animate-[30s_ease_0s_infinite_reverse_forwards_bounce-in-top] opacity-[0] z-[1] [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_jello-horizontal] sm:opacity-[1]"
               data-animate-on-scroll
             />
-            <div
-              className="absolute my-0 mx-[!important] top-[15.1px] left-[-154.9px] w-[444.7px] h-[665.9px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[2]"
+            <img
+              className="absolute my-0 mx-[!important] top-[15.1px] left-[-154.9px] w-[444.7px] h-[665.9px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
+              alt=""
+              src="/bg-blur2.svg"
               data-animate-on-scroll
-            >
-              <img
-                className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(1.883)]"
-                alt=""
-                src="/bg-blur2.svg"
-                data-animate-on-scroll
-              />
-            </div>
+            />
             <div className="flex flex-row items-center justify-center gap-[5.59px] z-[3]">
               <section className="w-[299.1px] flex flex-col items-center justify-center py-[11.181878089904785px] px-0 box-border gap-[11.18px] text-left text-[44.7px] text-goldenrod-100 font-poppins">
                 <div className="self-stretch flex flex-row items-center justify-start py-[3.9136571884155273px] px-[5.590939044952393px]">
@@ -819,17 +804,12 @@ const Careers: NextPage = () => {
                   </div>
                 </div>
               </section>
-              <div
-                className="absolute my-0 mx-[!important] top-[12.6px] left-[-353px] w-[516px] h-[773px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[1]"
+              <img
+                className="absolute my-0 mx-[!important] top-[12.6px] left-[-353px] w-[516px] h-[773px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[1]"
+                alt=""
+                src="/bg-blur3.svg"
                 data-animate-on-scroll
-              >
-                <img
-                  className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(2.36)]"
-                  alt=""
-                  src="/bg-blur3.svg"
-                  data-animate-on-scroll
-                />
-              </div>
+              />
               <div className="rounded-[19.02px] bg-whitesmoke-200 box-border w-[346px] overflow-hidden flex flex-col items-center justify-center py-[9.768203735351562px] px-[9.254087448120117px] gap-[17.99px] z-[2] border-[0.5px] border-solid border-gray-200">
                 <div className="self-stretch flex flex-row items-center justify-center p-[5.141159534454346px]">
                   <div className="relative tracking-[0.04em] font-semibold">
@@ -905,17 +885,12 @@ const Careers: NextPage = () => {
               className="absolute my-0 mx-[!important] top-[86px] left-[339px] rounded-[50%] bg-goldenrod-300 [filter:blur(36.6px)] w-[162.3px] h-[162.3px] [&.animate]:animate-[30s_ease_0s_infinite_reverse_forwards_bounce-in-top] opacity-[0] z-[1] [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_jello-horizontal] sm:opacity-[1]"
               data-animate-on-scroll
             />
-            <div
-              className="absolute my-0 mx-[!important] top-[-96px] left-[-76px] w-[198.6px] h-[297.3px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[2]"
+            <img
+              className="absolute my-0 mx-[!important] top-[-96px] left-[-76px] w-[198.6px] h-[297.3px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
+              alt=""
+              src="/bg-blur4.svg"
               data-animate-on-scroll
-            >
-              <img
-                className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(1.882)]"
-                alt=""
-                src="/bg-blur4.svg"
-                data-animate-on-scroll
-              />
-            </div>
+            />
           </div>
           <div className="[background:linear-gradient(168.12deg,_#113a09,_#f0c024)] w-[350px] overflow-hidden hidden flex-row items-start justify-center py-[10.107216835021973px] px-5 box-border relative text-2xs-4 mq350small:flex">
             <div className="flex flex-col items-center justify-start relative gap-[25.27px] z-[0]">
@@ -965,17 +940,12 @@ const Careers: NextPage = () => {
                   </div>
                 </div>
               </section>
-              <div
-                className="absolute my-0 mx-[!important] top-[10.9px] left-[-33.3px] w-[171px] h-[651px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[1]"
+              <img
+                className="absolute my-0 mx-[!important] top-[10.9px] left-[-33.3px] w-[171px] h-[651px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[1]"
+                alt=""
+                src="/bg-blur5.svg"
                 data-animate-on-scroll
-              >
-                <img
-                  className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(4.458)]"
-                  alt=""
-                  src="/bg-blur5.svg"
-                  data-animate-on-scroll
-                />
-              </div>
+              />
               <div className="rounded-[16.02px] bg-whitesmoke-200 box-border w-[291.4px] overflow-hidden flex flex-col items-center justify-center py-[8.227445602416992px] px-[7.794422149658203px] gap-[15.16px] z-[2] border-[0.4px] border-solid border-gray-200">
                 <div className="self-stretch flex flex-row items-center justify-center p-[4.330234527587891px]">
                   <div className="relative tracking-[0.04em] font-semibold">
@@ -1051,17 +1021,12 @@ const Careers: NextPage = () => {
               className="absolute my-0 mx-[!important] top-[94px] left-[263px] rounded-[50%] bg-goldenrod-300 [filter:blur(30.83px)] w-[68px] h-[69px] [&.animate]:animate-[30s_ease_0s_infinite_reverse_forwards_bounce-in-top] opacity-[0] z-[1] [&.animate]:sm:animate-[1s_ease_0s_1_normal_forwards_jello-horizontal] sm:opacity-[1]"
               data-animate-on-scroll
             />
-            <div
-              className="absolute my-0 mx-[!important] top-[-80.9px] left-[-64px] w-[167.3px] h-[250.4px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] flex items-center justify-center z-[2]"
+            <img
+              className="absolute my-0 mx-[!important] top-[-80.9px] left-[-64px] w-[167.3px] h-[250.4px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
+              alt=""
+              src="/bg-blur6.svg"
               data-animate-on-scroll
-            >
-              <img
-                className="w-full h-full [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] object-contain absolute left-[0px] top-[0px] [transform:scale(1.882)]"
-                alt=""
-                src="/bg-blur6.svg"
-                data-animate-on-scroll
-              />
-            </div>
+            />
           </div>
         </div>
         <div className="flex flex-col items-center justify-start text-15xl text-seagreen-100">
