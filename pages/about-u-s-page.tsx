@@ -639,8 +639,7 @@ const AboutUSPage: NextPage = () => {
                     src="/isgmain-1@2x.png"
                   />
                   <div className="self-stretch relative">
-                    <p className="m-0">{`A well-resourced infrastructure service provider in IE & Telecoms
-`}</p>
+                    <p className="m-0">{`A well-resourced infrastructure service provider in IE & Telecoms`}</p>
                     <p className="m-0">
                       Infra Services Ghana Ltd (ISG) is an infrastructure
                       service company providing logistic, deployment,
