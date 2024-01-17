@@ -11,6 +11,7 @@ import ContainerOurSubsidiar from "../components/container-our-subsidiar";
 import FrameComponent1 from "../components/frame-component1";
 import Transform from "../components/transform";
 import FrameComponent from "../components/frame-component";
+import router from "next/router";
 
 const AboutUSPage: NextPage = () => {
   const [isDrwawerMenuOpen, setDrwawerMenuOpen] = useState(false);
@@ -64,7 +65,6 @@ const AboutUSPage: NextPage = () => {
       }
     };
   }, []);
-
 
   const onNowWereTextClick = useCallback(() => {
     //Synced "homepage" to the project

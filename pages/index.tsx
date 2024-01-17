@@ -1,3 +1,4 @@
+import React from "react";
 import type { NextPage } from "next";
 import { useState, useCallback, useEffect } from "react";
 import NavDesktop from "../components/nav-desktop";
