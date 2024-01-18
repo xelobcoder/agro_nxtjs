@@ -103,7 +103,7 @@ const NavDesktop: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-[649px] flex flex-row items-center justify-end gap-[20px]">
+        <nav className="m-0 w-[649px] flex flex-row items-center justify-end gap-[20px]">
           <div
             className="w-[42px] flex flex-col items-start justify-start gap-[5px] cursor-pointer"
             onClick={onHomeCContainerClick}
@@ -114,7 +114,7 @@ const NavDesktop: NextPage = () => {
               </div>
             </button>
             <img
-              className="relative max-h-full w-10 object-cover"
+              className="relative w-10 h-0 object-cover hidden"
               alt=""
               src="/line-1@2x.png"
             />
@@ -163,7 +163,7 @@ const NavDesktop: NextPage = () => {
             <div className="relative rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[1]" />
             <div className="absolute my-0 mx-[!important] top-[19.7px] left-[0px] rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[2]" />
           </div>
-        </div>
+        </nav>
       </div>
     </nav>
   );

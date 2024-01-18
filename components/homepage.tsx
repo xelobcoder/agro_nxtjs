@@ -282,9 +282,9 @@ const Homepage1: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos15]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos14]:hover:flex">
                   <div
-                    className="oursubsidiarylogos15 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos14 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -395,9 +395,9 @@ const Homepage1: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos15]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos14]:hover:flex">
                   <div
-                    className="oursubsidiarylogos15 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos14 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -462,9 +462,9 @@ const Homepage1: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos15]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos14]:hover:flex">
                   <div
-                    className="oursubsidiarylogos15 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos14 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -537,9 +537,9 @@ const Homepage1: NextPage = () => {
                     src="/logo81@2x.png"
                   />
                 </div>
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[27.7px] [&_.oursubsidiarylogos18]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[27.7px] [&_.oursubsidiarylogos17]:hover:flex">
                   <div
-                    className="oursubsidiarylogos18 absolute top-[1.1px] left-[35.1px] w-[314.9px] h-[23.1px] hidden"
+                    className="oursubsidiarylogos17 absolute top-[1.1px] left-[35.1px] w-[314.9px] h-[23.1px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -599,9 +599,9 @@ const Homepage1: NextPage = () => {
                     src="/logo91@2x.png"
                   />
                 </div>
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[23.5px] [&_.oursubsidiarylogos19]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative w-[23.5px] [&_.oursubsidiarylogos18]:hover:flex">
                   <div
-                    className="oursubsidiarylogos19 absolute top-[0.9px] left-[29.8px] w-[267.6px] h-[19.6px] hidden"
+                    className="oursubsidiarylogos18 absolute top-[0.9px] left-[29.8px] w-[267.6px] h-[19.6px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img

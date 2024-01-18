@@ -52,6 +52,10 @@ const Careers: NextPage = () => {
     window.open("https://sfl.com.gh/");
   }, []);
 
+  const onContactUsContainer1Click = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
+
   const openDrwawerMenu = useCallback(() => {
     setDrwawerMenuOpen(true);
   }, []);
@@ -90,7 +94,7 @@ const Careers: NextPage = () => {
     };
   }, []);
 
-  const onFrameButton15Click = useCallback(() => {
+  const onFrameButton16Click = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
@@ -114,7 +118,7 @@ const Careers: NextPage = () => {
     );
   }, []);
 
-  const onFrameButton16Click = useCallback(() => {
+  const onFrameButton17Click = useCallback(() => {
     // Please sync "2-contactUs" to the project
   }, []);
 
@@ -130,7 +134,7 @@ const Careers: NextPage = () => {
     );
   }, []);
 
-  const onFrameButton17Click = useCallback(() => {
+  const onFrameButton18Click = useCallback(() => {
     // Please sync "2-contactUs" to the project
   }, []);
 
@@ -172,17 +176,20 @@ const Careers: NextPage = () => {
 
   return (
     <>
-      <div className="relative bg-darkolivegreen-600 w-full overflow-hidden flex flex-col items-center justify-start text-left text-2xl-8 text-black font-poppins">
-        <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
+      <main
+        className="relative bg-darkolivegreen-600 w-full overflow-hidden flex flex-col items-center justify-start"
+        id="careerMain"
+      >
+        <header className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
                   <div
-                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -287,9 +294,9 @@ const Careers: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
                   <div
-                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -332,7 +339,10 @@ const Careers: NextPage = () => {
                 </div>
               </div>
               <div className="flex-1 flex flex-row items-center justify-end gap-[30px]">
-                <button className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100">
+                <button
+                  className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100"
+                  onClick={onContactUsContainer1Click}
+                >
                   <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#b6c2f1,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
                     Contact Us
                   </div>
@@ -348,32 +358,32 @@ const Careers: NextPage = () => {
               </div>
             </div>
           </nav>
-        </div>
+        </header>
         <header className="self-stretch bg-gray-400 flex flex-col items-center justify-start text-center text-[135px] text-white font-poppins">
           <div className="self-stretch overflow-hidden flex flex-col items-center justify-center pt-[15px] px-0 pb-0 gap-[40px] bg-[url('/frame-939@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-color-dodge md:gap-[30px]">
             <div
               className="self-stretch flex flex-row items-center justify-center pt-[30px] px-0 pb-0 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
               data-animate-on-scroll
             >
-              <div
-                className="relative leading-[96.75%] font-extrabold inline-block w-[1746px] shrink-0 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1] sm:text-46xl"
+              <h1
+                className="m-0 relative text-inherit leading-[96.75%] font-extrabold font-inherit inline-block w-[1746px] shrink-0 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1] sm:text-46xl"
                 data-animate-on-scroll
               >
                 Careers
-              </div>
+              </h1>
             </div>
             <div className="self-stretch h-[97px] flex flex-col items-center justify-start md:hidden">
               <div className="relative bg-gainsboro-300 [filter:blur(221.8px)] w-[1724px] h-[222px]" />
             </div>
           </div>
         </header>
-        <div className="self-stretch flex flex-col items-start justify-start">
+        <section className="self-stretch flex flex-col items-start justify-start text-left text-2xl-8 text-black font-poppins">
           <div
             className="self-stretch [background:linear-gradient(102.82deg,_#113a09,_#113a09_33.71%,_#f0c024)] overflow-hidden flex flex-row items-start justify-center py-[60px] px-[200px] relative gap-[10px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] lg:hidden [&.animate]:lg:animate-[1s_ease_0s_1_normal_forwards_scale-up] lg:opacity-[1] md:hidden mq350small:hidden"
             data-animate-on-scroll
           >
             <div
-              className="absolute my-0 mx-[!important] top-[-161px] left-[1277px] rounded-[50%] bg-seagreen-400 [filter:blur(146.6px)] [backdrop-filter:blur(133.5px)] w-[387px] h-[387px] [&.animate]:animate-[15s_ease_0s_infinite_normal_forwards_bounce-in-top] opacity-[0] z-[0]"
+              className="absolute my-0 mx-[!important] top-[-161px] left-[1277px] rounded-[50%] bg-gray-2000 [filter:blur(146.6px)] [backdrop-filter:blur(133.5px)] w-[387px] h-[387px] [&.animate]:animate-[15s_ease_0s_infinite_normal_forwards_bounce-in-top] opacity-[0] z-[0]"
               data-animate-on-scroll
             />
             <div
@@ -381,18 +391,18 @@ const Careers: NextPage = () => {
               data-animate-on-scroll
             />
             <img
-              className="absolute my-0 mx-[!important] top-[27px] left-[-277px] w-[795.4px] h-[1191px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
+              className="absolute my-0 mx-[!important] top-[27px] left-[-277px] w-[795.4px] h-[1191px] object-cover [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
               alt=""
-              src="/bg-blur.svg"
+              src="/bg-blur@2x.png"
               data-animate-on-scroll
             />
             <div className="flex-1 flex flex-row items-start justify-center gap-[10px] z-[3]">
               <section className="flex-1 flex flex-col items-start justify-start py-5 px-0 gap-[20px] text-left text-61xl text-goldenrod-100 font-poppins">
                 <div className="self-stretch flex flex-row items-center justify-start py-[7px] px-2.5">
-                  <div className="flex-1 relative leading-[96.75%]">
+                  <h1 className="m-0 flex-1 relative text-inherit leading-[96.75%] font-inherit">
                     <p className="m-0 font-light">{`Work with `}</p>
                     <p className="m-0 font-extrabold">Us</p>
-                  </div>
+                  </h1>
                 </div>
                 <div className="w-[633px] h-[241px] flex flex-col items-start justify-start gap-[13px] text-11xl text-darkgray-300">
                   <div className="self-stretch flex flex-row items-center justify-start p-2.5">
@@ -423,67 +433,67 @@ const Careers: NextPage = () => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-row items-end justify-start">
-                  <button className="cursor-pointer p-0 bg-[transparent] relative rounded-[18.13px] box-border w-[172.2px] h-[42.1px] overflow-hidden shrink-0 border-[0.9px] border-solid border-darkslategray-600 hover:bg-gray-1000 hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
+                  <button className="cursor-pointer p-0 bg-[transparent] relative rounded-[18.13px] box-border w-[172.2px] h-[42.1px] overflow-hidden shrink-0 border-[0.9px] border-solid border-darkslategray-200 hover:bg-gray-1000 hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
                     <div className="absolute top-[9.1px] left-[48.5px] text-base-3 tracking-[0.04em] font-poppins text-gray-300 text-left inline-block w-[75.2px]">
                       General
                     </div>
                   </button>
-                  <button className="cursor-pointer p-0 bg-[transparent] flex-1 relative rounded-[18.13px] box-border h-[40.8px] border-[0.9px] border-solid border-seagreen-300 hover:bg-gray-900 hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
+                  <button className="cursor-pointer p-0 bg-[transparent] flex-1 relative rounded-[18.13px] box-border h-[40.8px] border-[0.9px] border-solid border-seagreen-100 hover:bg-gray-900 hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
                     <div className="absolute top-[-10.3px] left-[108.3px] w-[19.9px] h-[18.1px]">
                       <img
-                        className="absolute top-[0px] left-[0px] w-[19.9px] h-[18.1px]"
+                        className="absolute top-[0px] left-[0px] w-[19.9px] h-[18.1px] object-cover"
                         alt=""
-                        src="/group-9021.svg"
+                        src="/group-902@2x.png"
                       />
                       <div className="absolute top-[17.2px] left-[-48px] text-base-3 tracking-[0.04em] font-poppins text-gray-300 text-left">
                         Business
                       </div>
                     </div>
                   </button>
-                  <button className="cursor-pointer p-0 bg-[transparent] rounded-[18.13px] box-border w-[147.7px] h-[42.6px] flex flex-col items-start justify-start border-[0.9px] border-solid border-darkslategray-600 hover:bg-gray-1000 hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
+                  <button className="cursor-pointer p-0 bg-[transparent] rounded-[18.13px] box-border w-[147.7px] h-[42.6px] flex flex-col items-start justify-start border-[0.9px] border-solid border-darkslategray-200 hover:bg-gray-1000 hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
                     <div className="self-stretch relative text-base-3 tracking-[0.04em] font-poppins text-gray-300 text-center flex items-center justify-center h-[40.8px] shrink-0">
                       Careers
                     </div>
                   </button>
                 </div>
                 <input
-                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[27.19px] overflow-hidden flex flex-row items-center justify-start py-[15.407543182373047px] px-[24.47080421447754px] text-gray-1200 border-[0.9px] border-solid border-darkslategray-600"
+                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[27.19px] overflow-hidden flex flex-row items-center justify-start py-[15.407543182373047px] px-[24.47080421447754px] text-gray-300 border-[0.9px] border-solid border-darkslategray-200"
                   placeholder="Name"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[27.19px] overflow-hidden flex flex-row items-center justify-start py-[15.407543182373047px] px-[24.47080421447754px] text-gray-1200 border-[0.9px] border-solid border-darkslategray-600"
+                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[27.19px] overflow-hidden flex flex-row items-center justify-start py-[15.407543182373047px] px-[24.47080421447754px] text-gray-300 border-[0.9px] border-solid border-darkslategray-200"
                   placeholder="Phone"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[27.19px] overflow-hidden flex flex-row items-center justify-start py-[15.407543182373047px] px-[24.47080421447754px] text-gray-1200 border-[0.9px] border-solid border-darkslategray-600"
+                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[27.19px] overflow-hidden flex flex-row items-center justify-start py-[15.407543182373047px] px-[24.47080421447754px] text-gray-300 border-[0.9px] border-solid border-darkslategray-200"
                   placeholder="Email"
                   type="text"
                 />
-                <div className="self-stretch rounded-[26.28px] overflow-hidden flex flex-row items-center justify-start py-[10.8759126663208px] px-[15.407543182373047px] gap-[11.78px] border-[0.9px] border-solid border-darkslategray-600">
+                <div className="self-stretch rounded-[26.28px] overflow-hidden flex flex-row items-center justify-start py-[10.8759126663208px] px-[15.407543182373047px] gap-[11.78px] border-[0.9px] border-solid border-darkslategray-200">
                   <input
                     className="[border:none] [outline:none] font-poppins text-mini-5 bg-darkslategray-500 rounded-[5.44px] w-[119.6px] flex flex-row items-center justify-center py-[4.531630516052246px] px-[9.063261032104492px] box-border text-gray-1100"
                     placeholder="Choose file"
                     type="text"
                   />
                   <input
-                    className="[border:none] [outline:none] font-poppins text-smi-7 bg-[transparent] flex-1 relative tracking-[0.04em] text-gray-1200 text-left"
+                    className="[border:none] [outline:none] font-poppins text-smi-7 bg-[transparent] flex-1 relative tracking-[0.04em] text-gray-300 text-left"
                     placeholder="No file chosen"
                     type="text"
                   />
                 </div>
                 <input
-                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[19.94px] box-border h-[142.3px] overflow-hidden shrink-0 flex flex-row items-start justify-start py-[14.501216888427734px] px-[24.47080421447754px] text-gray-1200 border-[0.9px] border-solid border-darkslategray-600"
+                  className="[outline:none] font-poppins text-mini-5 bg-[transparent] self-stretch rounded-[19.94px] box-border h-[142.3px] overflow-hidden shrink-0 flex flex-row items-start justify-start py-[14.501216888427734px] px-[24.47080421447754px] text-gray-300 border-[0.9px] border-solid border-darkslategray-200"
                   placeholder="Type your message here"
                   type="text"
                 />
-                <div className="self-stretch flex flex-col items-center justify-start text-base-3 text-white">
-                  <div className="rounded-[22.66px] [background:linear-gradient(102.84deg,_#449341,_#bdb32c)] flex flex-row items-center justify-center py-[9.063261032104492px] px-[22.658151626586914px]">
-                    <div className="relative tracking-[0.04em] uppercase font-semibold">
+                <div className="self-stretch flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] py-[9.063261032104492px] px-[22.658151626586914px] bg-[transparent] rounded-[22.66px] [background:linear-gradient(102.84deg,_#449341,_#bdb32c)] flex flex-row items-center justify-center">
+                    <div className="relative text-base-3 tracking-[0.04em] uppercase font-semibold font-poppins text-white text-left">
                       send
                     </div>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
@@ -1028,8 +1038,8 @@ const Careers: NextPage = () => {
               data-animate-on-scroll
             />
           </div>
-        </div>
-        <div className="flex flex-col items-center justify-start text-15xl text-seagreen-100">
+        </section>
+        <section className="flex flex-col items-center justify-start text-left text-15xl text-seagreen-100 font-poppins">
           <div
             className="self-stretch flex flex-col items-center justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] lg:hidden"
             data-animate-on-scroll
@@ -1191,7 +1201,7 @@ const Careers: NextPage = () => {
                   </div>
                   <button
                     className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[246.4px] h-[63px] flex flex-row items-center justify-center box-border"
-                    onClick={onFrameButton15Click}
+                    onClick={onFrameButton16Click}
                   >
                     <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
                       GET IN TOUCH
@@ -1325,30 +1335,30 @@ const Careers: NextPage = () => {
                     <div className="my-0 mx-[!important] absolute top-[39px] left-[-1px] flex flex-row items-end justify-start gap-[17px] z-[1]">
                       <div className="rounded-[31.88px] bg-darkgray-400 w-[46.3px] h-[46.8px] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[19.9257869720459px] box-border">
                         <img
-                          className="relative w-[13.9px] h-[15px]"
+                          className="relative w-[13.9px] h-[15px] object-cover"
                           alt=""
-                          src="/group.svg"
+                          src="/group@2x.png"
                         />
                       </div>
                       <div className="rounded-[36.86px] bg-darkgray-400 w-[47.3px] h-[48.8px] flex flex-row items-center justify-center py-[19.9257869720459px] px-[24.90723419189453px] box-border">
                         <img
-                          className="relative w-[7.8px] h-[15px]"
+                          className="relative w-[7.8px] h-[15px] object-cover"
                           alt=""
-                          src="/vector.svg"
+                          src="/vector@2x.png"
                         />
                       </div>
                       <div className="rounded-[58.28px] bg-darkgray-400 w-[45.3px] h-[45.3px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[19.9257869720459px] px-[17.4350643157959px] box-border">
                         <img
-                          className="relative w-[16.7px] h-3.5"
+                          className="relative w-[16.7px] h-3.5 object-cover"
                           alt=""
-                          src="/vector1.svg"
+                          src="/vector@2x.png"
                         />
                       </div>
                       <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
                         <img
-                          className="relative w-[16.1px] h-[15px]"
+                          className="relative w-[16.1px] h-[15px] object-cover"
                           alt=""
-                          src="/vector2.svg"
+                          src="/vector@2x.png"
                         />
                       </div>
                     </div>
@@ -1361,14 +1371,14 @@ const Careers: NextPage = () => {
                 <div className="self-stretch relative box-border h-px border-t-[1px] border-solid border-white" />
               </div>
             </section>
-            <div className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-center text-base text-white lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
+            <footer className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-center text-base text-white font-poppins lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
               <b className="relative tracking-[0.9px] leading-[46px] capitalize inline-block w-[406px] h-7 shrink-0">
                 No 24 Maseru Street,East Legon -Accra
               </b>
               <b className="relative tracking-[0.9px] leading-[46px] capitalize inline-block w-[533px] h-7 shrink-0">
                 © Copyright 2023 Agrospectrum Ltd. All Rights Reserved.
               </b>
-            </div>
+            </footer>
           </div>
           <div
             className="relative w-[1199.7px] h-[511px] hidden text-4xl-6 lg:flex [&.animate]:lg:animate-[1s_ease_0s_1_normal_forwards_scale-up] lg:opacity-[1] md:hidden"
@@ -1381,17 +1391,17 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[13.2px] left-[1327.5px] w-[43px] h-[43px] object-cover"
                       alt=""
-                      src="/download-2@2x.png"
+                      src="/download-215@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[218.7px] w-[72.2px] h-[47.2px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-530@2x.png"
                     />
                     <img
                       className="absolute top-[4.9px] left-[1219.9px] w-[47.2px] h-[52.1px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download15@2x.png"
                     />
                     <img
                       className="absolute top-[10.4px] left-[0px] w-[58.3px] h-[48.6px] object-cover"
@@ -1401,12 +1411,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[16.7px] left-[112.5px] w-[41px] h-[40.3px] object-cover"
                       alt=""
-                      src="/download-3@2x.png"
+                      src="/download-315@2x.png"
                     />
                     <img
                       className="absolute top-[9px] left-[336px] w-[117.3px] h-[51.4px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture15@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[493.6px] w-[205.5px] h-[43px] object-cover"
@@ -1416,7 +1426,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[20.1px] left-[728.3px] w-[95.8px] h-[32.6px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images15@2x.png"
                     />
                     <img
                       className="absolute top-[9.7px] left-[849.1px] w-[86.1px] h-[49.3px] object-cover"
@@ -1426,29 +1436,29 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[969.2px] w-[69.4px] h-[69.4px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-115@2x.png"
                     />
                     <img
                       className="absolute top-[12.5px] left-[1075.5px] w-[113.9px] h-[45.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-115@2x.png"
                     />
                   </div>
                   <div className="absolute top-[0px] left-[1412.2px] w-[1370.5px] h-[69.4px]">
                     <img
                       className="absolute top-[13.2px] left-[1327.5px] w-[43px] h-[43px] object-cover"
                       alt=""
-                      src="/download-2@2x.png"
+                      src="/download-217@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[218.7px] w-[72.2px] h-[47.2px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-531@2x.png"
                     />
                     <img
                       className="absolute top-[4.9px] left-[1219.9px] w-[47.2px] h-[52.1px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download17@2x.png"
                     />
                     <img
                       className="absolute top-[10.4px] left-[0px] w-[58.3px] h-[48.6px] object-cover"
@@ -1458,12 +1468,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[16.7px] left-[112.5px] w-[41px] h-[40.3px] object-cover"
                       alt=""
-                      src="/download-3@2x.png"
+                      src="/download-317@2x.png"
                     />
                     <img
                       className="absolute top-[9px] left-[336px] w-[117.3px] h-[51.4px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture16@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[493.6px] w-[205.5px] h-[43px] object-cover"
@@ -1473,7 +1483,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[20.1px] left-[728.3px] w-[95.8px] h-[32.6px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images17@2x.png"
                     />
                     <img
                       className="absolute top-[9.7px] left-[849.1px] w-[86.1px] h-[49.3px] object-cover"
@@ -1488,7 +1498,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[12.5px] left-[1075.5px] w-[113.9px] h-[45.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-116@2x.png"
                     />
                   </div>
                 </div>
@@ -1531,7 +1541,7 @@ const Careers: NextPage = () => {
                   </div>
                   <button
                     className="cursor-pointer [border:none] p-[6.942927360534668px] bg-[transparent] flex flex-col items-start justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    onClick={onFrameButton16Click}
+                    onClick={onFrameButton17Click}
                     data-animate-on-scroll
                   >
                     <div className="rounded-[28.15px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[171.1px] h-[43.7px] flex flex-row items-center justify-center py-[17.322946548461914px] px-[34.64589309692383px] box-border">
@@ -1868,7 +1878,7 @@ const Careers: NextPage = () => {
                   </div>
                   <button
                     className="cursor-pointer [border:none] p-[5.55555534362793px] bg-[transparent] flex flex-col items-start justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    onClick={onFrameButton17Click}
+                    onClick={onFrameButton18Click}
                     data-animate-on-scroll
                   >
                     <div className="rounded-[22.52px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[136.9px] h-[35px] flex flex-row items-center justify-center py-[13.861384391784668px] px-[27.722768783569336px] box-border">
@@ -2054,12 +2064,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[11.6px] left-[1163.4px] w-[37.7px] h-[37.7px] object-cover"
                     alt=""
-                    src="/download-2@2x.png"
+                    src="/download-218@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[191.7px] w-[63.3px] h-[41.4px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-534@2x.png"
                   />
                   <img
                     className="absolute top-[4.3px] left-[1069.1px] w-[41.4px] h-[45.6px] object-cover"
@@ -2069,7 +2079,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[9.1px] left-[0px] w-[51.1px] h-[42.6px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-536@2x.png"
                   />
                   <img
                     className="absolute top-[14.6px] left-[98.6px] w-[35.9px] h-[35.3px] object-cover"
@@ -2079,7 +2089,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[7.9px] left-[294.5px] w-[102.8px] h-[45px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture18@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[432.6px] w-[180.1px] h-[37.7px] object-cover"
@@ -2089,7 +2099,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[17.6px] left-[638.3px] w-[84px] h-[28.6px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images18@2x.png"
                   />
                   <img
                     className="absolute top-[8.5px] left-[744.2px] w-[75.5px] h-[43.2px] object-cover"
@@ -2099,7 +2109,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[849.4px] w-[60.8px] h-[60.8px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-116@2x.png"
                   />
                   <img
                     className="absolute top-[11px] left-[942.5px] w-[99.8px] h-[39.6px] object-cover"
@@ -2111,22 +2121,22 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[11.6px] left-[1163.4px] w-[37.7px] h-[37.7px] object-cover"
                     alt=""
-                    src="/download-2@2x.png"
+                    src="/download-221@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[191.7px] w-[63.3px] h-[41.4px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-540@2x.png"
                   />
                   <img
                     className="absolute top-[4.3px] left-[1069.1px] w-[41.4px] h-[45.6px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download18@2x.png"
                   />
                   <img
                     className="absolute top-[9.1px] left-[0px] w-[51.1px] h-[42.6px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-541@2x.png"
                   />
                   <img
                     className="absolute top-[14.6px] left-[98.6px] w-[35.9px] h-[35.3px] object-cover"
@@ -2136,7 +2146,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[7.9px] left-[294.5px] w-[102.8px] h-[45px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture19@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[432.6px] w-[180.1px] h-[37.7px] object-cover"
@@ -2146,7 +2156,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[17.6px] left-[638.3px] w-[84px] h-[28.6px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images20@2x.png"
                   />
                   <img
                     className="absolute top-[8.5px] left-[744.2px] w-[75.5px] h-[43.2px] object-cover"
@@ -2156,12 +2166,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[849.4px] w-[60.8px] h-[60.8px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-118@2x.png"
                   />
                   <img
                     className="absolute top-[11px] left-[942.5px] w-[99.8px] h-[39.6px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-118@2x.png"
                   />
                 </div>
               </div>
@@ -2378,12 +2388,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[10px] left-[157.2px] w-[51.9px] h-[33.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-542@2x.png"
                   />
                   <img
                     className="absolute top-[3.5px] left-[876.9px] w-[33.9px] h-[37.4px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download21@2x.png"
                   />
                   <img
                     className="absolute top-[7.5px] left-[0px] w-[41.9px] h-[34.9px] object-cover"
@@ -2398,7 +2408,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[6.5px] left-[241.6px] w-[84.3px] h-[36.9px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture21@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[354.8px] w-[147.7px] h-[30.9px] object-cover"
@@ -2423,7 +2433,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[9px] left-[773.1px] w-[81.8px] h-[32.4px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-119@2x.png"
                   />
                 </div>
                 <div className="absolute top-[0px] left-[1015.1px] w-[985.2px] h-[49.9px]">
@@ -2435,17 +2445,17 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[10px] left-[157.2px] w-[51.9px] h-[33.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-543@2x.png"
                   />
                   <img
                     className="absolute top-[3.5px] left-[876.9px] w-[33.9px] h-[37.4px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download22@2x.png"
                   />
                   <img
                     className="absolute top-[7.5px] left-[0px] w-[41.9px] h-[34.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-544@2x.png"
                   />
                   <img
                     className="absolute top-[12px] left-[80.9px] w-[29.4px] h-[28.9px] object-cover"
@@ -2460,17 +2470,17 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[10px] left-[354.8px] w-[147.7px] h-[30.9px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color15@2x.png"
                   />
                   <img
                     className="absolute top-[14.5px] left-[523.5px] w-[68.9px] h-[23.5px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images21@2x.png"
                   />
                   <img
                     className="absolute top-[7px] left-[610.4px] w-[61.9px] h-[35.4px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-615@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[696.7px] w-[49.9px] h-[49.9px] object-cover"
@@ -2480,7 +2490,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[9px] left-[773.1px] w-[81.8px] h-[32.4px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-122@2x.png"
                   />
                 </div>
               </div>
@@ -2679,8 +2689,8 @@ const Careers: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       {isDrwawerMenuOpen && (
         <PortalDrawer
           overlayColor="rgba(113, 113, 113, 0.3)"

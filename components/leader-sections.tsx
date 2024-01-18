@@ -41,7 +41,7 @@ const LeaderSections: NextPage = () => {
       <img
         className="absolute my-0 mx-[!important] top-[238px] left-[215px] w-[1154.5px] h-[592.7px] object-contain z-[0]"
         alt=""
-        src="/vector-26.svg"
+        src="/vector-26@2x.png"
       />
       <div className="flex-1 overflow-hidden flex flex-row items-center justify-center min-w-[430px] z-[1] lg:flex-col">
         <div className="flex-1 flex flex-col items-center justify-start gap-[21px] lg:flex-[unset] lg:self-stretch">

@@ -67,17 +67,7 @@ const Container: NextPage = () => {
             >
               <div className="flex-1 relative">
                 <p className="m-0"></p>
-                <p className="m-0">
-                  Agrospectrum's commitment extends to sustainability and
-                  innovation, emphasizing climate-smart agriculture to help
-                  farmers adapt to changing weather patterns. The company
-                  employs diverse delivery channels, including SMS, voice
-                  messages, and other technological means, to ensure widespread
-                  access to its services. In summary, Agrospectrum stands as a
-                  catalyst for positive change, connecting futures and reshaping
-                  the agricultural landscape with a holistic and inclusive
-                  approach that empowers farmers and transforms the sector.
-                </p>
+                <p className="m-0">{`Agrospectrum's commitment extends to sustainability and innovation, emphasizing climate-smart agriculture to help farmers adapt to changing weather patterns. `}</p>
               </div>
             </div>
           </div>

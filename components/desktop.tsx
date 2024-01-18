@@ -91,9 +91,9 @@ const Desktop: NextPage = () => {
       </div>
       <div className="self-stretch overflow-hidden flex flex-row items-start justify-center py-[59px] px-[666px]">
         <img
-          className="relative rounded-3xl w-[35px] h-[81px] overflow-hidden shrink-0"
+          className="relative rounded-3xl w-[35px] h-[81px] overflow-hidden shrink-0 object-cover"
           alt=""
-          src="/frame-7.svg"
+          src="/frame-7@2x.png"
         />
       </div>
     </section>

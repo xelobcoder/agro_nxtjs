@@ -6,9 +6,9 @@ const Faqs1: NextPage = () => {
     <div className="self-stretch flex flex-col items-start justify-start gap-[15px] text-left text-5xl text-white font-poppins">
       <div className="self-stretch flex flex-col items-center justify-start gap-[16px]">
         <div className="self-stretch flex flex-row items-center justify-start gap-[193px]">
-          <b className="flex-1 relative leading-[32px]">
+          <h3 className="m-0 flex-1 relative text-inherit leading-[32px] font-bold font-inherit">
             What does the platform do
-          </b>
+          </h3>
           <img
             className="relative w-[159px] h-12 object-cover"
             alt=""

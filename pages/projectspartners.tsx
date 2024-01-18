@@ -116,17 +116,20 @@ const Projectspartners: NextPage = () => {
 
   return (
     <>
-      <div className="relative bg-darkolivegreen-1100 w-full overflow-hidden flex flex-col items-center justify-start text-center text-21xl text-darkslategray-200 font-poppins">
-        <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
+      <main
+        className="relative bg-darkolivegreen-1100 w-full overflow-hidden flex flex-col items-center justify-start"
+        id={`7projects&partermain`}
+      >
+        <header className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos7]:hover:flex">
                   <div
-                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos7 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -168,7 +171,7 @@ const Projectspartners: NextPage = () => {
                   />
                 </div>
               </div>
-              <div className="w-[649px] flex flex-row items-center justify-end gap-[20px]">
+              <nav className="m-0 w-[649px] flex flex-row items-center justify-end gap-[20px]">
                 <div className="w-[42px] flex flex-col items-start justify-start gap-[5px]">
                   <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[42px] h-[18px] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
                     <div className="absolute top-[-5.56%] left-[0%] text-smi tracking-[0.32px] leading-[19.2px] font-medium font-poppins text-white text-left">
@@ -222,7 +225,7 @@ const Projectspartners: NextPage = () => {
                   <div className="relative rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[1]" />
                   <div className="absolute my-0 mx-[!important] top-[19.7px] left-[0px] rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[2]" />
                 </div>
-              </div>
+              </nav>
             </div>
           </nav>
           <nav
@@ -231,9 +234,9 @@ const Projectspartners: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos7]:hover:flex">
                   <div
-                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos7 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -292,12 +295,14 @@ const Projectspartners: NextPage = () => {
               </div>
             </div>
           </nav>
-        </div>
-        <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners1@3x.png')] bg-cover bg-no-repeat bg-[top] lg:items-center lg:justify-start sm:flex">
+        </header>
+        <section className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners1@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-21xl text-darkslategray-200 font-poppins lg:items-center lg:justify-start sm:flex">
           <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 gap-[10px] bg-[url('/frame-12111@3x.png')] bg-cover bg-no-repeat bg-[top]">
             <div className="self-stretch flex flex-col items-center justify-start py-[30px] px-0 gap-[42px]">
               <div className="self-stretch flex flex-col items-center justify-start">
-                <b className="relative">Our Projects</b>
+                <h1 className="m-0 relative text-inherit font-bold font-inherit">
+                  Our Projects
+                </h1>
                 <div className="relative text-lgi leading-[100%] font-extrabold text-darkolivegreen-100">
                   The nations’s best digital Agric Platform
                 </div>
@@ -464,7 +469,7 @@ const Projectspartners: NextPage = () => {
               </section>
               <div className="self-stretch flex flex-row items-end justify-between py-0 px-[400px]">
                 <img
-                  className="relative w-[43.8px] h-[16.4px]"
+                  className="relative w-[43.8px] h-[16.4px] object-cover"
                   alt=""
                   src="/frame-1210.svg"
                 />
@@ -564,8 +569,8 @@ const Projectspartners: NextPage = () => {
               </section>
             </div>
           </div>
-        </div>
-        <div className="self-stretch overflow-hidden flex flex-col items-start justify-start">
+        </section>
+        <section className="self-stretch overflow-hidden flex flex-col items-start justify-start">
           <div className="relative [background:linear-gradient(90.24deg,_#fbfbfb_17.92%,_#12500c)] shadow-[0px_4px_62px_rgba(0,_0,_0,_0.25)] [backdrop-filter:blur(60px)] w-[1750px] h-[107px] overflow-hidden shrink-0">
             <div className="absolute top-[-5px] left-[63px] w-[4008px] h-[100px]">
               <div className="absolute top-[0px] left-[0px] w-[1974px] h-[100px]">
@@ -684,7 +689,7 @@ const Projectspartners: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <footer className="self-stretch bg-darkolivegreen-600 overflow-hidden flex flex-col items-center justify-start py-[30px] px-20 text-left text-15xl text-seagreen-100 font-poppins lg:self-stretch lg:w-auto">
           <div
             className="self-stretch flex flex-row items-start justify-between py-10 px-0 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] lg:h-auto lg:flex-col lg:pl-0 lg:box-border"
@@ -858,30 +863,30 @@ const Projectspartners: NextPage = () => {
                 >
                   <div className="rounded-[31.88px] bg-darkgray-400 w-[46.3px] h-[46.8px] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[19.9257869720459px] box-border">
                     <img
-                      className="relative w-[13.9px] h-[15px]"
+                      className="relative w-[13.9px] h-[15px] object-cover"
                       alt=""
-                      src="/group.svg"
+                      src="/group@2x.png"
                     />
                   </div>
                   <div className="rounded-[36.86px] bg-darkgray-400 w-[47.3px] h-[48.8px] flex flex-row items-center justify-center py-[19.9257869720459px] px-[24.90723419189453px] box-border">
                     <img
-                      className="relative w-[7.8px] h-[15px]"
+                      className="relative w-[7.8px] h-[15px] object-cover"
                       alt=""
-                      src="/vector.svg"
+                      src="/vector@2x.png"
                     />
                   </div>
                   <div className="rounded-[58.28px] bg-darkgray-400 w-[45.3px] h-[45.3px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[19.9257869720459px] px-[17.4350643157959px] box-border">
                     <img
-                      className="relative w-[16.7px] h-3.5"
+                      className="relative w-[16.7px] h-3.5 object-cover"
                       alt=""
-                      src="/vector1.svg"
+                      src="/vector@2x.png"
                     />
                   </div>
                   <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
                     <img
-                      className="relative w-[16.1px] h-[15px]"
+                      className="relative w-[16.1px] h-[15px] object-cover"
                       alt=""
-                      src="/vector2.svg"
+                      src="/vector@2x.png"
                     />
                   </div>
                 </div>
@@ -889,7 +894,7 @@ const Projectspartners: NextPage = () => {
             </div>
           </div>
         </footer>
-      </div>
+      </main>
       {isDrwawerMenuOpen && (
         <PortalDrawer
           overlayColor="rgba(113, 113, 113, 0.3)"

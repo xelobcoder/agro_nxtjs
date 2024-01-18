@@ -28,12 +28,27 @@ const AboutUSPage: NextPage = () => {
     window.open("https://sfl.com.gh/");
   }, []);
 
+  const onLgoFrameContainerClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
+  const onLinkAboutClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
 
   const onAboutUsClick = useCallback(() => {
     router.push("/about-u-s-page");
   }, [router]);
 
+  const onLinkPricingClick = useCallback(() => {
+    router.push("/about-u-s-page");
+  }, [router]);
+
   const onProducAndServicesClick = useCallback(() => {
+    router.push("/product-services");
+  }, [router]);
+
+  const onLinkPricing2Click = useCallback(() => {
     router.push("/product-services");
   }, [router]);
 
@@ -46,6 +61,10 @@ const AboutUSPage: NextPage = () => {
   }, [router]);
 
   const onContactUsContainerClick = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
+
+  const onContactUsTextClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
@@ -99,24 +118,31 @@ const AboutUSPage: NextPage = () => {
     };
   }, []);
 
-  const onNowWereTextClick = useCallback(() => {
-    //Synced "homepage" to the project
-    router.push("/careers");
+  const onGroupClick = useCallback(() => {
+    // Please sync "1-homepage" to the project
+  }, []);
+
+  const onGroupIconClick = useCallback(() => {
+    // Please sync "1-homepage" to the project
+  }, []);
+
+  const onFrameButtonClick = useCallback(() => {
+    router.push("/contact-p-age");
   }, [router]);
 
   return (
     <>
       <div className="relative bg-darkolivegreen-500 w-full overflow-hidden flex flex-col items-start justify-start text-center text-base text-white font-poppins">
-        <div className="self-stretch bg-darkslategray-800 [backdrop-filter:blur(500px)] flex flex-col items-start justify-start">
+        <header className="self-stretch bg-darkslategray-800 [backdrop-filter:blur(500px)] flex flex-col items-start justify-start">
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
                   <div
-                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -149,7 +175,10 @@ const AboutUSPage: NextPage = () => {
                     src="/images-2-12@2x.png"
                   />
                 </button>
-                <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
+                <div
+                  className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px] cursor-pointer"
+                  onClick={onLgoFrameContainerClick}
+                >
                   <img
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
@@ -158,9 +187,12 @@ const AboutUSPage: NextPage = () => {
                   />
                 </div>
               </div>
-              <div className="w-[649px] flex flex-row items-center justify-end gap-[20px]">
+              <nav className="m-0 w-[649px] flex flex-row items-center justify-end gap-[20px]">
                 <div className="w-[42px] flex flex-col items-start justify-start gap-[5px]">
-                  <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[42px] h-[18px] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
+                  <button
+                    className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[42px] h-[18px] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+                    onClick={onLinkAboutClick}
+                  >
                     <div className="absolute top-[-5.56%] left-[0%] text-smi tracking-[0.32px] leading-[19.2px] font-medium font-poppins text-white text-left">
                       Home
                     </div>
@@ -175,7 +207,10 @@ const AboutUSPage: NextPage = () => {
                   className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-center justify-center hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
                   onClick={onAboutUsClick}
                 >
-                  <div className="relative text-smi tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left">
+                  <div
+                    className="relative text-smi tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left cursor-pointer"
+                    onClick={onLinkPricingClick}
+                  >
                     About Us
                   </div>
                 </button>
@@ -183,7 +218,10 @@ const AboutUSPage: NextPage = () => {
                   className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-center justify-center"
                   onClick={onProducAndServicesClick}
                 >
-                  <div className="relative text-smi tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left">{`Product & Services`}</div>
+                  <div
+                    className="relative text-smi tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left cursor-pointer"
+                    onClick={onLinkPricing2Click}
+                  >{`Product & Services`}</div>
                 </button>
                 <button
                   className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-center justify-center"
@@ -203,7 +241,10 @@ const AboutUSPage: NextPage = () => {
                   className="cursor-pointer py-3 px-5 bg-[transparent] flex-1 rounded-31xl flex flex-row items-center justify-between border-[1px] border-solid border-yellowgreen-100 hover:bg-gray-1600"
                   onClick={onContactUsContainerClick}
                 >
-                  <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fff,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
+                  <div
+                    className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fff,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center cursor-pointer"
+                    onClick={onContactUsTextClick}
+                  >
                     Contact Us
                   </div>
                 </button>
@@ -212,7 +253,7 @@ const AboutUSPage: NextPage = () => {
                   <div className="relative rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[1]" />
                   <div className="absolute my-0 mx-[!important] top-[19.7px] left-[0px] rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[2]" />
                 </div>
-              </div>
+              </nav>
             </div>
           </nav>
           <nav
@@ -221,9 +262,9 @@ const AboutUSPage: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
                   <div
-                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -280,9 +321,80 @@ const AboutUSPage: NextPage = () => {
                 </div>
               </div>
             </div>
+          </nav>
+        </header>
+        <header className="self-stretch h-[990px] overflow-hidden shrink-0 flex flex-col items-center justify-start gap-[10px] bg-[url('/why-work-with-us@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-26xl text-goldenrod-600 font-poppins sm:hidden mq350small:hidden">
+          <section className="self-stretch flex flex-row items-center justify-start pt-5 px-0 pb-0 gap-[5px] lg:hidden">
+            <img
+              className="flex-1 rounded-mini max-w-full overflow-hidden max-h-full object-cover hover:animate-[2s_ease_0s_1_normal_none_shadow-drop-bottom] hover:opacity-[1]"
+              alt=""
+              src="/frame-112@2x.png"
+            />
+            <img
+              className="flex-1 rounded-mini max-w-full overflow-hidden max-h-full object-cover hover:animate-[2s_ease_0s_1_normal_none_shadow-drop-bottom] hover:opacity-[1]"
+              alt=""
+              src="/frame-113@2x.png"
+            />
+            <div className="rounded-xl flex flex-row items-center justify-center">
+              <img
+                className="relative rounded-xl w-[550.3px] h-[669px] object-cover z-[0] hover:animate-[2s_ease_0s_1_normal_none_shadow-drop-bottom] hover:opacity-[1]"
+                alt=""
+                src="/mr-castro-awards-1@2x.png"
+              />
+            </div>
+            <img
+              className="rounded-mini max-w-full overflow-hidden max-h-full object-cover hover:animate-[2s_ease_0s_infinite_normal_none_shadow-drop-bottom] hover:opacity-[1]"
+              alt=""
+              src="/frame-114@2x.png"
+            />
+            <img
+              className="flex-1 rounded-mini max-w-full overflow-hidden max-h-full object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_shadow-drop-bottom] opacity-[1]"
+              alt=""
+              src="/frame-115@2x.png"
+              data-animate-on-scroll
+            />
+          </section>
+          <section className="w-[1771px] h-[630px] hidden flex-row items-center justify-start py-0 px-80 box-border gap-[28px] lg:flex">
+            <img
+              className="flex-1 relative max-w-full overflow-hidden h-[420px] object-cover"
+              alt=""
+              src="/frame-1131@2x.png"
+            />
+            <img
+              className="relative w-[441px] h-[541px] object-cover"
+              alt=""
+              src="/mr-castro-awards-11@2x.png"
+            />
+            <img
+              className="relative w-[269px] h-[365px] overflow-hidden shrink-0 object-cover"
+              alt=""
+              src="/frame-1141@2x.png"
+            />
+          </section>
+          <div className="self-stretch flex flex-col items-center justify-start">
+            <img
+              className="relative w-[347px] h-[54px]"
+              alt=""
+              src="/group-919.svg"
+            />
+          </div>
+          <div className="self-stretch flex flex-row items-center justify-center py-[30px] px-0 gap-[80px]">
+            <div className="relative leading-[96.75%] font-light">Games</div>
+            <div className="relative leading-[96.75%] font-light">
+              Researches
+            </div>
+            <div className="relative leading-[96.75%] font-light">Events</div>
+            <h1 className="m-0 relative text-41xl leading-[96.75%] font-bold font-inter text-goldenrod-200 hover:animate-[1s_ease_0s_1_normal_none_shadow-pop-tr] hover:opacity-[1]">
+              Awards
+            </h1>
+            <div className="relative leading-[96.75%] font-light">
+              Conferences
+            </div>
+            <div className="relative leading-[96.75%] font-light">Seminars</div>
+            <div className="relative leading-[96.75%] font-light">Games</div>
           </div>
         </header>
-        <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
+        <section className="self-stretch flex flex-col items-start justify-start gap-[10px]">
           <section className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[51px] px-[65px] relative bg-[url('/team-faq-cta@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-base text-goldenrod-200 font-poppins sm:hidden mq350small:hidden">
             <div className="flex-1 flex flex-col items-center justify-start pt-5 px-20 pb-[50px] gap-[40px] z-[0] sm:gap-[20px] sm:p-[15px] sm:box-border">
               <b className="self-stretch relative tracking-[3px] leading-[32px] uppercase hover:animate-[2s_ease_0s_1_normal_none_shadow-drop-bottom] hover:opacity-[1]">{`Blog & News`}</b>
@@ -858,8 +970,8 @@ const AboutUSPage: NextPage = () => {
               />
             </div>
           </section>
-        </div>
-        <div className="w-[1701px] overflow-hidden flex flex-col items-start justify-start">
+        </section>
+        <section className="w-[1701px] overflow-hidden flex flex-col items-start justify-start">
           <div className="relative [background:linear-gradient(90.24deg,_#fbfbfb_17.92%,_#12500c)] shadow-[0px_4px_62px_rgba(0,_0,_0,_0.25)] [backdrop-filter:blur(60px)] w-[1750px] h-[107px] overflow-hidden shrink-0">
             <div className="absolute top-[-5px] left-[63px] w-[4008px] h-[100px]">
               <div className="absolute top-[0px] left-[0px] w-[1974px] h-[100px]">
@@ -979,24 +1091,49 @@ const AboutUSPage: NextPage = () => {
             </div>
           </div>
         </section>
-        <Container />
-        <Leading />
-        <LeaderSections />
-        <ContainerOurSubsidiar />
-        <FrameComponent1 />
-        <footer className="self-stretch bg-darkolivegreen-600 overflow-hidden flex flex-row items-center justify-center p-[30px] box-border max-w-full text-left text-mini text-seagreen-100 font-poppins mq825:pt-5 mq825:pb-5 mq825:box-border">
+        <footer className="self-stretch bg-darkolivegreen-600 overflow-hidden flex flex-col items-center justify-start py-[30px] px-20 text-left text-15xl text-seagreen-100 font-poppins lg:self-stretch lg:w-auto">
           <div
             className="w-[1590px] flex flex-row items-start justify-start py-10 px-0 box-border gap-[1px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] max-w-full mq825:pt-[26px] mq825:pb-[26px] mq825:box-border mq1500:flex-wrap"
             data-animate-on-scroll
           >
-            <Transform />
-            <div
-              className="flex-1 flex flex-col items-start justify-start gap-[40px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] min-w-[386px] min-h-[397px] max-w-full mq825:gap-[20px] mq825:min-w-full mq1500:flex-1 mq1500:min-h-[auto]"
-              data-animate-on-scroll
-            >
-              <div className="self-stretch flex flex-row items-start justify-start gap-[2px] mq825:flex-wrap mq1500:justify-center">
-                <div className="flex-1 flex flex-col items-start justify-between min-w-[192px]">
-                  <div className="relative tracking-[0.9px] leading-[46px] uppercase font-medium inline-block w-[95px]">
+            <div className="flex-1 flex flex-col items-start justify-start pt-5 px-0 pb-0 gap-[8px] text-white lg:flex-[unset] lg:self-stretch">
+              <div className="self-stretch flex flex-row items-center justify-start p-2.5">
+                <div className="relative tracking-[0.9px] leading-[46px] uppercase">
+                  TRANSFORM with
+                </div>
+              </div>
+              <div className="self-stretch flex flex-row items-center justify-start p-2.5 text-26xl">
+                <div className="relative tracking-[0.9px] leading-[46px] uppercase font-black">
+                  AGROSPECTRUM
+                </div>
+              </div>
+              <div className="self-stretch flex flex-row items-start justify-start pt-0 px-2.5 pb-2.5 text-xl text-gainsboro-200">
+                <div className="flex-1 relative leading-[32px]">
+                  <p className="m-0">{`Transform your agricultural practices and `}</p>
+                  <p className="m-0">
+                    <span className="font-poppins">cultivate success with</span>
+                    <b className="font-poppins"> industry's best</b>
+                    <span>—empowering farmers, streamlining operations,</span>
+                  </p>
+                  <p className="m-0">
+                    <span>{`and fostering a connected `}</span>
+                    <b className="font-poppins">global community</b>
+                  </p>
+                </div>
+              </div>
+              <button
+                className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[246.4px] h-[63px] flex flex-row items-center justify-center box-border"
+                onClick={onFrameButtonClick}
+              >
+                <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
+                  GET IN TOUCH
+                </div>
+              </button>
+            </div>
+            <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[40px] text-mini lg:flex-[unset] lg:self-stretch">
+              <div className="self-stretch flex flex-row items-start justify-start gap-[2px]">
+                <div className="flex-1 h-[205px] flex flex-col items-start justify-between">
+                  <div className="relative tracking-[0.9px] leading-[46px] uppercase font-medium inline-block w-[95px] h-[46px] shrink-0">
                     business
                   </div>
                   <div className="self-stretch h-36 flex flex-col items-start justify-between text-base text-white">

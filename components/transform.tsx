@@ -68,19 +68,10 @@ const Transform1: NextPage = () => {
           </p>
         </div>
       </div>
-      <button
-        className="cursor-pointer [border:none] p-2.5 bg-[transparent] flex flex-col items-start justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-        onClick={onFrameButtonClick}
-        data-animate-on-scroll
-      >
-        <button
-          className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[246.4px] h-[63px] flex flex-row items-center justify-center box-border"
-          onClick={onFrameButton1Click}
-        >
-          <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
-            GET IN TOUCH
-          </div>
-        </button>
+      <button className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] flex flex-row items-center justify-center">
+        <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
+          GET IN TOUCH
+        </div>
       </button>
     </div>
   );

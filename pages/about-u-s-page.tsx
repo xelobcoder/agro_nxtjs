@@ -1,20 +1,18 @@
 import React from "react";
 import type { NextPage } from "next";
 import { useState, useCallback, useEffect } from "react";
-import { LinearProgress, Box, CircularProgress } from "@mui/material";
+import NavDesktop from "../components/nav-desktop";
 import { useRouter } from "next/router";
 import DrwawerMenu from "../components/drwawer-menu";
 import PortalDrawer from "../components/portal-drawer";
-import Desktop from "../components/desktop";
-import ProductAndServicesSec from "../components/product-and-services-sec";
-import Component from "../components/component";
-import FrameComponent51 from "../components/frame-component5";
-import Faqs from "../components/faqs";
-import FooterLogo from "../components/footer-logo";
-import Transform1 from "../components/transform1";
-import FrameComponent41 from "../components/frame-component4";
+import Container from "../components/container";
+import Leading from "../components/leading";
+import LeaderSections from "../components/leader-sections";
+import ContainerOurSubsidiar from "../components/container-our-subsidiar";
+import Transform from "../components/transform";
+import FrameComponent21 from "../components/frame-component";
 
-const Homepage: NextPage = () => {
+const AboutUSPage: NextPage = () => {
   const router = useRouter();
   const [isDrwawerMenuOpen, setDrwawerMenuOpen] = useState(false);
 
@@ -30,37 +28,13 @@ const Homepage: NextPage = () => {
     window.open("https://sfl.com.gh/");
   }, []);
 
-  const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
-  }, [router]);
-
-  const onProducAndServicesClick = useCallback(() => {
-    router.push("/product-services");
-  }, [router]);
-
-  const onClientspartnersClick = useCallback(() => {
-    router.push("/projectspartners");
-  }, [router]);
-
-  const onMediaClick = useCallback(() => {
-    router.push("/media");
-  }, [router]);
-
   const onContactUsContainerClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
-  const onClipPathGroup3Click = useCallback(() => {
-    window.open("https://bsl.com.gh/");
-  }, []);
-
-  const onClipPathGroup12Click = useCallback(() => {
-    window.open("https://isg.com.gh/");
-  }, []);
-
-  const onClipPathGroup22Click = useCallback(() => {
-    window.open("https://sfl.com.gh/");
-  }, []);
+  const onContactUsTextClick = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
 
   const openDrwawerMenu = useCallback(() => {
     setDrwawerMenuOpen(true);
@@ -106,17 +80,21 @@ const Homepage: NextPage = () => {
 
   return (
     <>
-      <div className="relative bg-darkolivegreen-500 w-full overflow-hidden flex flex-col items-center justify-start text-center text-21xl text-darkslategray-200 font-poppins">
-        <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] h-20 flex flex-col items-start justify-start">
+      <main
+        className="relative w-full flex flex-col items-center justify-start"
+        id="6-aboutsUs-pageMain"
+      >
+        <header className="self-stretch bg-gray-1900 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
+          <NavDesktop />
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
-            <div className="self-stretch flex flex-row items-center justify-between">
-              <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos2]:hover:flex">
+            <div className="flex-1 flex flex-row items-center justify-between">
+              <div className="self-stretch flex-1 relative">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos13]:hover:flex">
                   <div
-                    className="absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos13 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -266,8 +244,14 @@ const Homepage: NextPage = () => {
                 </div>
               </div>
               <div className="flex-1 flex flex-row items-center justify-end gap-[30px]">
-                <button className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100">
-                  <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#b6c2f1,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
+                <button
+                  className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100"
+                  onClick={onContactUsContainerClick}
+                >
+                  <div
+                    className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#b6c2f1,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center cursor-pointer"
+                    onClick={onContactUsTextClick}
+                  >
                     Contact Us
                   </div>
                 </button>
@@ -282,14 +266,15 @@ const Homepage: NextPage = () => {
               </div>
             </div>
           </nav>
-        </div>
-        <div className="self-stretch flex flex-col items-start justify-start">
-          <Desktop />
-          <section className="w-[1200px] overflow-hidden hidden flex-col items-start justify-start py-20 px-[150px] box-border gap-[10px] bg-[url('/1200@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-47xl-7 text-white font-poppins lg:flex md:hidden">
-            <b
-              className="self-stretch relative tracking-[0.38px] leading-[76.24px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-              data-animate-on-scroll
-            >{`Digitalization `}</b>
+        </header>
+        <section
+          className="self-stretch overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-[100px] bg-[url('/herosec@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-hard-light text-center text-51xl text-white font-poppins lg:h-[600px] lg:gap-[100px] lg:pl-5 lg:pt-0 lg:pr-5 lg:box-border"
+          id="aboutUs_herosection"
+        >
+          <div
+            className="self-stretch flex flex-row flex-wrap items-center justify-center py-0 px-[120px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
+            data-animate-on-scroll
+          >
             <div
               className="w-[887px] flex flex-row items-start justify-start gap-[13.3px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-52xl"
               data-animate-on-scroll
@@ -1543,559 +1528,21 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
         </section>
-        <section className="self-stretch h-[1117px] flex flex-col items-start justify-start pt-0 px-0 pb-5 box-border gap-[10px] text-left text-sm-3 text-white font-poppins">
-          <ProductAndServicesSec />
-          <div className="self-stretch [background:linear-gradient(180deg,_rgba(254,_202,_58,_0.75),_rgba(255,_255,_255,_0))] overflow-hidden hidden flex-col items-start justify-start py-0 px-[252px] gap-[44px] lg:flex md:hidden">
-            <div className="relative w-[743.4px] h-[659.6px] overflow-hidden shrink-0">
-              <b
-                className="absolute top-[39.8px] left-[calc(50%_-_165.1px)] text-26xl-4 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                What we Offer
-              </b>
-              <div
-                className="absolute top-[272.9px] left-[351.8px] capitalize font-medium inline-block w-[341.3px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                the input credit management system allows VCEs and Aggregators
-                to give farmers access to input on credit and pay back with
-                produce
-              </div>
-              <div className="absolute top-[99.1px] left-[66.3px] flex flex-col items-start justify-start p-[6.979996681213379px] text-center">
-                <div
-                  className="flex flex-row items-center justify-center p-[6.979996681213379px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                  data-animate-on-scroll
-                >
-                  <div className="relative">
-                    <p className="m-0">{`In the heart of Ghana's vibrant agricultural landscape, Agrospectrum emerges as `}</p>
-                    <p className="m-0">
-                      beacon of innovation poised to transform the industry
-                      through the power of digitalization.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <img
-                className="absolute top-[187.8px] left-[-0.7px] w-[342.7px] h-[381.8px] overflow-hidden object-cover [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                alt=""
-                src="/frame-941@2x.png"
-                data-animate-on-scroll
-              />
-              <div
-                className="absolute top-[344.1px] left-[344.8px] flex flex-row items-center justify-center p-[6.979996681213379px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                <div className="relative inline-block w-[370.6px] shrink-0">
-                  This product digitalises the input-credit process while
-                  promoting efficiency and productivity on the part of the
-                  farmer. This solution ensures easy documentation and
-                  management of inputs given at the beginning of the farming
-                  season; gives insights to expected returns, provides farmers
-                  with agronomic advice, allows agents to monitor farmers
-                  progress during the season and adherence to timely schedules
-                  of farm practices. It also documents and manages the recovery
-                  process by the VCEs and aggregators.
-                </div>
-              </div>
-              <div
-                className="absolute top-[221.3px] left-[351.8px] w-[359px] h-[34.9px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-lgi-5"
-                data-animate-on-scroll
-              >
-                <b className="absolute top-[0px] left-[0px] capitalize">
-                  input-Credit Management Systems
-                </b>
-                <div className="absolute top-[31.4px] left-[0.7px] rounded-[6.98px] bg-goldenrod-200 w-[128.4px] h-[3.5px]" />
-              </div>
-              <div className="absolute top-[597.5px] left-[353.2px] w-[178px] h-[7.7px] overflow-hidden text-center text-sm text-gray-1400">
-                <div className="absolute w-[3.03%] top-[calc(50%_-_7.35px)] left-[87.58%] font-black inline-block">
-                  
-                </div>
-                <div className="absolute h-[14.29%] w-[96.18%] top-[42.86%] right-[14.83%] bottom-[42.86%] left-[-11.01%] bg-gray-1400" />
-                <div className="absolute w-[3.03%] top-[calc(50%_-_7.35px)] left-[96.97%] font-black text-sandybrown inline-block">
-                  
-                </div>
-              </div>
-              <div className="absolute top-[594px] left-[263.8px] w-[30.6px] h-[11.4px]">
-                <div className="absolute top-[0px] left-[0px] w-[30.6px] h-[11.4px]">
-                  <img
-                    className="absolute top-[0px] left-[0px] w-[11.4px] h-[11.4px]"
-                    alt=""
-                    src="/group-185.svg"
-                  />
-                  <img
-                    className="absolute top-[4.6px] left-[16px] w-[3.2px] h-[3.2px]"
-                    alt=""
-                    src="/group-1885.svg"
-                  />
-                  <img
-                    className="absolute top-[4.6px] left-[27.4px] w-[3.2px] h-[3.2px]"
-                    alt=""
-                    src="/group-1894.svg"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="relative w-[552.1px] h-[112.4px] [&.animate]:animate-[5s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-[15.4px] text-goldenrod-200"
-              data-animate-on-scroll
-            >
-              <b className="absolute top-[0px] left-[160.5px] capitalize">
-                input-Credit Management Systems
-              </b>
-              <div className="absolute top-[42.6px] left-[0px] text-sm-3 text-white text-center inline-block w-[552.1px] h-[69.8px]">
-                <p className="m-0">
-                  This product also determines and distinguishes farmers from
-                  community aggregators by registering such value chain actors
-                  and their businesses in a system.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="relative [background:linear-gradient(180deg,_rgba(254,_202,_58,_0.75),_rgba(255,_255,_255,_0))] w-[962.9px] h-[665.9px] overflow-hidden shrink-0 hidden text-2xs-6 md:flex sm:hidden">
-            <div className="absolute top-[6.7px] left-[201.2px] w-[593.4px] h-[526.6px] overflow-hidden">
-              <b
-                className="absolute top-[31.8px] left-[calc(50%_-_131.8px)] text-17xl-2 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                What we Offer
-              </b>
-              <div
-                className="absolute top-[217.9px] left-[280.8px] capitalize font-medium inline-block w-[272.5px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                the input credit management system allows VCEs and Aggregators
-                to give farmers access to input on credit and pay back with
-                produce
-              </div>
-              <div
-                className="absolute top-[79.1px] left-[52.9px] flex flex-col items-start justify-start p-[5.572251319885254px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-center"
-                data-animate-on-scroll
-              >
-                <div className="flex flex-row items-center justify-center p-[5.572251319885254px]">
-                  <div className="relative">
-                    <p className="m-0">{`In the heart of Ghana's vibrant agricultural landscape, Agrospectrum emerges as `}</p>
-                    <p className="m-0">
-                      beacon of innovation poised to transform the industry
-                      through the power of digitalization.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <img
-                className="absolute top-[149.9px] left-[-0.6px] w-[273.6px] h-[304.8px] overflow-hidden object-cover [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                alt=""
-                src="/frame-942@2x.png"
-                data-animate-on-scroll
-              />
-              <div
-                className="absolute top-[274.7px] left-[275.3px] flex flex-row items-center justify-center p-[5.572251319885254px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                <div className="relative inline-block w-[295.9px] shrink-0">
-                  This product digitalises the input-credit process while
-                  promoting efficiency and productivity on the part of the
-                  farmer. This solution ensures easy documentation and
-                  management of inputs given at the beginning of the farming
-                  season; gives insights to expected returns, provides farmers
-                  with agronomic advice, allows agents to monitor farmers
-                  progress during the season and adherence to timely schedules
-                  of farm practices. It also documents and manages the recovery
-                  process by the VCEs and aggregators.
-                </div>
-              </div>
-              <div
-                className="absolute top-[176.6px] left-[280.8px] w-[287px] h-[27.9px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-base-6"
-                data-animate-on-scroll
-              >
-                <b className="absolute top-[0px] left-[0px] capitalize">
-                  input-Credit Management Systems
-                </b>
-                <div className="absolute top-[25.1px] left-[0.6px] rounded-[5.57px] bg-goldenrod-200 w-[102.5px] h-[2.8px]" />
-              </div>
-              <div
-                className="absolute top-[477px] left-[282px] w-[142.1px] h-[6.1px] overflow-hidden [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-center text-xs-1 text-gray-1400"
-                data-animate-on-scroll
-              >
-                <div className="absolute w-[3.03%] top-[calc(50%_-_5.85px)] left-[87.54%] font-black inline-block">
-                  
-                </div>
-                <div className="absolute h-[14.75%] w-[96.2%] top-[42.62%] right-[14.78%] bottom-[42.62%] left-[-10.98%] bg-gray-1400" />
-                <div className="absolute w-[3.03%] top-[calc(50%_-_5.85px)] left-[96.97%] font-black text-sandybrown inline-block">
-                  
-                </div>
-              </div>
-              <img
-                className="absolute top-[474.2px] left-[210.6px] w-[24.4px] h-[9.1px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                alt=""
-                src="/project-arrow.svg"
-                data-animate-on-scroll
-              />
-            </div>
-            <div
-              className="absolute top-[568.4px] left-[283.1px] w-[440.8px] h-[89.7px] [&.animate]:animate-[5s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-smi-3 text-goldenrod-200"
-              data-animate-on-scroll
-            >
-              <b className="absolute top-[0px] left-[128.2px] capitalize">
-                input-Credit Management Systems
-              </b>
-              <div className="absolute top-[34px] left-[0px] text-2xs-6 text-white text-center inline-block w-[440.8px] h-[55.7px]">
-                <p className="m-0">
-                  This product also determines and distinguishes farmers from
-                  community aggregators by registering such value chain actors
-                  and their businesses in a system.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="[background:linear-gradient(180deg,_rgba(254,_202,_58,_0.75),_rgba(255,_255,_255,_0))] overflow-hidden hidden flex-col items-center justify-start py-[3px] px-[73px] gap-[15px] text-[15.8px] sm:flex mq350small:hidden">
-            <div className="w-[252px] overflow-hidden flex flex-col items-center justify-start py-0 px-5 box-border">
-              <b
-                className="relative [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                What we Offer
-              </b>
-              <div className="flex flex-col items-center justify-start p-[2.8086681365966797px] gap-[2.81px] text-center text-7xs-3">
-                <div className="flex flex-row items-center justify-center p-[2.8086681365966797px]">
-                  <div
-                    className="relative [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    data-animate-on-scroll
-                  >
-                    <p className="m-0">{`In the heart of Ghana's vibrant agricultural landscape, Agrospectrum emerges as `}</p>
-                    <p className="m-0">
-                      beacon of innovation poised to transform the industry
-                      through the power of digitalization.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-col items-center justify-center gap-[1.56px] text-5xs-2">
-                  <img
-                    className="relative w-[211.9px] h-[187px] overflow-hidden shrink-0 object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    alt=""
-                    src="/frame-943@2x.png"
-                    data-animate-on-scroll
-                  />
-                  <div
-                    className="flex flex-col items-start justify-start gap-[7.79px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    data-animate-on-scroll
-                  >
-                    <div className="relative w-[195px] h-[18.9px] text-left text-2xs-6">
-                      <b className="absolute top-[0px] left-[0px] capitalize">
-                        input-Credit Management Systems
-                      </b>
-                      <div className="absolute top-[17px] left-[calc(50%_-_34.6px)] rounded-[3.78px] bg-goldenrod-200 w-[69.5px] h-[1.9px]" />
-                    </div>
-                    <div className="relative capitalize font-medium inline-block w-[184.7px]">
-                      the input credit management system allows VCEs and
-                      Aggregators to give farmers access to input on credit and
-                      pay back with produce
-                    </div>
-                    <div className="self-stretch flex flex-row items-center justify-center py-[3.777703285217285px] px-0">
-                      <div className="relative inline-block w-[200.6px] shrink-0">
-                        This product digitalises the input-credit process while
-                        promoting efficiency and productivity on the part of the
-                        farmer. This solution ensures easy documentation and
-                        management of inputs given at the beginning of the
-                        farming season.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative w-[92.9px] h-1 text-center text-8xs-8 text-gray-1400">
-              <div className="absolute top-[1.2px] left-[31px] w-[61.8px] h-[2.7px] overflow-hidden">
-                <div className="absolute w-[3.07%] top-[calc(50%_-_2.55px)] left-[87.54%] font-black inline-block">
-                  
-                </div>
-                <div className="absolute h-[14.81%] w-[96.28%] top-[40.74%] right-[14.72%] bottom-[44.44%] left-[-11%] bg-gray-1400" />
-                <div className="absolute w-[3.07%] top-[calc(50%_-_2.55px)] left-[96.93%] font-black text-sandybrown inline-block">
-                  
-                </div>
-              </div>
-              <img
-                className="absolute top-[0px] left-[0px] w-[10.6px] h-1"
-                alt=""
-                src="/project-arrow1.svg"
-              />
-            </div>
-            <div
-              className="relative w-[191.8px] h-[39px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-7xs-3 text-goldenrod-200"
-              data-animate-on-scroll
-            >
-              <b className="absolute top-[0px] left-[55.8px] capitalize">
-                input-Credit Management Systems
-              </b>
-              <div className="absolute top-[14.8px] left-[0px] text-8xs-6 text-white text-center inline-block w-[191.8px] h-[24.2px]">
-                <p className="m-0">
-                  This product also determines and distinguishes farmers from
-                  community aggregators by registering such value chain actors
-                  and their businesses in a system.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="[background:linear-gradient(180deg,_rgba(254,_202,_58,_0.75),_rgba(255,_255,_255,_0))] overflow-hidden hidden flex-col items-center justify-start py-2.5 px-[64.19597625732422px] gap-[13.19px] text-sm-9 mq350small:flex">
-            <div className="w-[221.6px] overflow-hidden flex flex-col items-center justify-start py-0 px-[17.58793830871582px] box-border">
-              <b
-                className="relative [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                What we Offer
-              </b>
-              <div className="flex flex-col items-center justify-start p-[2.4699344635009766px] gap-[2.47px] text-center text-8xs-7">
-                <div className="flex flex-row items-center justify-center p-[2.4699344635009766px]">
-                  <div className="relative">
-                    <p className="m-0">{`In the heart of Ghana's vibrant agricultural landscape, Agrospectrum emerges as `}</p>
-                    <p className="m-0">
-                      beacon of innovation poised to transform the industry
-                      through the power of digitalization.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-col items-center justify-center gap-[1.3px] text-7xs">
-                  <img
-                    className="relative w-[176.3px] h-[155.5px] overflow-hidden shrink-0 object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    alt=""
-                    src="/frame-944@2x.png"
-                    data-animate-on-scroll
-                  />
-                  <div
-                    className="flex flex-col items-start justify-start gap-[6.48px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                    data-animate-on-scroll
-                  >
-                    <div className="relative w-[162px] h-[15.7px] text-left text-4xs-8">
-                      <b className="absolute top-[0px] left-[0px] capitalize">
-                        input-Credit Management Systems
-                      </b>
-                      <div className="absolute top-[14.1px] left-[calc(50%_-_28.7px)] rounded-[3.14px] bg-goldenrod-200 w-[57.8px] h-[1.6px]" />
-                    </div>
-                    <div className="relative capitalize font-medium inline-block w-[153.7px]">
-                      the input credit management system allows VCEs and
-                      Aggregators to give farmers access to input on credit and
-                      pay back with produce
-                    </div>
-                    <div className="self-stretch flex flex-row items-center justify-center py-[3.1426987648010254px] px-0">
-                      <div className="relative inline-block w-[166.9px] shrink-0">
-                        This product digitalises the input-credit process while
-                        promoting efficiency and productivity on the part of the
-                        farmer. This solution ensures easy documentation and
-                        management of inputs given at the beginning of the
-                        farming season.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative w-[81.7px] h-[3.5px] text-center text-8xs-3 text-gray-1400">
-              <div className="absolute top-[1.1px] left-[27.3px] w-[54.4px] h-[2.3px] overflow-hidden">
-                <div className="absolute w-[3.13%] top-[calc(50%_-_2.25px)] left-[87.5%] font-black inline-block">
-                  
-                </div>
-                <div className="absolute h-[13.04%] w-[96.14%] top-[43.48%] right-[14.89%] bottom-[43.48%] left-[-11.03%] bg-gray-1400" />
-                <div className="absolute w-[3.13%] top-[calc(50%_-_2.25px)] left-[96.88%] font-black text-sandybrown inline-block">
-                  
-                </div>
-              </div>
-              <img
-                className="absolute top-[0px] left-[0px] w-[9.3px] h-[3.5px]"
-                alt=""
-                src="/project-arrow2.svg"
-              />
-            </div>
-            <div
-              className="relative w-[168.7px] h-[34.3px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-8xs-7 text-goldenrod-200"
-              data-animate-on-scroll
-            >
-              <b className="absolute top-[0px] left-[49px] capitalize">
-                input-Credit Management Systems
-              </b>
-              <div className="absolute top-[13px] left-[0px] text-8xs-1 text-white text-center inline-block w-[168.7px] h-[21.3px]">
-                <p className="m-0">
-                  This product also determines and distinguishes farmers from
-                  community aggregators by registering such value chain actors
-                  and their businesses in a system.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <Component />
-        <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners@3x.png')] bg-cover bg-no-repeat bg-[top] lg:items-center lg:justify-start sm:hidden">
-          <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 gap-[10px] bg-[url('/frame-1211@3x.png')] bg-cover bg-no-repeat bg-[top]">
-            <div className="self-stretch flex flex-col items-center justify-start py-[30px] px-0 gap-[42px]">
-              <div className="self-stretch flex flex-col items-center justify-start">
-                <b className="relative">Our Projects</b>
-                <div className="relative text-lgi leading-[100%] font-extrabold text-darkolivegreen-100">
-                  The nations’s best digital Agric Platform
-                </div>
-              </div>
-              <section className="self-stretch flex flex-row items-start justify-center gap-[77px] lg:flex-col lg:items-center lg:justify-center">
-                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row">
-                  <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-700">
-                    <div className="absolute top-[229px] left-[152px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                      @Nationwide
-                    </div>
-                    <img
-                      className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
-                      alt=""
-                      src="/base2@2x.png"
-                    />
-                    <div className="absolute top-[172px] left-[11px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[250px]">
-                      A flagship program of the MoFA(Ghana) that used
-                      Agrospectrum’s mobile application provide input Subsidy to
-                      farmers.
-                    </div>
-                    <div className="absolute top-[130px] left-[-2px] w-[153px] h-[33.7px] text-smi text-darkslategray-200">
-                      <div className="absolute top-[0px] left-[0px] w-[153px] h-[33.7px]">
-                        <div className="absolute top-[0px] left-[0px] w-[153px] h-[33.7px]">
-                          <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-5xs rounded-b-none bg-goldenrod-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-[153px] h-[33.7px] border-[1px] border-solid border-gray-1500" />
-                        </div>
-                        <div className="absolute top-[5px] left-[18px] tracking-[-0.01em] leading-[32px] capitalize font-semibold flex items-center w-[123px] h-6">{`E-Subsidy `}</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-[264px] flex flex-col items-center justify-start lg:flex-row lg:items-start lg:justify-center">
-                    <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-700">
-                      <div className="absolute top-[230px] left-[154px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                        @nationwide
-                      </div>
-                      <img
-                        className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
-                        alt=""
-                        src="/base3@2x.png"
-                      />
-                      <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] inline-block w-[242px]">
-                        <span className="font-light">{`A credit program spearheaded by `}</span>
-                        <span className="font-medium">May and Lotte,</span>
-                        <span className="font-light">
-                          {" "}
-                          leveraged our cutting-edge solutions at the crucial
-                          redemption stage for a streamlined process.
-                        </span>
-                      </div>
-                      <div className="absolute top-[130px] left-[-2px] w-[156px] h-[33.7px] text-smi text-darkslategray-200">
-                        <div className="absolute top-[0px] left-[0px] w-[156px] h-[33.7px]">
-                          <div className="absolute top-[0px] left-[0px] w-[156px] h-[33.7px]">
-                            <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-5xs rounded-b-none bg-goldenrod-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-[156px] h-[33.7px] border-[1px] border-solid border-gray-1500" />
-                          </div>
-                          <div className="absolute top-[5px] left-[17px] tracking-[-0.01em] leading-[32px] capitalize font-semibold flex items-center w-[139px] h-6">{`Input Credit Mgt. `}</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row">
-                  <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-700">
-                    <div className="absolute top-[234px] left-[122px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                      @Northern Ghana
-                    </div>
-                    <img
-                      className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
-                      alt=""
-                      src="/base4@2x.png"
-                    />
-                    <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[235px]">
-                      An enumeration program by the Government of Ghana through
-                      the Ministry of Food and Agriculture that profiles farmers
-                      for inclusion.
-                    </div>
-                    <div className="absolute top-[130px] left-[1px] w-[156px] h-8 text-smi text-darkslategray-200">
-                      <div className="absolute top-[0px] left-[0px] w-[156px] h-8">
-                        <div className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-tl-none rounded-tr-5xs rounded-b-none bg-goldenrod-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border overflow-hidden flex flex-row items-center justify-center py-0 px-1.5 border-[1px] border-solid border-gray-1500">
-                          <div className="relative tracking-[-0.01em] leading-[32px] capitalize font-semibold whitespace-pre-wrap">{`Farmer Registration   `}</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-700">
-                    <div className="absolute top-[236px] left-[157px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                      @Nationwide
-                    </div>
-                    <img
-                      className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
-                      alt=""
-                      src="/base5@2x.png"
-                    />
-                    <div className="absolute top-[170px] left-[11px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[250px]">{`Our climate-smart solution empowers farmers across languages with vital information like weather forecasts, disaster preparedness & agro-advice.`}</div>
-                    <div className="absolute top-[128px] left-[-2px] w-44 h-[33.7px] text-smi text-darkslategray-200">
-                      <div className="absolute top-[0px] left-[0px] w-44 h-[33.7px]">
-                        <div className="absolute top-[0px] left-[0px] w-44 h-[33.7px]">
-                          <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-5xs rounded-b-none bg-goldenrod-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-44 h-[33.7px] border-[1px] border-solid border-gray-1500" />
-                        </div>
-                        <div className="absolute top-[4px] left-[13px] tracking-[-0.01em] leading-[32px] capitalize font-semibold flex items-center w-[163px] h-6">
-                          Climate Smart Program
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section className="flex flex-col items-start justify-start gap-[52px] text-left text-sm text-dimgray-100 font-poppins lg:flex-row">
-                  <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-700">
-                    <div className="absolute top-[230px] left-[149px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                      @Nationwide
-                    </div>
-                    <img
-                      className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-contain"
-                      alt=""
-                      src="/base6@2x.png"
-                    />
-                    <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[232px]">{`Imagine a future of digitization of the agribusiness were reliable technology become your allies for informed decision making `}</div>
-                    <div className="absolute top-[129px] left-[-2px] w-[153px] h-[33.7px] text-smi text-darkslategray-200">
-                      <div className="absolute top-[0px] left-[0px] w-[153px] h-[33.7px]">
-                        <div className="absolute top-[0px] left-[0px] w-[153px] h-[33.7px]">
-                          <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-5xs rounded-b-none bg-goldenrod-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-[153px] h-[33.7px] border-[1px] border-solid border-gray-1500" />
-                        </div>
-                        <div className="absolute top-[5px] left-[15px] tracking-[-0.01em] leading-[32px] capitalize font-semibold flex items-center w-[93px] h-6">
-                          FARMER KYC
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-[266px] h-[265px] flex flex-col items-start justify-start lg:flex-row lg:items-start lg:justify-start lg:pl-2.5 lg:pr-2.5 lg:box-border">
-                    <div className="relative rounded-tl-none rounded-tr-xl rounded-br-none rounded-bl-xl bg-white box-border w-[264px] h-[265px] overflow-hidden shrink-0 border-[1px] border-solid border-darkslategray-700">
-                      <div className="absolute top-[229px] left-[175px] capitalize font-medium font-lexend-deca text-transparent !bg-clip-text [background:linear-gradient(89.25deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                        @Savanna
-                      </div>
-                      <img
-                        className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
-                        alt=""
-                        src="/base7@2x.png"
-                      />
-                      <div className="absolute top-[170px] left-[10px] text-xs tracking-[0.01em] leading-[15px] inline-block w-[250px]">
-                        <p className="m-0">
-                          <span className="font-light font-poppins">{`Run by our clients `}</span>
-                          <span className="font-medium font-poppins">
-                            May and Lotte,
-                          </span>
-                          <span className="font-light">
-                            {" "}
-                            employed solutions from Agrospectum to streamline
-                            purchases and payments for the aggregated
-                            commodities.
-                          </span>
-                        </p>
-                      </div>
-                      <div className="absolute top-[130px] left-[-2px] w-[161px] h-[33.7px] text-smi text-darkslategray-200">
-                        <div className="absolute top-[0px] left-[0px] w-[161px] h-[33.7px]">
-                          <div className="absolute top-[0px] left-[0px] w-[161px] h-[33.7px]">
-                            <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-5xs rounded-b-none bg-goldenrod-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-[161px] h-[33.7px] border-[1px] border-solid border-gray-1500" />
-                          </div>
-                          <div className="absolute top-[4px] left-[13px] tracking-[-0.01em] leading-[32px] capitalize font-semibold flex items-center w-[148px] h-6">
-                            Aggregation Program
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </section>
-              <div className="self-stretch flex flex-row items-end justify-between py-0 px-[400px]">
+        <Container />
+        <Leading />
+        <LeaderSections />
+        <ContainerOurSubsidiar />
+        <section
+          className="w-[1766px] overflow-hidden flex flex-col items-start justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_pulsate] opacity-[1]"
+          data-animate-on-scroll
+        >
+          <div className="relative [background:linear-gradient(90.24deg,_#fbfbfb_17.92%,_#12500c)] shadow-[0px_4px_62px_rgba(0,_0,_0,_0.25)] [backdrop-filter:blur(60px)] w-[1750px] h-[107px] overflow-hidden shrink-0">
+            <div className="absolute top-[-5px] left-[63px] w-[4008px] h-[100px]">
+              <div className="absolute top-[0px] left-[0px] w-[1974px] h-[100px]">
                 <img
                   className="relative w-[43.8px] h-[16.4px]"
                   alt=""
-                  src="/frame-1210.svg"
+                  src="/download-222@2x.png"
                 />
                 <div className="relative w-[248px] h-[13px] overflow-hidden shrink-0">
                   <div className="absolute h-[14.62%] w-[112.9%] top-[-0.77%] right-[0%] bottom-[86.15%] left-[-12.9%] bg-gray-1400" />
@@ -2163,7 +1610,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-11xl w-[383.2px] h-[433.2px] object-cover"
                   alt=""
-                  src="/base9@2x.png"
+                  src="/download-546@2x.png"
                 />
                 <div className="absolute top-[377px] left-[0px] w-[383.2px] h-[120px]">
                   <div className="absolute top-[0px] left-[0px] rounded-11xl bg-dimgray-200 shadow-[0px_24px_48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(65.24px)] box-border w-[383.2px] h-[120px] border-[1px] border-solid border-gray-1500" />
@@ -2181,7 +1628,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-11xl w-[336.4px] h-[362.4px] object-cover"
                   alt=""
-                  src="/base10@2x.png"
+                  src="/download23@2x.png"
                 />
                 <div className="absolute top-[305.9px] left-[0px] w-[336.4px] h-[110.1px]">
                   <div className="absolute top-[0px] left-[0px] w-[336.4px] h-[110.1px]">
@@ -2299,7 +1746,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-[20.61px] w-[263.3px] h-[297.6px] object-cover"
                   alt=""
-                  src="/base12@2x.png"
+                  src="/download-5110@2x.png"
                 />
                 <div className="absolute top-[259px] left-[0px] w-[263.3px] h-[82.4px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[20.61px] bg-dimgray-200 shadow-[0px_16.5px_32.98px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(44.82px)] box-border w-[263.3px] h-[82.4px] border-[0.7px] border-solid border-gray-1500" />
@@ -2320,7 +1767,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.2px] rounded-[20.61px] w-[231.1px] h-[249px] object-cover"
                   alt=""
-                  src="/base13@2x.png"
+                  src="/download-318@2x.png"
                 />
                 <div className="absolute top-[210.2px] left-[0px] w-[231.1px] h-[75.6px]">
                   <div className="absolute top-[0px] left-[0px] w-[231.1px] h-[75.6px]">
@@ -2360,12 +1807,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[42.6px] w-[42.6px] h-[41.2px] object-contain"
                   alt=""
-                  src="/base14.svg"
+                  src="/capture22@2x.png"
                 />
                 <img
                   className="absolute top-[14.4px] left-[11px] w-[13.7px] h-[13.7px] overflow-hidden"
                   alt=""
-                  src="/arrowright.svg"
+                  src="/mofa-color16@2x.png"
                 />
               </div>
               <div className="absolute top-[278.6px] left-[532.8px] uppercase font-semibold">
@@ -2422,25 +1869,25 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon@2x.png"
+                  src="/images23@2x.png"
                 />
                 <div className="absolute top-[44px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
                 <img
                   className="absolute top-[55px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon1@2x.png"
+                  src="/download-616@2x.png"
                 />
                 <div className="absolute top-[98.9px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
                 <img
                   className="absolute top-[109.9px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon2@2x.png"
+                  src="/images-121@2x.png"
                 />
                 <div className="absolute top-[153.9px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
                 <img
                   className="absolute top-[164.9px] left-[358.6px] w-[33px] h-[33px] object-cover"
                   alt=""
-                  src="/icon3@2x.png"
+                  src="/download-123@2x.png"
                 />
                 <div className="absolute top-[208.9px] left-[0px] bg-goldenrod-200 w-[391.6px] h-[0.7px]" />
               </div>
@@ -2496,7 +1943,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[16.55px] w-[211.4px] h-[239px] object-cover"
                   alt=""
-                  src="/base16@2x.png"
+                  src="/download-222@2x.png"
                 />
                 <div className="absolute top-[208px] left-[0px] w-[211.4px] h-[66.2px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[16.55px] bg-dimgray-200 shadow-[0px_13.2px_26.48px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(36px)] box-border w-[211.4px] h-[66.2px] border-[0.6px] border-solid border-gray-1500" />
@@ -2517,7 +1964,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[16.55px] w-[185.6px] h-[199.9px] object-cover"
                   alt=""
-                  src="/base17@2x.png"
+                  src="/download-546@2x.png"
                 />
                 <div className="absolute top-[168.8px] left-[0px] w-[185.6px] h-[60.7px]">
                   <div className="absolute top-[0px] left-[0px] w-[185.6px] h-[60.7px]">
@@ -2560,12 +2007,12 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[34.2px] w-[34.2px] h-[33.1px] object-contain"
                   alt=""
-                  src="/base18.svg"
+                  src="/download23@2x.png"
                 />
                 <img
                   className="absolute top-[11.6px] left-[8.8px] w-[11px] h-[11px] overflow-hidden"
                   alt=""
-                  src="/arrowright1.svg"
+                  src="/download-5110@2x.png"
                 />
               </div>
               <div className="absolute top-[223.7px] left-[427.9px] uppercase font-semibold">
@@ -2622,25 +2069,25 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon4@2x.png"
+                  src="/download-318@2x.png"
                 />
                 <div className="absolute top-[35.3px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
                 <img
                   className="absolute top-[44.1px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon5@2x.png"
+                  src="/capture22@2x.png"
                 />
                 <div className="absolute top-[79.5px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
                 <img
                   className="absolute top-[88.3px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon6@2x.png"
+                  src="/mofa-color16@2x.png"
                 />
                 <div className="absolute top-[123.6px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
                 <img
                   className="absolute top-[132.4px] left-[288px] w-[26.5px] h-[26.5px] object-cover"
                   alt=""
-                  src="/icon7@2x.png"
+                  src="/images23@2x.png"
                 />
                 <div className="absolute top-[167.7px] left-[0px] bg-goldenrod-200 w-[314.5px] h-[0.6px]" />
               </div>
@@ -2699,7 +2146,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[7.75px] w-[99px] h-[111.9px] object-cover"
                   alt=""
-                  src="/base20@2x.png"
+                  src="/download-616@2x.png"
                 />
                 <div className="absolute top-[97.4px] left-[0px] w-[99px] h-[31px]">
                   <div className="absolute top-[0px] left-[0px] rounded-[7.75px] bg-dimgray-200 shadow-[0px_6.2px_12.4px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(16.85px)] box-border w-[99px] h-[31px] border-[0.3px] border-solid border-gray-1500" />
@@ -2720,7 +2167,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[0.1px] rounded-[7.75px] w-[86.9px] h-[93.6px] object-cover"
                   alt=""
-                  src="/base21@2x.png"
+                  src="/images-121@2x.png"
                 />
                 <div className="absolute top-[79px] left-[0px] w-[86.9px] h-[28.4px]">
                   <div className="absolute top-[0px] left-[0px] w-[86.9px] h-[28.4px]">
@@ -2763,7 +2210,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className="absolute top-[0px] left-[16px] w-4 h-[15.5px] object-contain"
                   alt=""
-                  src="/base22.svg"
+                  src="/download-123@2x.png"
                 />
                 <img
                   className="absolute top-[5.4px] left-[4.1px] w-[5.2px] h-[5.2px] overflow-hidden"
@@ -2828,184 +2275,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               />
             </div>
           </div>
-          <div className="bg-gray-500 w-[351px] overflow-hidden hidden flex-col items-center justify-start py-[12.949950218200684px] px-0 box-border relative gap-[4.32px] text-8xs-1 mq350small:flex">
-            <img
-              className="absolute my-0 mx-[!important] top-[-137.2px] left-[-58.9px] w-[180.3px] h-[257.1px] z-[0]"
-              alt=""
-              src="/vector-233.svg"
-            />
-            <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[4.316649913787842px] gap-[1.08px] z-[1]">
-              <div className="relative leading-[100%] font-extrabold">
-                Our Team - The big brains behind Agrospectrum
-              </div>
-              <b className="relative text-4xs-6 text-white">
-                <span>{`Our Teams & `}</span>
-                <span className="[background:linear-gradient(92.14deg,_#fff,_#f0c024)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                  Experts
-                </span>
-              </b>
-            </div>
-            <div className="relative w-[227.6px] h-[107.3px] z-[2] text-7xs-4 text-white font-lexend-deca">
-              <div
-                className="absolute top-[0.5px] left-[0px] w-[68.5px] h-[89.8px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                <div className="absolute top-[0px] left-[0px] w-[68.5px] h-[89.8px]">
-                  <img
-                    className="absolute top-[0px] left-[0px] rounded-[6.69px] w-[68.4px] h-[80.5px] object-cover"
-                    alt=""
-                    src="/base23@2x.png"
-                  />
-                  <div className="absolute top-[68px] left-[0px] w-[68.5px] h-[21.8px]">
-                    <div className="absolute top-[0px] left-[0px] w-[68.5px] h-[21.8px]">
-                      <div className="absolute top-[0px] left-[0px] rounded-[6.69px] bg-darkslateblue shadow-[0px_5.2px_10.36px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(14.08px)] box-border w-[68.5px] h-[21.8px] border-[0.2px] border-solid border-gray-1500" />
-                    </div>
-                    <div className="absolute top-[4.2px] left-[calc(50%_-_25.95px)] w-[52px] h-[11.6px]">
-                      <div className="absolute top-[0px] left-[calc(50%_-_26px)] tracking-[-0.01em] leading-[8.63px] capitalize font-extrabold flex items-center w-[52px] h-[6.3px]">
-                        Xose Ahlijah, SWE
-                      </div>
-                      <div className="absolute top-[6.9px] left-[calc(50%_-_22.4px)] text-9xs-9 tracking-[-0.01em] leading-[6.47px] capitalize font-medium text-transparent !bg-clip-text [background:linear-gradient(88.92deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center w-[40.6px] h-[4.7px]">
-                        Snr Technology Lead
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="absolute top-[-0.4px] left-[70.7px] w-[82.8px] h-[107.3px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                <img
-                  className="absolute top-[0px] left-[0px] rounded-[6.47px] w-[82.7px] h-[93.5px] object-cover"
-                  alt=""
-                  src="/base24@2x.png"
-                />
-                <div className="absolute top-[81.4px] left-[0px] w-[82.7px] h-[25.9px]">
-                  <div className="absolute top-[0px] left-[0px] rounded-[6.47px] bg-dimgray-200 shadow-[0px_5.2px_10.36px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(14.08px)] box-border w-[82.7px] h-[25.9px] border-[0.2px] border-solid border-gray-1500" />
-                </div>
-                <div className="absolute top-[87px] left-[calc(50%_-_28.4px)] w-[58.4px] h-3">
-                  <div className="absolute top-[0px] left-[calc(50%_-_29.2px)] tracking-[-0.01em] leading-[8.63px] capitalize font-extrabold flex items-center w-[58.4px] h-[7.3px]">
-                    Castro Antwi-Danso
-                  </div>
-                  <div className="absolute top-[6.4px] left-[calc(50%_-_16.9px)] text-9xs-9 tracking-[-0.01em] leading-[6.47px] capitalize font-medium text-transparent !bg-clip-text [background:linear-gradient(89.48deg,_#003a2b,_rgba(240,_192,_39,_0.95))] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center w-[33.7px] h-[5.6px]">
-                    General Manager
-                  </div>
-                </div>
-              </div>
-              <div
-                className="absolute top-[0.5px] left-[154.9px] w-[72.7px] h-[89.8px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-7xs"
-                data-animate-on-scroll
-              >
-                <img
-                  className="absolute top-[0px] left-[0.1px] rounded-[6.47px] w-[72.6px] h-[78.2px] object-cover"
-                  alt=""
-                  src="/base25@2x.png"
-                />
-                <div className="absolute top-[66px] left-[0px] w-[72.6px] h-[23.8px]">
-                  <div className="absolute top-[0px] left-[0px] w-[72.6px] h-[23.8px]">
-                    <div className="absolute top-[0px] left-[0px] rounded-[6.47px] bg-darkslateblue shadow-[0px_5.2px_10.36px_rgba(33,_12,_56,_0.16)] [backdrop-filter:blur(14.08px)] box-border w-[72.6px] h-[23.8px] border-[0.2px] border-solid border-gray-1500" />
-                  </div>
-                  <div className="absolute top-[4.3px] left-[calc(50%_-_24.3px)] w-[49.4px] h-[12.9px]">
-                    <div className="absolute top-[0px] left-[calc(50%_-_24.7px)] tracking-[-0.01em] leading-[8.63px] capitalize font-extrabold flex items-center w-[49.4px] h-[6.7px]">
-                      Otis A. Apaloo
-                    </div>
-                    <div className="absolute top-[7.8px] left-[12.3px] text-8xs-1 tracking-[-0.01em] leading-[6.47px] capitalize font-medium text-transparent !bg-clip-text [background:linear-gradient(88.74deg,_#003a2b,_#f0c027)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center w-[27.6px] h-[5.1px]">{`Data Analyst `}</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-row items-start justify-start gap-[2.16px] z-[3]">
-              <div className="relative bg-gainsboro-300 w-[3.2px] h-[1.3px]" />
-              <div className="relative bg-goldenrod-200 w-[6.5px] h-[1.3px]" />
-              <div className="relative bg-gainsboro-300 w-[3.2px] h-[1.3px]" />
-            </div>
-            <img
-              className="absolute my-0 mx-[!important] top-[163.2px] left-[63.7px] w-[180.3px] h-[257.1px] z-[4]"
-              alt=""
-              src="/vector-214.svg"
-            />
-            <img
-              className="absolute my-0 mx-[!important] top-[346.1px] left-[230.9px] w-[180.3px] h-[257.1px] z-[5]"
-              alt=""
-              src="/vector-223.svg"
-            />
-            <div className="relative w-[284.1px] h-[102px] z-[6] text-9xs-2 text-darkslategray-200 font-lexend-deca">
-              <div
-                className="absolute top-[15.3px] left-[25.1px] bg-white w-[234.8px] h-[77.7px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              />
-              <div className="absolute top-[65.4px] left-[109.5px] w-[52.7px] h-[12.9px]">
-                <div className="absolute top-[0px] left-[0.2px] bg-dimgray-300 box-border w-[52.4px] h-[12.9px] border-[0.2px] border-solid border-goldenrod-200" />
-                <img
-                  className="absolute top-[0px] left-[13.4px] w-[13.4px] h-[12.9px] object-contain"
-                  alt=""
-                  src="/base26.svg"
-                />
-                <img
-                  className="absolute top-[4.5px] left-[3.5px] w-[4.3px] h-[4.3px] overflow-hidden"
-                  alt=""
-                  src="/arrowright3.svg"
-                />
-                <div className="absolute top-[4.3px] left-[18.1px] uppercase font-semibold">
-                  view produCts
-                </div>
-              </div>
-              <div className="absolute top-[92.2px] left-[6.7px] bg-goldenrod-200 w-[107.9px] h-[2.2px]" />
-              <b
-                className="absolute top-[29.5px] left-[106.1px] text-4xs-2 tracking-[-0.02em] capitalize [&.animate]:animate-[3s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
-              >
-                <p className="m-0">We support Agribusiness Industry</p>
-                <p className="m-0">To Utilize modern Equipments</p>
-                <p className="m-0">for a Better Result.</p>
-              </b>
-              <img
-                className="absolute top-[9.5px] left-[16.7px] w-[97.8px] h-[96.1px] overflow-hidden object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                alt=""
-                src="/gradients3@2x.png"
-                data-animate-on-scroll
-              />
-            </div>
-            <div
-              className="relative w-[123px] h-[132.7px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_scale-up] opacity-[1] z-[7]"
-              data-animate-on-scroll
-            >
-              <b className="absolute top-[-0.4px] left-[calc(50%_+_0.7px)] tracking-[0.65px] leading-[6.91px] uppercase">
-                FAQ
-              </b>
-              <div className="absolute top-[10.4px] left-[0px] w-[123px] h-[116.6px] text-smi-1 text-white">
-                <b className="absolute top-[0px] left-[0px] tracking-[-0.43px] leading-[13.81px]">
-                  <p className="m-0">{`Frequently `}</p>
-                  <p className="m-0">Asked Questions</p>
-                </b>
-                <div className="absolute top-[33.9px] left-[0px] text-8xs-3 leading-[6.91px] inline-block w-[123px] h-[14.9px]">
-                  <p className="m-0">{`Browse through our mostly asked questions and `}</p>
-                  <p className="m-0">enquiries for fast response.</p>
-                </div>
-                <div className="absolute top-[57.8px] left-[0px] w-[84px] h-[58.8px] text-7xs-2">
-                  <b className="absolute top-[0px] left-[0px] leading-[6.91px]">
-                    What does the platform do
-                  </b>
-                  <b className="absolute top-[17.3px] left-[0px] leading-[6.91px]">
-                    How can I access the platform ?
-                  </b>
-                  <b className="absolute top-[34.5px] left-[0px] leading-[6.91px]">
-                    Is the platform free ?
-                  </b>
-                  <b className="absolute top-[51.8px] left-[0px] leading-[6.91px]">
-                    What do i stand to benefit ?
-                  </b>
-                </div>
-              </div>
-              <img
-                className="absolute top-[66.6px] left-[0px] w-[123px] h-[65.8px] object-contain"
-                alt=""
-                src="/group-8931@2x.png"
-              />
-            </div>
-          </div>
         </section>
-        <FooterLogo />
         <footer className="self-stretch bg-darkolivegreen-600 overflow-hidden flex flex-col items-center justify-start py-[30px] px-20 text-left text-mini text-seagreen-100 font-poppins lg:self-stretch lg:w-auto">
           <div
             className="self-stretch flex flex-row items-start justify-between py-10 px-0 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] lg:h-auto lg:flex-col lg:items-center lg:justify-between lg:gap-[0px] lg:pl-0 lg:box-border"
@@ -3093,23 +2363,10 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 </div>
               </div>
             </div>
-            <FrameComponent41 />
+            <FrameComponent21 />
           </div>
         </footer>
-        <section className="self-stretch bg-darkolivegreen-600 flex flex-row items-start justify-between lg:w-auto lg:[align-self:unset] lg:h-auto lg:pl-10 lg:pr-10 lg:box-border">
-          <div className="flex-1 h-[25px] flex flex-col items-start justify-start py-0 px-[200px] box-border">
-            <div className="self-stretch relative box-border h-px border-t-[1px] border-solid border-white" />
-          </div>
-        </section>
-        <div className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-base text-white lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
-          <b className="relative tracking-[0.9px] leading-[46px] capitalize inline-block w-[406px] h-7 shrink-0">
-            No 24 Maseru Street,East Legon -Accra
-          </b>
-          <b className="relative tracking-[0.9px] leading-[46px] capitalize inline-block w-[533px] h-7 shrink-0">
-            © Copyright 2023 Agrospectrum Ltd. All Rights Reserved.
-          </b>
-        </div>
-      </div>
+      </main>
       {isDrwawerMenuOpen && (
         <PortalDrawer
           overlayColor="rgba(113, 113, 113, 0.3)"

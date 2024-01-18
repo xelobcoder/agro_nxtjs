@@ -56,12 +56,14 @@ const Leading: NextPage = () => {
                 prosperity for generations to come.
               </div>
             </div>
-            <div
-              className="rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-60 h-[53px] flex flex-row items-center justify-center py-[24.95049285888672px] px-[49.90098571777344px] box-border [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-xl text-white font-poppins"
+            <button
+              className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-60 h-[53px] flex flex-row items-center justify-center box-border [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
               data-animate-on-scroll
             >
-              <div className="relative leading-[12.72px]">GET IN TOUCH</div>
-            </div>
+              <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
+                GET IN TOUCH
+              </div>
+            </button>
           </div>
         </div>
         <img

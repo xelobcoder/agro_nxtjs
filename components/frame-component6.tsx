@@ -37,30 +37,36 @@ const FrameComponent6: NextPage = () => {
         className="self-stretch flex flex-row items-center justify-start p-2.5 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-61xl text-goldenrod-100"
         data-animate-on-scroll
       >
-        <div className="flex-1 relative leading-[96.75%]">
+        <h1 className="m-0 flex-1 relative text-inherit leading-[96.75%] font-inherit">
           <span className="font-light">{`Make an `}</span>
           <span className="font-extrabold">enquiry</span>
-        </div>
+        </h1>
       </div>
       <div className="self-stretch flex flex-col items-start justify-start gap-[6px] text-white">
-        <div className="relative tracking-[0.04em] font-extralight text-darkgray-300 whitespace-pre-wrap">
+        <h2 className="m-0 relative text-inherit tracking-[0.04em] font-extralight font-inherit text-darkgray-300 whitespace-pre-wrap">
           CONTACT US
-        </div>
-        <div className="relative tracking-[0.04em]">Agrospectrum Ltd.</div>
-        <div className="relative tracking-[0.04em] font-light">HEAD OFFICE</div>
-        <div className="relative tracking-[0.04em] font-light">{`No. 24 Maseru St `}</div>
+        </h2>
+        <h2 className="m-0 relative text-inherit tracking-[0.04em] font-normal font-inherit">
+          Agrospectrum Ltd.
+        </h2>
+        <h2 className="m-0 relative text-inherit tracking-[0.04em] font-light font-inherit">
+          HEAD OFFICE
+        </h2>
+        <h2 className="m-0 relative text-inherit tracking-[0.04em] font-light font-inherit">{`No. 24 Maseru St `}</h2>
         <div className="relative tracking-[0.04em] font-light">
           East Legon, G/A
         </div>
-        <div className="relative tracking-[0.04em] font-light">
+        <h2 className="m-0 relative text-inherit tracking-[0.04em] font-light font-inherit">
           Accra - Ghana
-        </div>
+        </h2>
       </div>
       <div
         className="self-stretch flex flex-col items-start justify-start gap-[19px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
         data-animate-on-scroll
       >
-        <div className="relative tracking-[0.04em] font-extralight">PHONE</div>
+        <h2 className="m-0 relative text-inherit tracking-[0.04em] font-extralight font-inherit">
+          PHONE
+        </h2>
         <div className="relative tracking-[0.04em] text-white">
           +233(0) 593 808 064
         </div>
@@ -69,7 +75,9 @@ const FrameComponent6: NextPage = () => {
         className="self-stretch flex flex-col items-start justify-start gap-[19px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
         data-animate-on-scroll
       >
-        <div className="relative tracking-[0.05em] font-extralight">EMAIL</div>
+        <h2 className="m-0 relative text-inherit tracking-[0.05em] font-extralight font-inherit">
+          EMAIL
+        </h2>
         <div className="relative tracking-[0.04em] text-white">
           customercare@bsl.com.gh
         </div>

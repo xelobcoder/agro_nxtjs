@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const FooterLogo: NextPage = () => {
   return (
-    <div className="self-stretch overflow-hidden flex flex-col items-start justify-start">
+    <section className="self-stretch overflow-hidden flex flex-col items-start justify-start">
       <div className="relative [background:linear-gradient(90.24deg,_#fbfbfb_17.92%,_#12500c)] shadow-[0px_4px_62px_rgba(0,_0,_0,_0.25)] [backdrop-filter:blur(60px)] w-[1750px] h-[107px] overflow-hidden shrink-0">
         <div className="absolute top-[-5px] left-[63px] w-[4008px] h-[100px]">
           <div className="absolute top-[0px] left-[0px] w-[1974px] h-[100px]">
@@ -121,7 +121,7 @@ const FooterLogo: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

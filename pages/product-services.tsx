@@ -20,8 +20,20 @@ const ProductServices: NextPage = () => {
     window.open("https://sfl.com.gh/");
   }, []);
 
+  const onLgoFrameContainerClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
+  const onHomeCContainerClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
+  const onLinkAboutClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
   const onAboutUsClick = useCallback(() => {
-    router.push("/about-u-s-page");
+    router.push("/contact-p-age");
   }, [router]);
 
   const onProducAndServicesClick = useCallback(() => {
@@ -32,11 +44,23 @@ const ProductServices: NextPage = () => {
     router.push("/projectspartners");
   }, [router]);
 
+  const onLinkPricingClick = useCallback(() => {
+    router.push("/projectspartners");
+  }, [router]);
+
   const onMediaClick = useCallback(() => {
     router.push("/media");
   }, [router]);
 
+  const onLinkPricing2Click = useCallback(() => {
+    router.push("/media");
+  }, [router]);
+
   const onContactUsContainerClick = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
+
+  const onContactUsTextClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
@@ -90,7 +114,7 @@ const ProductServices: NextPage = () => {
     };
   }, []);
 
-  const onFrameButton1Click = useCallback(() => {
+  const onFrameButtonClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
@@ -112,17 +136,17 @@ const ProductServices: NextPage = () => {
 
   return (
     <>
-      <div className="relative bg-darkolivegreen-1000 w-full overflow-hidden flex flex-col items-center justify-center text-left text-mini-4 text-white font-poppins">
-        <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
+      <div className="relative bg-darkolivegreen-1000 w-full overflow-hidden flex flex-col items-center justify-center text-left text-base text-darkslategray-200 font-poppins">
+        <header className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos13]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
                   <div
-                    className="oursubsidiarylogos13 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -155,7 +179,10 @@ const ProductServices: NextPage = () => {
                     src="/images-2-1@2x.png"
                   />
                 </button>
-                <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
+                <div
+                  className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px] cursor-pointer"
+                  onClick={onLgoFrameContainerClick}
+                >
                   <img
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
@@ -164,15 +191,21 @@ const ProductServices: NextPage = () => {
                   />
                 </div>
               </div>
-              <div className="w-[649px] flex flex-row items-center justify-end gap-[20px]">
-                <div className="w-[42px] flex flex-col items-start justify-start gap-[5px]">
+              <nav className="m-0 w-[649px] flex flex-row items-center justify-end gap-[20px]">
+                <div
+                  className="w-[42px] flex flex-col items-start justify-start gap-[5px] cursor-pointer"
+                  onClick={onHomeCContainerClick}
+                >
                   <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[42px] h-[18px] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
-                    <div className="absolute top-[-5.56%] left-[0%] text-smi tracking-[0.32px] leading-[19.2px] font-medium font-poppins text-white text-left">
+                    <div
+                      className="absolute top-[-5.56%] left-[0%] text-smi tracking-[0.32px] leading-[19.2px] font-medium font-poppins text-white text-left cursor-pointer"
+                      onClick={onLinkAboutClick}
+                    >
                       Home
                     </div>
                   </button>
                   <img
-                    className="relative max-h-full w-10 object-cover"
+                    className="relative w-10 h-0 object-cover hidden"
                     alt=""
                     src="/line-1@2x.png"
                   />
@@ -195,13 +228,19 @@ const ProductServices: NextPage = () => {
                   className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-center justify-center"
                   onClick={onClientspartnersClick}
                 >
-                  <div className="relative text-smi tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left">{`Clients & Partners`}</div>
+                  <div
+                    className="relative text-smi tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left cursor-pointer"
+                    onClick={onLinkPricingClick}
+                  >{`Clients & Partners`}</div>
                 </button>
                 <button
                   className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-center justify-center"
                   onClick={onMediaClick}
                 >
-                  <div className="relative text-mini-8 tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left">
+                  <div
+                    className="relative text-mini-8 tracking-[0.32px] leading-[19.2px] font-medium font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fdfdfd,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left cursor-pointer"
+                    onClick={onLinkPricing2Click}
+                  >
                     Media
                   </div>
                 </button>
@@ -209,7 +248,10 @@ const ProductServices: NextPage = () => {
                   className="cursor-pointer py-3 px-5 bg-[transparent] flex-1 rounded-31xl flex flex-row items-center justify-between border-[1px] border-solid border-yellowgreen-100 hover:bg-gray-1600"
                   onClick={onContactUsContainerClick}
                 >
-                  <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fff,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
+                  <div
+                    className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fff,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center cursor-pointer"
+                    onClick={onContactUsTextClick}
+                  >
                     Contact Us
                   </div>
                 </button>
@@ -218,18 +260,18 @@ const ProductServices: NextPage = () => {
                   <div className="relative rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[1]" />
                   <div className="absolute my-0 mx-[!important] top-[19.7px] left-[0px] rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[2]" />
                 </div>
-              </div>
+              </nav>
             </div>
           </nav>
           <nav
-            className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex md:hidden sm:hidden"
+            className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex"
             id="navBar"
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos13]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
                   <div
-                    className="oursubsidiarylogos13 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -288,9 +330,9 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </nav>
-        </div>
-        <div className="self-stretch flex flex-col items-center justify-center text-center text-53xl">
-          <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-[200px] bg-[url('/12001@3x.png')] bg-cover bg-no-repeat bg-[top] lg:hidden">
+        </header>
+        <section className="self-stretch flex flex-col items-center justify-center text-center text-53xl text-white font-poppins">
+          <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-[200px] bg-[url('/12001@3x.png')] bg-cover bg-no-repeat bg-[top] lg:flex md:hidden">
             <div className="self-stretch flex flex-col items-center justify-start relative gap-[10px]">
               <img
                 className="absolute my-0 mx-[!important] top-[-330px] left-[482px] w-[763.2px] h-[1142.9px] z-[0]"
@@ -316,7 +358,7 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[968px] overflow-hidden hidden flex-col items-center justify-center py-[56.01852035522461px] px-20 box-border bg-[url('/960350@3x.png')] bg-cover bg-no-repeat bg-[top] text-[40.3px] md:flex md:pl-[60px] md:pr-[60px] md:box-border">
+          <div className="self-stretch overflow-hidden hidden flex-col items-center justify-center py-[56.01852035522461px] px-20 bg-[url('/960350@3x.png')] bg-cover bg-no-repeat bg-[top] text-[40.3px] md:flex md:pl-[60px] md:pr-[60px] md:box-border">
             <div className="self-stretch flex flex-col items-center justify-start relative gap-[5.6px]">
               <img
                 className="absolute my-0 mx-[!important] top-[-184.9px] left-[270px] w-[427.5px] h-[640.3px] z-[0]"
@@ -342,9 +384,9 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="self-stretch bg-darkolivegreen-900 flex flex-col items-center justify-center">
-          <div className="w-[1732px] flex flex-col items-center justify-start py-0 px-[180px] box-border lg:hidden">
+        </section>
+        <section className="self-stretch bg-darkolivegreen-900 flex flex-col items-center justify-center text-left text-mini-4 text-white font-poppins">
+          <div className="w-[1732px] flex flex-col items-center justify-start py-0 px-[180px] box-border md:hidden">
             <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[70px]">
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover"
@@ -374,12 +416,12 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[960px] hidden flex-col items-center justify-start py-0 px-[100.28868865966797px] box-border text-5xs lg:hidden md:flex">
+          <div className="self-stretch hidden flex-col items-center justify-start py-5 px-10 text-5xs lg:hidden md:flex sm:pl-20 sm:pr-20 sm:box-border">
             <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[39px] sm:flex-col sm:gap-[20px]">
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover sm:flex-[unset] sm:self-stretch"
                 alt=""
-                src="/ottisimage1@2x.png"
+                src="/ottisimage@2x.png"
               />
               <div className="flex-1 flex flex-col items-start justify-start gap-[11.14px] sm:flex-[unset] sm:self-stretch">
                 <div className="self-stretch relative text-[35.1px] leading-[96.75%]">
@@ -404,9 +446,9 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="self-stretch bg-goldenrod-200 flex flex-col items-center justify-center text-base text-darkslategray-200">
-          <div className="w-[1732px] flex flex-col items-center justify-start py-0 px-[200px] box-border lg:hidden">
+        </section>
+        <div className="self-stretch bg-goldenrod-200 hidden flex-col items-center justify-center p-5">
+          <div className="self-stretch flex flex-col items-center justify-start py-0 px-[200px] md:hidden">
             <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[70px]">
               <div className="flex-1 flex flex-col items-start justify-start gap-[30px]">
                 <div className="self-stretch relative text-44xl leading-[96.75%] text-darkolivegreen-700">
@@ -425,12 +467,12 @@ const ProductServices: NextPage = () => {
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover"
                 alt=""
-                src="/ottisimage2@2x.png"
+                src="/ottisimage@2x.png"
               />
             </div>
           </div>
-          <div className="w-[963.5px] hidden flex-col items-center justify-start py-0 px-[111.25865936279297px] box-border text-4xs-9 md:flex md:pl-20 md:pr-20 md:box-border">
-            <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[38.94px] sm:flex-col">
+          <div className="self-stretch flex flex-col items-center justify-start py-0 px-10 text-4xs-9 md:flex md:pl-20 md:pr-20 md:box-border">
+            <div className="self-stretch flex flex-row items-center justify-center gap-[38.94px] sm:flex-col">
               <div className="flex-1 flex flex-col items-start justify-start gap-[16.69px] sm:flex-[unset] sm:self-stretch">
                 <div className="self-stretch relative text-[35px] leading-[96.75%] text-darkolivegreen-700">
                   <b>Input-Credit</b>
@@ -448,13 +490,13 @@ const ProductServices: NextPage = () => {
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover sm:flex-[unset] sm:self-stretch"
                 alt=""
-                src="/ottisimage3@2x.png"
+                src="/ottisimage@2x.png"
               />
             </div>
           </div>
         </div>
-        <div className="self-stretch bg-darkolivegreen-900 flex flex-col items-center justify-center">
-          <div className="w-[1732px] flex flex-col items-center justify-start py-0 px-[220px] box-border lg:hidden">
+        <section className="self-stretch bg-darkolivegreen-900 flex flex-col items-center justify-center text-left text-mini-4 text-white font-poppins">
+          <div className="self-stretch flex flex-col items-center justify-start py-0 px-[220px] md:hidden">
             <div className="self-stretch h-[724px] flex flex-row items-center justify-center gap-[70px]">
               <img
                 className="relative w-[494px] h-[708px] object-cover"
@@ -486,12 +528,12 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[948px] hidden flex-col items-center justify-start py-0 px-[120.41571044921875px] box-border text-5xs-9 md:flex">
-            <div className="self-stretch h-[396.3px] flex flex-row items-center justify-center gap-[38.31px] sm:flex-col">
+          <div className="self-stretch hidden flex-col items-center justify-start py-0 px-10 text-5xs-9 md:flex">
+            <div className="self-stretch flex flex-row items-center justify-center gap-[38.31px] sm:flex-col">
               <img
-                className="relative w-[270.4px] h-[387.5px] object-cover"
+                className="flex-1 relative max-w-full overflow-hidden h-[387.5px] object-cover sm:flex-[unset] sm:self-stretch"
                 alt=""
-                src="/frame-108-21@2x.png"
+                src="/frame-108-2@2x.png"
               />
               <div className="flex-1 flex flex-col items-start justify-start gap-[10.95px] sm:flex-[unset] sm:self-stretch">
                 <div className="self-stretch relative text-[34.5px] leading-[96.75%]">
@@ -518,9 +560,9 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="self-stretch bg-goldenrod-200 flex flex-col items-center justify-center text-mini text-darkslategray-200">
-          <div className="w-[1732px] flex flex-col items-center justify-start py-0 px-[220px] box-border lg:hidden">
+        </section>
+        <section className="self-stretch bg-goldenrod-200 flex flex-col items-center justify-center text-left text-mini text-darkslategray-200 font-poppins">
+          <div className="w-[1732px] flex flex-col items-center justify-start py-0 px-[220px] box-border md:hidden">
             <div className="self-stretch h-[724px] flex flex-row items-center justify-center gap-[70px]">
               <div className="flex-1 flex flex-col items-start justify-start gap-[20px]">
                 <b className="self-stretch relative text-44xl leading-[96.75%] text-darkolivegreen-900">
@@ -542,8 +584,8 @@ const ProductServices: NextPage = () => {
               />
             </div>
           </div>
-          <div className="w-[959.1px] hidden flex-col items-center justify-start py-0 px-[121.82308197021484px] box-border text-4xs-3 md:flex md:pl-20 md:pr-20 md:box-border">
-            <div className="self-stretch h-[400.9px] flex flex-row items-center justify-center gap-[38.76px] sm:flex-col sm:gap-[20px]">
+          <div className="self-stretch hidden flex-col items-center justify-start py-0 px-[121.82308197021484px] text-4xs-3 md:flex md:pl-20 md:pr-20 md:box-border sm:pl-10 sm:pr-10 sm:box-border">
+            <div className="self-stretch flex flex-row items-center justify-center gap-[38.76px] sm:flex-col sm:gap-[20px]">
               <div className="flex-1 flex flex-col items-start justify-start gap-[11.07px] sm:flex-[unset] sm:self-stretch">
                 <b className="self-stretch relative text-[34.9px] leading-[96.75%] text-darkolivegreen-900">
                   <p className="m-0">Aggregation</p>
@@ -560,12 +602,12 @@ const ProductServices: NextPage = () => {
               <img
                 className="relative w-[273.5px] h-[392px] object-cover"
                 alt=""
-                src="/frame-108-23@2x.png"
+                src="/frame-108-2@2x.png"
               />
             </div>
           </div>
-        </div>
-        <div className="self-stretch overflow-hidden flex flex-col items-start justify-start">
+        </section>
+        <section className="self-stretch overflow-hidden flex flex-col items-start justify-start">
           <div className="relative [background:linear-gradient(90.24deg,_#fbfbfb_17.92%,_#12500c)] shadow-[0px_4px_62px_rgba(0,_0,_0,_0.25)] [backdrop-filter:blur(60px)] w-[1750px] h-[107px] overflow-hidden shrink-0">
             <div className="absolute top-[-5px] left-[63px] w-[4008px] h-[100px]">
               <div className="absolute top-[0px] left-[0px] w-[1974px] h-[100px]">
@@ -684,7 +726,7 @@ const ProductServices: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <footer className="self-stretch bg-darkolivegreen-600 overflow-hidden flex flex-col items-center justify-start py-[30px] px-20 text-left text-15xl text-seagreen-100 font-poppins lg:self-stretch lg:w-auto">
           <div
             className="self-stretch flex flex-row items-start justify-between py-10 px-0 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] lg:h-auto lg:flex-col lg:items-center lg:justify-between lg:gap-[0px] lg:pl-0 lg:box-border"
@@ -693,9 +735,9 @@ const ProductServices: NextPage = () => {
           >
             <div className="flex-1 flex flex-col items-start justify-start pt-5 px-0 pb-0 gap-[8px] text-white lg:flex-[unset] lg:self-stretch">
               <div className="self-stretch flex flex-row items-center justify-start p-2.5">
-                <div className="relative tracking-[0.9px] leading-[46px] uppercase">
+                <h1 className="m-0 relative text-inherit tracking-[0.9px] leading-[46px] uppercase font-normal font-inherit">
                   TRANSFORM with
-                </div>
+                </h1>
               </div>
               <div className="self-stretch flex flex-row items-center justify-start p-2.5 text-26xl">
                 <div className="relative tracking-[0.9px] leading-[46px] uppercase font-black">
@@ -717,17 +759,12 @@ const ProductServices: NextPage = () => {
                 </div>
               </div>
               <button
-                className="cursor-pointer [border:none] p-2.5 bg-[transparent] flex flex-col items-start justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                data-animate-on-scroll
+                className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[246.4px] h-[63px] flex flex-row items-center justify-center box-border"
+                onClick={onFrameButtonClick}
               >
-                <button
-                  className="cursor-pointer [border:none] py-[24.95049285888672px] px-[49.90098571777344px] bg-[transparent] rounded-[40.54px] [background:linear-gradient(93.32deg,_#4f943e,_#c1ad28)] w-[246.4px] h-[63px] flex flex-row items-center justify-center box-border"
-                  onClick={onFrameButton1Click}
-                >
-                  <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
-                    GET IN TOUCH
-                  </div>
-                </button>
+                <div className="relative text-xl leading-[12.72px] font-poppins text-white text-left">
+                  GET IN TOUCH
+                </div>
               </button>
             </div>
             <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[40px] text-mini lg:flex-[unset] lg:self-stretch">
@@ -890,7 +927,7 @@ const ProductServices: NextPage = () => {
             <div className="self-stretch relative box-border h-px border-t-[1px] border-solid border-white" />
           </div>
         </section>
-        <div className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-center text-base lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
+        <div className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-center text-white lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
           <b className="relative tracking-[0.9px] leading-[46px] capitalize inline-block w-[406px] h-7 shrink-0">
             No 24 Maseru Street,East Legon -Accra
           </b>

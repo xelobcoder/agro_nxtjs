@@ -29,6 +29,14 @@ const Homepage: NextPage = () => {
     window.open("https://sfl.com.gh/");
   }, []);
 
+  const onLgoFrameContainerClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
+  const onHomeCContainerClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
   const onAboutUsClick = useCallback(() => {
     router.push("/about-u-s-page");
   }, [router]);
@@ -49,6 +57,10 @@ const Homepage: NextPage = () => {
     router.push("/contact-p-age");
   }, [router]);
 
+  const onContactUsTextClick = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
+
   const onClipPathGroup3Click = useCallback(() => {
     window.open("https://bsl.com.gh/");
   }, []);
@@ -60,6 +72,10 @@ const Homepage: NextPage = () => {
   const onClipPathGroup22Click = useCallback(() => {
     window.open("https://sfl.com.gh/");
   }, []);
+
+  const onContactUsContainer1Click = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
 
   const openDrwawerMenu = useCallback(() => {
     setDrwawerMenuOpen(true);
@@ -105,17 +121,17 @@ const Homepage: NextPage = () => {
 
   return (
     <>
-      <div className="relative bg-darkolivegreen-500 w-full overflow-hidden flex flex-col items-center justify-start text-center text-21xl text-darkslategray-200 font-poppins">
-        <div className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] h-20 flex flex-col items-start justify-start">
+      <div className="relative bg-darkolivegreen-500 w-full overflow-hidden flex flex-col items-center justify-start text-left text-[76px] text-goldenrod-100 font-poppins">
+        <header className="self-stretch bg-gray-1300 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos2]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos]:hover:flex">
                   <div
-                    className="absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -148,7 +164,10 @@ const Homepage: NextPage = () => {
                     src="/images-2-1@2x.png"
                   />
                 </button>
-                <div className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px]">
+                <div
+                  className="absolute top-[0px] left-[0px] w-[67.6px] h-[42.5px] cursor-pointer"
+                  onClick={onLgoFrameContainerClick}
+                >
                   <img
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
@@ -157,8 +176,11 @@ const Homepage: NextPage = () => {
                   />
                 </div>
               </div>
-              <div className="w-[649px] flex flex-row items-center justify-end gap-[20px]">
-                <div className="w-[42px] flex flex-col items-start justify-start gap-[5px]">
+              <nav className="m-0 w-[649px] flex flex-row items-center justify-end gap-[20px]">
+                <div
+                  className="w-[42px] flex flex-col items-start justify-start gap-[5px] cursor-pointer"
+                  onClick={onHomeCContainerClick}
+                >
                   <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[42px] h-[18px] hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
                     <div className="absolute top-[-5.56%] left-[0%] text-smi tracking-[0.32px] leading-[19.2px] font-medium font-poppins text-white text-left">
                       Home
@@ -202,7 +224,10 @@ const Homepage: NextPage = () => {
                   className="cursor-pointer py-3 px-5 bg-[transparent] flex-1 rounded-31xl flex flex-row items-center justify-between border-[1px] border-solid border-yellowgreen-100 hover:bg-gray-1600"
                   onClick={onContactUsContainerClick}
                 >
-                  <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fff,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
+                  <div
+                    className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#fff,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center cursor-pointer"
+                    onClick={onContactUsTextClick}
+                  >
                     Contact Us
                   </div>
                 </button>
@@ -211,18 +236,18 @@ const Homepage: NextPage = () => {
                   <div className="relative rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[1]" />
                   <div className="absolute my-0 mx-[!important] top-[19.7px] left-[0px] rounded-[378.41px] bg-yellowgreen-200 w-[29.5px] h-[5.3px] z-[2]" />
                 </div>
-              </div>
+              </nav>
             </div>
           </nav>
           <nav
-            className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex md:hidden sm:hidden"
+            className="m-0 self-stretch [background:linear-gradient(rgba(23,_35,_16,_0.2),_rgba(23,_35,_16,_0.2)),_rgba(255,_255,_255,_0.06)] shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(4px)] hidden flex-row items-center justify-center py-3.5 px-[90px] border-[1px] border-solid border-gray-1800 lg:flex sm:pl-[15px] sm:pr-[15px] sm:box-border"
             id="navBar"
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos3]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos]:hover:flex">
                   <div
-                    className="absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -265,7 +290,10 @@ const Homepage: NextPage = () => {
                 </div>
               </div>
               <div className="flex-1 flex flex-row items-center justify-end gap-[30px]">
-                <button className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100">
+                <button
+                  className="cursor-pointer py-3 px-5 bg-[transparent] rounded-31xl box-border w-[152px] flex flex-row items-center justify-between border-[1px] border-solid border-olivedrab-100"
+                  onClick={onContactUsContainer1Click}
+                >
                   <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-transparent !bg-clip-text [background:linear-gradient(180deg,_#b6c2f1,_#ebefff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center">
                     Contact Us
                   </div>
@@ -281,8 +309,8 @@ const Homepage: NextPage = () => {
               </div>
             </div>
           </nav>
-        </div>
-        <div className="self-stretch flex flex-col items-start justify-start">
+        </header>
+        <section className="self-stretch flex flex-col items-start justify-start">
           <Desktop />
           <section className="w-[1200px] overflow-hidden hidden flex-col items-start justify-start py-20 px-[150px] box-border gap-[10px] bg-[url('/1200@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-47xl-7 text-white font-poppins lg:flex md:hidden">
             <b
@@ -539,8 +567,8 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               />
             </div>
           </section>
-        </div>
-        <div className="self-stretch flex flex-col items-start justify-start">
+        </section>
+        <section className="self-stretch flex flex-col items-start justify-start">
           <div className="[background:linear-gradient(90.1deg,_#fbfbfb,_#084707)] shadow-[0px_4px_62px_rgba(0,_0,_0,_0.25)] [backdrop-filter:blur(60px)] overflow-hidden flex flex-col items-start justify-start py-0 px-[34px] lg:hidden">
             <div className="flex flex-col items-start justify-start">
               <div className="relative w-[1658px] h-[84px]">
@@ -846,8 +874,8 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               </div>
             </div>
           </div>
-        </div>
-        <div className="self-stretch overflow-hidden flex flex-col items-start justify-start">
+        </section>
+        <section className="self-stretch overflow-hidden flex flex-col items-start justify-start">
           <section className="self-stretch bg-gray-500 overflow-hidden flex flex-col items-center justify-start pt-[60px] px-[200px] pb-20 relative gap-[10px] text-center text-lgi text-goldenrod-500 font-poppins lg:hidden">
             <div
               className="absolute my-0 mx-[!important] top-[-117.9px] left-[1533px] rounded-[50%] bg-seagreen-400 [filter:blur(146.6px)] [backdrop-filter:blur(133.5px)] w-[387px] h-[387px] [&.animate]:animate-[15s_ease_0s_infinite_normal_forwards_bounce-in-top] opacity-[0] z-[0]"
@@ -877,8 +905,8 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <div className="flex-1 relative">{`Agrospectrum Limited is a leading force in the agricultural sector, is dedicated to transforming traditional agricultural paradigms and empowering stakeholders across the value chain. With a primary focus on Africa, the company endeavors to create an inclusive marketplace that caters to the diverse needs of farmers, government agencies, financial institutions, and service providers. `}</div>
                 </div>
               </div>
-              <div
-                className="self-stretch relative text-[100px] text-goldenrod-100 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
+              <h1
+                className="m-0 self-stretch relative text-[100px] text-goldenrod-100 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] font-inherit"
                 data-animate-on-scroll
               >
                 <span>Why</span>
@@ -886,7 +914,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <span>us</span>
                 <span className="font-extrabold">{` `}</span>
                 <span>?</span>
-              </div>
+              </h1>
               <div className="w-[1036px] flex flex-col items-center justify-start gap-[100px] text-left text-11xl text-white font-inter">
                 <div className="self-stretch flex flex-row items-start justify-start gap-[76px]">
                   <div className="flex-1 flex flex-col items-start justify-start">
@@ -953,7 +981,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               </div>
             </div>
           </section>
-        </div>
+        </section>
         <section className="self-stretch flex flex-row items-start justify-center text-center text-31xl-9 text-white font-poppins md:gap-[40px] md:pl-2.5 md:pr-2.5 md:box-border">
           <div className="flex-1 [background:linear-gradient(#172310,_#172310),_linear-gradient(90.57deg,_rgba(3,_11,_1,_0.6),_rgba(3,_11,_1,_0.28)_10.54%,_rgba(219,_236,_215,_0.07)_78.44%,_rgba(219,_236,_215,_0.07))] overflow-hidden flex flex-row items-start justify-between py-16 px-[200px] lg:hidden lg:py-[60px] lg:px-[140px] lg:box-border md:py-10 md:px-[100px] md:box-border">
             <div
@@ -1542,7 +1570,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
         </section>
-        <section className="self-stretch h-[1117px] flex flex-col items-start justify-start pt-0 px-0 pb-5 box-border gap-[10px] text-left text-sm-3 text-white font-poppins">
+        <section className="self-stretch flex flex-col items-start justify-start text-left text-sm-3 text-white font-poppins">
           <ProductAndServicesSec />
           <div className="self-stretch [background:linear-gradient(180deg,_rgba(254,_202,_58,_0.75),_rgba(255,_255,_255,_0))] overflow-hidden hidden flex-col items-start justify-start py-0 px-[252px] gap-[44px] lg:flex md:hidden">
             <div className="relative w-[743.4px] h-[659.6px] overflow-hidden shrink-0">
@@ -1921,11 +1949,41 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
           </div>
         </section>
         <Component />
-        <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners@3x.png')] bg-cover bg-no-repeat bg-[top] lg:items-center lg:justify-start sm:hidden">
+        <div className="self-stretch [background:linear-gradient(180deg,_rgba(21,_35,_17,_0.6),_rgba(25,_41,_21,_0.6))] overflow-hidden hidden flex-col items-center justify-start py-[43.409759521484375px] px-[108.5243911743164px] box-border max-h-[265.2369689941406px] md:flex sm:pl-5 sm:pr-5 sm:box-border">
+          <div
+            className="self-stretch h-[86.3px] flex flex-row items-center justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
+            data-animate-on-scroll
+          >
+            <div className="flex-1 flex flex-row items-center justify-between">
+              <img
+                className="relative w-[29.6px] h-[29.6px] opacity-[0.78]"
+                alt=""
+                src="/left-group.svg"
+              />
+              <div className="w-[383.6px] flex flex-row items-center justify-between">
+                <div className="relative tracking-[0.02em] font-extrabold">
+                  Mission
+                </div>
+              </div>
+              <img
+                className="relative w-[29px] h-[29.6px] object-contain opacity-[0.78]"
+                alt=""
+                src="/left-group@2x.png"
+              />
+            </div>
+          </div>
+          <div className="self-stretch relative text-[11.8px] font-inter text-white text-center">
+            To extend digitalization and innovation to agriculture through
+            diverse technological channels
+          </div>
+        </div>
+        <section className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 bg-[url('/section6partners@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-21xl text-darkslategray-200 font-poppins lg:items-center lg:justify-start sm:hidden">
           <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[42px] px-0 gap-[10px] bg-[url('/frame-1211@3x.png')] bg-cover bg-no-repeat bg-[top]">
             <div className="self-stretch flex flex-col items-center justify-start py-[30px] px-0 gap-[42px]">
               <div className="self-stretch flex flex-col items-center justify-start">
-                <b className="relative">Our Projects</b>
+                <h1 className="m-0 relative text-inherit font-bold font-inherit">
+                  Our Projects
+                </h1>
                 <div className="relative text-lgi leading-[100%] font-extrabold text-darkolivegreen-100">
                   The nations’s best digital Agric Platform
                 </div>
@@ -2109,13 +2167,13 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <FrameComponent51 />
             </div>
           </div>
-        </div>
-        <section className="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[10px] text-left text-lgi text-goldenrod-200 font-poppins">
+        </section>
+        <section className="self-stretch overflow-hidden flex flex-col items-start justify-start text-left text-lgi text-goldenrod-200 font-poppins">
           <div className="self-stretch bg-gray-500 overflow-hidden flex flex-col items-center justify-start py-[60px] px-0 relative gap-[20px] text-center text-white lg:hidden md:hover:hidden">
             <img
-              className="absolute my-0 mx-[!important] top-[757.6px] left-[295px] w-[835.5px] h-[1191px] z-[0]"
+              className="absolute my-0 mx-[!important] top-[757.6px] left-[295px] w-[835.5px] h-[1191px] object-cover z-[0]"
               alt=""
-              src="/vector-21.svg"
+              src="/vector-21@2x.png"
             />
             <img
               className="absolute my-0 mx-[!important] top-[-634.4px] left-[-273px] w-[835.5px] h-[1191px] z-[1]"
@@ -2204,7 +2262,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="bg-white w-[1402px] h-[448px] flex flex-col items-start justify-start p-2.5 box-border z-[0]">
                 <div className="self-stretch flex flex-row items-center justify-center gap-[79px]">
                   <img
-                    className="relative w-[555px] h-[487.3px] object-contain"
+                    className="relative w-[555px] h-[487.3px] object-cover"
                     alt=""
                     src="/group-206@2x.png"
                   />
@@ -2455,12 +2513,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
               </div>
-              <b className="relative text-3xl-1 text-white">
-                <span>{`Our Teams & `}</span>
-                <span className="[background:linear-gradient(92.14deg,_#fff,_#f0c024)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                  Experts
-                </span>
-              </b>
+              <b className="relative text-3xl-1 text-white">{`Our Teams & Experts`}</b>
             </div>
             <div className="relative w-[581.8px] h-[274.2px] z-[2] text-sm-8 text-white font-lexend-deca">
               <div
@@ -2582,7 +2635,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[-0.4px] left-[-0.3px] w-[386.2px] h-[378.5px] overflow-hidden object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients1@2x.png"
+                src="/gradients@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -2655,12 +2708,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <div className="relative leading-[100%] font-extrabold">
                 Our Team - The big brains behind Agrospectrum
               </div>
-              <b className="relative text-2xs-3 text-white">
-                <span>{`Our Teams & `}</span>
-                <span className="[background:linear-gradient(92.14deg,_#fff,_#f0c024)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-                  Experts
-                </span>
-              </b>
+              <b className="relative text-2xs-3 text-white">{`Our Teams & Experts `}</b>
             </div>
             <div
               className="relative w-[272.3px] h-[128.4px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] z-[2] text-6xs-5 text-white font-lexend-deca"
@@ -2785,7 +2833,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[11.4px] left-[20px] w-[117px] h-[115px] overflow-hidden object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients2@2x.png"
+                src="/gradients@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -2961,7 +3009,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
               <img
                 className="absolute top-[9.5px] left-[16.7px] w-[97.8px] h-[96.1px] overflow-hidden object-cover [&.animate]:animate-[2s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients3@2x.png"
+                src="/gradients@2x.png"
                 data-animate-on-scroll
               />
             </div>
@@ -3100,7 +3148,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             <div className="self-stretch relative box-border h-px border-t-[1px] border-solid border-white" />
           </div>
         </section>
-        <div className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-base text-white lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
+        <div className="self-stretch bg-darkolivegreen-600 flex flex-row items-end justify-between py-2.5 px-[150px] text-center text-base text-white lg:flex-col lg:items-center lg:justify-start lg:pl-[120px] lg:pr-[116px] lg:box-border">
           <b className="relative tracking-[0.9px] leading-[46px] capitalize inline-block w-[406px] h-7 shrink-0">
             No 24 Maseru Street,East Legon -Accra
           </b>
