@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
 
-const NavDesktop: NextPage = () => {
+const NavDesktop2: NextPage = () => {
   const router = useRouter();
 
   const onClipPathGroupClick = useCallback(() => {
@@ -169,4 +169,4 @@ const NavDesktop: NextPage = () => {
   );
 };
 
-export default NavDesktop;
+export default NavDesktop2;

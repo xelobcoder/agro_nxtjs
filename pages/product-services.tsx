@@ -144,9 +144,9 @@ const ProductServices: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
                   <div
-                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -269,9 +269,9 @@ const ProductServices: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos6]:hover:flex">
                   <div
-                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos6 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -334,11 +334,13 @@ const ProductServices: NextPage = () => {
         <section className="self-stretch flex flex-col items-center justify-center text-center text-53xl text-white font-poppins">
           <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-[100px] px-[200px] bg-[url('/12001@3x.png')] bg-cover bg-no-repeat bg-[top] lg:flex md:hidden">
             <div className="self-stretch flex flex-col items-center justify-start relative gap-[10px]">
-              <img
-                className="absolute my-0 mx-[!important] top-[-330px] left-[482px] w-[763.2px] h-[1142.9px] z-[0]"
-                alt=""
-                src="/bg-blur7.svg"
-              />
+              <div className="absolute my-0 mx-[!important] top-[-330px] left-[482px] w-[763.2px] h-[1142.9px] flex items-center justify-center z-[0]">
+                <img
+                  className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.828)]"
+                  alt=""
+                  src="/bg-blur7.svg"
+                />
+              </div>
               <div className="self-stretch [filter:drop-shadow(0px_4px_10px_rgba(0,_0,_0,_0.25))] flex flex-row items-center justify-center p-2.5 z-[1]">
                 <div className="flex-1 relative tracking-[0.04em] leading-[111%] lg:text-46xl">
                   <span className="font-light">{`Empowering `}</span>
@@ -360,11 +362,13 @@ const ProductServices: NextPage = () => {
           </div>
           <div className="self-stretch overflow-hidden hidden flex-col items-center justify-center py-[56.01852035522461px] px-20 bg-[url('/960350@3x.png')] bg-cover bg-no-repeat bg-[top] text-[40.3px] md:flex md:pl-[60px] md:pr-[60px] md:box-border">
             <div className="self-stretch flex flex-col items-center justify-start relative gap-[5.6px]">
-              <img
-                className="absolute my-0 mx-[!important] top-[-184.9px] left-[270px] w-[427.5px] h-[640.3px] z-[0]"
-                alt=""
-                src="/bg-blur8.svg"
-              />
+              <div className="absolute my-0 mx-[!important] top-[-184.9px] left-[270px] w-[427.5px] h-[640.3px] flex items-center justify-center z-[0]">
+                <img
+                  className="w-full h-full object-contain absolute left-[0px] top-[0px] [transform:scale(1.828)]"
+                  alt=""
+                  src="/bg-blur8.svg"
+                />
+              </div>
               <div className="self-stretch [filter:drop-shadow(0px_2.2px_5.6px_rgba(0,_0,_0,_0.25))] flex flex-row items-center justify-center p-[5.601851940155029px] z-[1]">
                 <div className="flex-1 relative tracking-[0.04em] leading-[111%] lg:text-46xl">
                   <span className="font-light">{`Empowering `}</span>
@@ -849,12 +853,14 @@ const ProductServices: NextPage = () => {
             </div>
             <div className="flex-1 h-[416px] flex flex-col items-start justify-start py-[30px] px-[5px] box-border gap-[44px] text-base lg:flex-[unset] lg:self-stretch">
               <div className="self-stretch flex flex-row items-center justify-start gap-[43px] text-white">
-                <img
-                  className="relative max-h-full w-[33.6px] cursor-pointer"
-                  alt=""
-                  src="/arrow-6.svg"
-                  onClick={onArrowIconClick}
-                />
+                <div className="relative w-[33.6px] cursor-pointer flex items-center justify-center">
+                  <img
+                    className="max-h-full w-full cursor-pointer object-contain absolute left-[0px] top-[0px] h-full [transform:scale(1.089)]"
+                    alt=""
+                    src="/arrow-6.svg"
+                    onClick={onArrowIconClick}
+                  />
+                </div>
                 <div
                   className="flex-1 relative h-0 cursor-pointer"
                   onClick={onNowWereContainerClick}

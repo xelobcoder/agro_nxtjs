@@ -66,7 +66,7 @@ const LeaderSections: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-29xl w-[343px] h-[491px] object-cover"
                     alt=""
-                    src="/base@2x.png"
+                    src="/base1@2x.png"
                   />
                   <div className="absolute top-[444.9px] left-[0px] w-[343.2px] h-[107.2px]">
                     <div className="absolute top-[0px] left-[0px] w-[343.2px] h-[107.2px]">
@@ -103,7 +103,7 @@ const LeaderSections: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[0px] rounded-29xl w-[343px] h-[491px] object-cover"
                     alt=""
-                    src="/base1@2x.png"
+                    src="/base110@2x.png"
                   />
                   <div className="absolute top-[444.9px] left-[0px] w-[343.2px] h-[107.2px]">
                     <div className="absolute top-[0px] left-[0px] w-[343.2px] h-[107.2px]">

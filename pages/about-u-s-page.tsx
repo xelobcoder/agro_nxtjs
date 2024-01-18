@@ -1,7 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
 import { useState, useCallback, useEffect } from "react";
-import NavDesktop from "../components/nav-desktop";
+import NavDesktop2 from "../components/nav-desktop";
 import { useRouter } from "next/router";
 import DrwawerMenu from "../components/drwawer-menu";
 import PortalDrawer from "../components/portal-drawer";
@@ -85,16 +85,16 @@ const AboutUSPage: NextPage = () => {
         id="6-aboutsUs-pageMain"
       >
         <header className="self-stretch bg-gray-1900 [backdrop-filter:blur(200px)] flex flex-col items-start justify-start">
-          <NavDesktop />
+          <NavDesktop2 />
           <nav
             className="m-0 self-stretch bg-gray-1700 shadow-[0px_0px_30px_rgba(255,_255,_255,_0.02)_inset] [backdrop-filter:blur(40px)] box-border h-20 flex flex-col items-center justify-center py-3.5 px-[150px] min-w-[944px] border-[1px] border-solid border-gray-1800 lg:hidden"
             id="navBar"
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos3]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos4]:hover:flex">
                   <div
-                    className="oursubsidiarylogos3 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos4 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img

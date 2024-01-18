@@ -157,7 +157,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
               <img
                 className="absolute top-[10px] left-[-1px] w-8 h-[22px] object-contain mix-blend-exclusion"
                 alt=""
-                src="/images-2-1@2x.png"
+                src="/images-2-13@2x.png"
               />
             </button>
           </div>
@@ -239,12 +239,14 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
               src="/isg-11@2x.png"
               onClick={onClose}
             />
-            <img
-              className="relative w-11 h-[29px] overflow-hidden shrink-0 object-cover mix-blend-normal cursor-pointer"
-              alt=""
-              src="/bslmain-6@2x.png"
-              onClick={onClose}
-            />
+            <div className="relative w-11 h-[29px] shrink-0 mix-blend-normal cursor-pointer flex items-center justify-center">
+              <img
+                className="w-full h-full overflow-hidden shrink-0 mix-blend-normal cursor-pointer object-contain absolute left-[0px] top-[1px] [transform:scale(3.164)]"
+                alt=""
+                src="/bslmain-6@2x.png"
+                onClick={onClose}
+              />
+            </div>
           </div>
         </div>
       </div>

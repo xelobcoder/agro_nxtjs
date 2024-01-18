@@ -140,9 +140,9 @@ const AboutUSPage: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos12]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
                   <div
-                    className="oursubsidiarylogos12 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -418,11 +418,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base48@2x.png"
                       />
                       <div className="absolute top-[259px] left-[26px] w-[65px] h-[65px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[65px] h-[65px]"
-                          alt=""
-                          src="/vector-17.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[65px] h-[65px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[10px] top-[10px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-17.svg"
+                          />
+                        </div>
                         <div className="absolute top-[6px] left-[14.5px] w-8 h-[53px]">
                           <div className="absolute top-[0px] left-[0px] capitalize font-medium">
                             25
@@ -470,11 +472,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base49@2x.png"
                       />
                       <div className="absolute top-[271px] left-[26px] w-[65px] h-[65px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[65px] h-[65px]"
-                          alt=""
-                          src="/vector-17.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[65px] h-[65px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[10px] top-[10px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-17.svg"
+                          />
+                        </div>
                         <div className="absolute top-[6px] left-[16px] capitalize font-medium">
                           25
                         </div>
@@ -519,11 +523,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base50@2x.png"
                       />
                       <div className="absolute top-[253px] left-[29px] w-[65px] h-[65px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[65px] h-[65px]"
-                          alt=""
-                          src="/vector-17.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[65px] h-[65px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[10px] top-[10px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-17.svg"
+                          />
+                        </div>
                         <div className="absolute top-[6px] left-[16px] capitalize font-medium">
                           25
                         </div>
@@ -564,11 +570,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base51@2x.png"
                       />
                       <div className="absolute top-[253px] left-[21.2px] w-[65px] h-[65px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[65px] h-[65px]"
-                          alt=""
-                          src="/vector-17.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[65px] h-[65px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[10px] top-[10px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-17.svg"
+                          />
+                        </div>
                         <div className="absolute top-[6px] left-[16.2px] w-8 h-[50px]">
                           <div className="absolute top-[0px] left-[0px] capitalize font-medium">
                             25
@@ -611,11 +619,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base52@2x.png"
                       />
                       <div className="absolute top-[253px] left-[30px] w-[65px] h-[65px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[65px] h-[65px]"
-                          alt=""
-                          src="/vector-17.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[65px] h-[65px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[10px] top-[10px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-17.svg"
+                          />
+                        </div>
                         <div className="absolute top-[6px] left-[16px] capitalize font-medium">
                           25
                         </div>
@@ -656,11 +666,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base53@2x.png"
                       />
                       <div className="absolute top-[253px] left-[21.8px] w-[65px] h-[65px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[65px] h-[65px]"
-                          alt=""
-                          src="/vector-17.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[65px] h-[65px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[10px] top-[10px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-17.svg"
+                          />
+                        </div>
                         <div className="absolute top-[5px] left-[14.8px] w-8 h-[53px]">
                           <div className="absolute top-[0px] left-[0px] capitalize font-medium">
                             25
@@ -728,11 +740,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base54@2x.png"
                       />
                       <div className="absolute top-[180.9px] left-[17.4px] w-[43.4px] h-[43.4px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px]"
-                          alt=""
-                          src="/vector-171.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[7px] top-[7px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-171.svg"
+                          />
+                        </div>
                         <div className="absolute top-[4px] left-[10.7px] capitalize font-medium">
                           25
                         </div>
@@ -778,11 +792,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base55@2x.png"
                       />
                       <div className="absolute top-[180.9px] left-[17.4px] w-[43.4px] h-[43.4px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px]"
-                          alt=""
-                          src="/vector-171.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[7px] top-[7px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-171.svg"
+                          />
+                        </div>
                         <div className="absolute top-[4px] left-[10.7px] capitalize font-medium">
                           25
                         </div>
@@ -824,11 +840,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base56@2x.png"
                       />
                       <div className="absolute top-[180.9px] left-[17.4px] w-[43.4px] h-[43.4px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px]"
-                          alt=""
-                          src="/vector-171.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[7px] top-[7px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-171.svg"
+                          />
+                        </div>
                         <div className="absolute top-[4px] left-[10.7px] capitalize font-medium">
                           25
                         </div>
@@ -873,11 +891,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base57@2x.png"
                       />
                       <div className="absolute top-[180.9px] left-[17.4px] w-[43.4px] h-[43.4px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px]"
-                          alt=""
-                          src="/vector-171.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[7px] top-[7px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-171.svg"
+                          />
+                        </div>
                         <div className="absolute top-[4px] left-[10.7px] capitalize font-medium">
                           25
                         </div>
@@ -920,11 +940,13 @@ const AboutUSPage: NextPage = () => {
                         src="/base58@2x.png"
                       />
                       <div className="absolute top-[180.9px] left-[17.4px] w-[43.4px] h-[43.4px]">
-                        <img
-                          className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px]"
-                          alt=""
-                          src="/vector-171.svg"
-                        />
+                        <div className="absolute top-[0px] left-[0px] w-[43.4px] h-[43.4px] flex items-center justify-center">
+                          <img
+                            className="w-full h-full object-contain absolute left-[7px] top-[7px] [transform:scale(2.692)]"
+                            alt=""
+                            src="/vector-171.svg"
+                          />
+                        </div>
                         <div className="absolute top-[4px] left-[10.7px] capitalize font-medium">
                           25
                         </div>
@@ -1212,12 +1234,14 @@ const AboutUSPage: NextPage = () => {
             </div>
             <div className="flex-1 h-[416px] flex flex-col items-start justify-start py-[30px] px-[5px] box-border gap-[44px] text-base lg:flex-[unset] lg:self-stretch">
               <div className="self-stretch flex flex-row items-center justify-start gap-[43px] text-white">
-                <img
-                  className="relative max-h-full w-[33.6px] cursor-pointer"
-                  alt=""
-                  src="/arrow-6.svg"
-                  onClick={onArrowIconClick}
-                />
+                <div className="relative w-[33.6px] cursor-pointer flex items-center justify-center">
+                  <img
+                    className="max-h-full w-full cursor-pointer object-contain absolute left-[0px] top-[0px] h-full [transform:scale(1.089)]"
+                    alt=""
+                    src="/arrow-6.svg"
+                    onClick={onArrowIconClick}
+                  />
+                </div>
                 <div
                   className="flex-1 relative h-0 cursor-pointer"
                   onClick={onNowWereContainerClick}

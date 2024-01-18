@@ -44,7 +44,7 @@ const ArrowFrame: NextPage = () => {
       <img
         className="absolute top-[10px] left-[-1px] w-8 h-[22px] object-contain mix-blend-exclusion"
         alt=""
-        src="/images-2-13@2x.png"
+        src="/images-2-131@2x.png"
       />
     </button>
   );
