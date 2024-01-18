@@ -393,7 +393,7 @@ const Careers: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[27px] left-[-277px] w-[795.4px] h-[1191px] object-cover [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
               alt=""
-              src="/bg-blur@2x.png"
+              src="/bg-blur1@2x.png"
               data-animate-on-scroll
             />
             <div className="flex-1 flex flex-row items-start justify-center gap-[10px] z-[3]">
@@ -510,7 +510,7 @@ const Careers: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[18.7px] left-[-192.2px] w-[551.8px] h-[826.2px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
               alt=""
-              src="/bg-blur.svg"
+              src="/bg-blur2.svg"
               data-animate-on-scroll
             />
             <div className="flex-1 flex flex-row items-center justify-center gap-[6.94px] z-[3]">
@@ -644,7 +644,7 @@ const Careers: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[15.1px] left-[-154.9px] w-[444.7px] h-[665.9px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
               alt=""
-              src="/bg-blur.svg"
+              src="/bg-blur3.svg"
               data-animate-on-scroll
             />
             <div className="flex flex-row items-center justify-center gap-[5.59px] z-[3]">
@@ -817,7 +817,7 @@ const Careers: NextPage = () => {
               <img
                 className="absolute my-0 mx-[!important] top-[12.6px] left-[-353px] w-[516px] h-[773px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[1]"
                 alt=""
-                src="/bg-blur.svg"
+                src="/bg-blur4.svg"
                 data-animate-on-scroll
               />
               <div className="rounded-[19.02px] bg-whitesmoke-200 box-border w-[346px] overflow-hidden flex flex-col items-center justify-center py-[9.768203735351562px] px-[9.254087448120117px] gap-[17.99px] z-[2] border-[0.5px] border-solid border-gray-200">
@@ -1034,7 +1034,7 @@ const Careers: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[-80.9px] left-[-64px] w-[167.3px] h-[250.4px] [&.animate]:animate-[13s_ease_2s_infinite_normal_forwards_slide-in-top] opacity-[0] z-[2]"
               alt=""
-              src="/bg-blur.svg"
+              src="/bg-blur6.svg"
               data-animate-on-scroll
             />
           </div>
@@ -1056,12 +1056,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-52@2x.png"
                     />
                     <img
                       className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download1@2x.png"
                     />
                     <img
                       className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
@@ -1076,7 +1076,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture1@2x.png"
                     />
                     <img
                       className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
@@ -1086,17 +1086,17 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images1@2x.png"
                     />
                     <img
                       className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-62@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-11@2x.png"
                     />
                     <img
                       className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
@@ -1113,12 +1113,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-54@2x.png"
                     />
                     <img
                       className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download1@2x.png"
                     />
                     <img
                       className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
@@ -1133,7 +1133,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture1@2x.png"
                     />
                     <img
                       className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
@@ -1143,17 +1143,17 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images1@2x.png"
                     />
                     <img
                       className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-62@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-12@2x.png"
                     />
                     <img
                       className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
@@ -1396,12 +1396,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[13.9px] left-[218.7px] w-[72.2px] h-[47.2px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-55@2x.png"
                     />
                     <img
                       className="absolute top-[4.9px] left-[1219.9px] w-[47.2px] h-[52.1px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download2@2x.png"
                     />
                     <img
                       className="absolute top-[10.4px] left-[0px] w-[58.3px] h-[48.6px] object-cover"
@@ -1416,7 +1416,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[9px] left-[336px] w-[117.3px] h-[51.4px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture2@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[493.6px] w-[205.5px] h-[43px] object-cover"
@@ -1426,17 +1426,17 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[20.1px] left-[728.3px] w-[95.8px] h-[32.6px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images2@2x.png"
                     />
                     <img
                       className="absolute top-[9.7px] left-[849.1px] w-[86.1px] h-[49.3px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-63@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[969.2px] w-[69.4px] h-[69.4px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-13@2x.png"
                     />
                     <img
                       className="absolute top-[12.5px] left-[1075.5px] w-[113.9px] h-[45.1px] object-cover"
@@ -1453,12 +1453,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[13.9px] left-[218.7px] w-[72.2px] h-[47.2px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-56@2x.png"
                     />
                     <img
                       className="absolute top-[4.9px] left-[1219.9px] w-[47.2px] h-[52.1px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download3@2x.png"
                     />
                     <img
                       className="absolute top-[10.4px] left-[0px] w-[58.3px] h-[48.6px] object-cover"
@@ -1473,7 +1473,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[9px] left-[336px] w-[117.3px] h-[51.4px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture3@2x.png"
                     />
                     <img
                       className="absolute top-[13.9px] left-[493.6px] w-[205.5px] h-[43px] object-cover"
@@ -1483,22 +1483,22 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[20.1px] left-[728.3px] w-[95.8px] h-[32.6px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images3@2x.png"
                     />
                     <img
                       className="absolute top-[9.7px] left-[849.1px] w-[86.1px] h-[49.3px] object-cover"
                       alt=""
-                      src="/download-6@2x.png"
+                      src="/download-64@2x.png"
                     />
                     <img
                       className="absolute top-[0px] left-[969.2px] w-[69.4px] h-[69.4px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-14@2x.png"
                     />
                     <img
                       className="absolute top-[12.5px] left-[1075.5px] w-[113.9px] h-[45.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-11@2x.png"
                     />
                   </div>
                 </div>
@@ -1733,12 +1733,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[11.1px] left-[175px] w-[57.8px] h-[37.8px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-57@2x.png"
                     />
                     <img
                       className="absolute top-[3.9px] left-[976.1px] w-[37.8px] h-[41.7px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download4@2x.png"
                     />
                     <img
                       className="absolute top-[8.3px] left-[0px] w-[46.7px] h-[38.9px] object-cover"
@@ -1753,7 +1753,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[7.2px] left-[268.9px] w-[93.9px] h-[41.1px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture4@2x.png"
                     />
                     <img
                       className="absolute top-[11.1px] left-[395px] w-[164.4px] h-[34.4px] object-cover"
@@ -1763,7 +1763,7 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[16.1px] left-[582.8px] w-[76.7px] h-[26.1px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images4@2x.png"
                     />
                     <img
                       className="absolute top-[7.8px] left-[679.4px] w-[68.9px] h-[39.4px] object-cover"
@@ -1773,12 +1773,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[775.6px] w-[55.6px] h-[55.6px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-15@2x.png"
                     />
                     <img
                       className="absolute top-[10px] left-[860.6px] w-[91.1px] h-[36.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-13@2x.png"
                     />
                   </div>
                   <div className="absolute top-[0px] left-[1130px] w-[1096.7px] h-[55.6px]">
@@ -1790,12 +1790,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[11.1px] left-[175px] w-[57.8px] h-[37.8px] object-cover"
                       alt=""
-                      src="/download-5@2x.png"
+                      src="/download-58@2x.png"
                     />
                     <img
                       className="absolute top-[3.9px] left-[976.1px] w-[37.8px] h-[41.7px] object-cover"
                       alt=""
-                      src="/download@2x.png"
+                      src="/download4@2x.png"
                     />
                     <img
                       className="absolute top-[8.3px] left-[0px] w-[46.7px] h-[38.9px] object-cover"
@@ -1810,17 +1810,17 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[7.2px] left-[268.9px] w-[93.9px] h-[41.1px] object-cover"
                       alt=""
-                      src="/capture@2x.png"
+                      src="/capture4@2x.png"
                     />
                     <img
                       className="absolute top-[11.1px] left-[395px] w-[164.4px] h-[34.4px] object-cover"
                       alt=""
-                      src="/mofa-color@2x.png"
+                      src="/mofa-color3@2x.png"
                     />
                     <img
                       className="absolute top-[16.1px] left-[582.8px] w-[76.7px] h-[26.1px] object-cover mix-blend-difference"
                       alt=""
-                      src="/images@2x.png"
+                      src="/images4@2x.png"
                     />
                     <img
                       className="absolute top-[7.8px] left-[679.4px] w-[68.9px] h-[39.4px] object-cover"
@@ -1830,12 +1830,12 @@ const Careers: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[775.6px] w-[55.6px] h-[55.6px] object-cover"
                       alt=""
-                      src="/images-1@2x.png"
+                      src="/images-16@2x.png"
                     />
                     <img
                       className="absolute top-[10px] left-[860.6px] w-[91.1px] h-[36.1px] object-cover"
                       alt=""
-                      src="/download-1@2x.png"
+                      src="/download-14@2x.png"
                     />
                   </div>
                 </div>
@@ -2069,12 +2069,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[12.2px] left-[191.7px] w-[63.3px] h-[41.4px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-59@2x.png"
                   />
                   <img
                     className="absolute top-[4.3px] left-[1069.1px] w-[41.4px] h-[45.6px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download5@2x.png"
                   />
                   <img
                     className="absolute top-[9.1px] left-[0px] w-[51.1px] h-[42.6px] object-cover"
@@ -2089,7 +2089,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[7.9px] left-[294.5px] w-[102.8px] h-[45px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture5@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[432.6px] w-[180.1px] h-[37.7px] object-cover"
@@ -2099,7 +2099,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[17.6px] left-[638.3px] w-[84px] h-[28.6px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images5@2x.png"
                   />
                   <img
                     className="absolute top-[8.5px] left-[744.2px] w-[75.5px] h-[43.2px] object-cover"
@@ -2109,12 +2109,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[849.4px] w-[60.8px] h-[60.8px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-17@2x.png"
                   />
                   <img
                     className="absolute top-[11px] left-[942.5px] w-[99.8px] h-[39.6px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-15@2x.png"
                   />
                 </div>
                 <div className="absolute top-[0px] left-[1237.6px] w-[1201.1px] h-[60.8px]">
@@ -2126,12 +2126,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[12.2px] left-[191.7px] w-[63.3px] h-[41.4px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-510@2x.png"
                   />
                   <img
                     className="absolute top-[4.3px] left-[1069.1px] w-[41.4px] h-[45.6px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download6@2x.png"
                   />
                   <img
                     className="absolute top-[9.1px] left-[0px] w-[51.1px] h-[42.6px] object-cover"
@@ -2146,7 +2146,7 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[7.9px] left-[294.5px] w-[102.8px] h-[45px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture6@2x.png"
                   />
                   <img
                     className="absolute top-[12.2px] left-[432.6px] w-[180.1px] h-[37.7px] object-cover"
@@ -2156,22 +2156,22 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[17.6px] left-[638.3px] w-[84px] h-[28.6px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images6@2x.png"
                   />
                   <img
                     className="absolute top-[8.5px] left-[744.2px] w-[75.5px] h-[43.2px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-65@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[849.4px] w-[60.8px] h-[60.8px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-18@2x.png"
                   />
                   <img
                     className="absolute top-[11px] left-[942.5px] w-[99.8px] h-[39.6px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-16@2x.png"
                   />
                 </div>
               </div>
@@ -2388,12 +2388,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[10px] left-[157.2px] w-[51.9px] h-[33.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-511@2x.png"
                   />
                   <img
                     className="absolute top-[3.5px] left-[876.9px] w-[33.9px] h-[37.4px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download7@2x.png"
                   />
                   <img
                     className="absolute top-[7.5px] left-[0px] w-[41.9px] h-[34.9px] object-cover"
@@ -2408,32 +2408,32 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[6.5px] left-[241.6px] w-[84.3px] h-[36.9px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture7@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[354.8px] w-[147.7px] h-[30.9px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color4@2x.png"
                   />
                   <img
                     className="absolute top-[14.5px] left-[523.5px] w-[68.9px] h-[23.5px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images7@2x.png"
                   />
                   <img
                     className="absolute top-[7px] left-[610.4px] w-[61.9px] h-[35.4px] object-cover"
                     alt=""
-                    src="/download-6@2x.png"
+                    src="/download-66@2x.png"
                   />
                   <img
                     className="absolute top-[0px] left-[696.7px] w-[49.9px] h-[49.9px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-19@2x.png"
                   />
                   <img
                     className="absolute top-[9px] left-[773.1px] w-[81.8px] h-[32.4px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-17@2x.png"
                   />
                 </div>
                 <div className="absolute top-[0px] left-[1015.1px] w-[985.2px] h-[49.9px]">
@@ -2445,12 +2445,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[10px] left-[157.2px] w-[51.9px] h-[33.9px] object-cover"
                     alt=""
-                    src="/download-5@2x.png"
+                    src="/download-512@2x.png"
                   />
                   <img
                     className="absolute top-[3.5px] left-[876.9px] w-[33.9px] h-[37.4px] object-cover"
                     alt=""
-                    src="/download@2x.png"
+                    src="/download8@2x.png"
                   />
                   <img
                     className="absolute top-[7.5px] left-[0px] w-[41.9px] h-[34.9px] object-cover"
@@ -2465,17 +2465,17 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[6.5px] left-[241.6px] w-[84.3px] h-[36.9px] object-cover"
                     alt=""
-                    src="/capture@2x.png"
+                    src="/capture8@2x.png"
                   />
                   <img
                     className="absolute top-[10px] left-[354.8px] w-[147.7px] h-[30.9px] object-cover"
                     alt=""
-                    src="/mofa-color@2x.png"
+                    src="/mofa-color5@2x.png"
                   />
                   <img
                     className="absolute top-[14.5px] left-[523.5px] w-[68.9px] h-[23.5px] object-cover mix-blend-difference"
                     alt=""
-                    src="/images@2x.png"
+                    src="/images8@2x.png"
                   />
                   <img
                     className="absolute top-[7px] left-[610.4px] w-[61.9px] h-[35.4px] object-cover"
@@ -2485,12 +2485,12 @@ const Careers: NextPage = () => {
                   <img
                     className="absolute top-[0px] left-[696.7px] w-[49.9px] h-[49.9px] object-cover"
                     alt=""
-                    src="/images-1@2x.png"
+                    src="/images-110@2x.png"
                   />
                   <img
                     className="absolute top-[9px] left-[773.1px] w-[81.8px] h-[32.4px] object-cover"
                     alt=""
-                    src="/download-1@2x.png"
+                    src="/download-18@2x.png"
                   />
                 </div>
               </div>

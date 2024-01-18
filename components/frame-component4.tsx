@@ -68,21 +68,21 @@ const FrameComponent41: NextPage = () => {
             <img
               className="relative w-[7.8px] h-[15px]"
               alt=""
-              src="/vector.svg"
+              src="/vector151.svg"
             />
           </div>
           <div className="rounded-[58.28px] bg-darkgray-400 w-[45.3px] h-[45.3px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-[19.9257869720459px] px-[17.4350643157959px] box-border">
             <img
               className="relative w-[16.7px] h-3.5"
               alt=""
-              src="/vector1.svg"
+              src="/vector161.svg"
             />
           </div>
           <div className="rounded-[40.35px] bg-darkgray-400 w-[49.3px] h-[48.8px] flex flex-col items-center justify-center p-[19.9257869720459px] box-border">
             <img
               className="relative w-[16.1px] h-[15px]"
               alt=""
-              src="/vector2.svg"
+              src="/vector21.svg"
             />
           </div>
         </div>

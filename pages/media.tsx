@@ -381,17 +381,17 @@ const Media: NextPage = () => {
             <img
               className="flex-1 relative max-w-full overflow-hidden h-[420px] object-cover"
               alt=""
-              src="/frame-113@2x.png"
+              src="/frame-1131@2x.png"
             />
             <img
               className="relative w-[441px] h-[541px] object-cover"
               alt=""
-              src="/mr-castro-awards-1@2x.png"
+              src="/mr-castro-awards-11@2x.png"
             />
             <img
               className="relative w-[269px] h-[365px] overflow-hidden shrink-0 object-cover"
               alt=""
-              src="/frame-114@2x.png"
+              src="/frame-1141@2x.png"
             />
           </section>
           <div className="self-stretch flex flex-col items-center justify-start">
@@ -438,7 +438,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[3px] left-[0px] w-[420px] h-[300px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base7@2x.png"
                       />
                       <div className="absolute top-[259px] left-[26px] w-[65px] h-[65px]">
                         <img
@@ -490,7 +490,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[3px] left-[0px] w-[420px] h-[300px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base8@2x.png"
                       />
                       <div className="absolute top-[271px] left-[26px] w-[65px] h-[65px]">
                         <img
@@ -539,7 +539,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[3px] left-[0px] w-[420px] h-[300px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base9@2x.png"
                       />
                       <div className="absolute top-[253px] left-[29px] w-[65px] h-[65px]">
                         <img
@@ -584,7 +584,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[3px] left-[0px] w-[420px] h-[300px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base10@2x.png"
                       />
                       <div className="absolute top-[253px] left-[21.2px] w-[65px] h-[65px]">
                         <img
@@ -631,7 +631,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[3px] left-[0px] w-[420px] h-[300px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base11@2x.png"
                       />
                       <div className="absolute top-[253px] left-[30px] w-[65px] h-[65px]">
                         <img
@@ -676,7 +676,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[3px] left-[0px] w-[420px] h-[300px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base12@2x.png"
                       />
                       <div className="absolute top-[253px] left-[21.8px] w-[65px] h-[65px]">
                         <img
@@ -748,7 +748,7 @@ const Media: NextPage = () => {
                       <img
                         className="absolute top-[2px] left-[0px] w-[280.4px] h-[200.3px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base13@2x.png"
                       />
                       <div className="absolute top-[180.9px] left-[17.4px] w-[43.4px] h-[43.4px]">
                         <img

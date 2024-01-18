@@ -52,7 +52,7 @@ const Faqs: NextPage = () => {
       </div>
       <Faq
         whatIsHostingUsed="What are some of your partners ?"
-        frame2097="/frame-20981@2x.png"
+        frame2097="/frame-2098@2x.png"
         propDisplay="flex"
         propMinWidth="unset"
         propWidth="94px"

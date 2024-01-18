@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useState, useCallback, useEffect } from "react";
-import NavDesktop2 from "../components/nav-desktop";
+import NavDesktop2 from "../components/nav-desktop2";
 import { useRouter } from "next/router";
 import DrwawerMenu from "../components/drwawer-menu";
 import PortalDrawer from "../components/portal-drawer";

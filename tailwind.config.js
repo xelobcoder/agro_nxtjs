@@ -95,11 +95,11 @@ module.exports = {
           "100": "#9eb032",
           "200": "rgba(158, 176, 50, 0.8)",
         },
+        beige: "#e3f5d5",
         whitesmoke: {
           "100": "#f5f5f5",
           "200": "#ececec",
         },
-        beige: "#e3f5d5",
         forestgreen: {
           "100": "#037b20",
           "200": "rgba(79, 148, 62, 0.6)",

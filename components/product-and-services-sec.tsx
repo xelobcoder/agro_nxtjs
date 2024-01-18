@@ -101,7 +101,7 @@ const ProductAndServicesSec: NextPage = () => {
           <img
             className="relative w-[43.8px] h-[16.4px]"
             alt=""
-            src="/paginations.svg"
+            src="/project-arrow3.svg"
           />
         </div>
         <div className="overflow-hidden flex flex-row items-start justify-start gap-[11px]">

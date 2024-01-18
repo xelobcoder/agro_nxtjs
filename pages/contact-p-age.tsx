@@ -318,7 +318,7 @@ const ContactPAge: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[-634.4px] left-[-273px] w-[835.5px] h-[1191px] object-cover z-[1]"
               alt=""
-              src="/vector-23@2x.png"
+              src="/vector-232@2x.png"
             />
             <div className="self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-5 gap-[5px] z-[2] text-goldenrod-200">
               <div className="self-stretch relative leading-[100%] font-extrabold">
@@ -546,7 +546,7 @@ const ContactPAge: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[1102.4px] left-[735.1px] w-[574px] h-[818.3px] z-[5]"
               alt=""
-              src="/vector-22.svg"
+              src="/vector-222.svg"
             />
             <div className="relative w-[962.6px] h-[439px] z-[6] text-2xs-3 text-darkslategray-200 font-lexend-deca">
               <div
@@ -843,7 +843,7 @@ const ContactPAge: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[-164.1px] left-[-70.5px] w-[215.8px] h-[307.6px] z-[0]"
               alt=""
-              src="/vector-232.svg"
+              src="/vector-2321.svg"
             />
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[5.16522216796875px] gap-[1.29px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
@@ -936,7 +936,7 @@ const ContactPAge: NextPage = () => {
             <img
               className="absolute my-0 mx-[!important] top-[414.2px] left-[276.3px] w-[215.8px] h-[307.6px] z-[5]"
               alt=""
-              src="/vector-222.svg"
+              src="/vector-2221.svg"
             />
             <div className="relative w-[340px] h-[122px] z-[6] text-9xs-9 text-darkslategray-200 font-lexend-deca">
               <div
@@ -974,7 +974,7 @@ const ContactPAge: NextPage = () => {
               <img
                 className="absolute top-[11.4px] left-[20px] w-[117px] h-[115px] overflow-hidden object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
                 alt=""
-                src="/gradients@2x.png"
+                src="/gradients1@2x.png"
                 data-animate-on-scroll
               />
             </div>

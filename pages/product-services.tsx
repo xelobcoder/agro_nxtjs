@@ -456,7 +456,7 @@ const ProductServices: NextPage = () => {
               <img
                 className="flex-1 max-w-full overflow-hidden max-h-full object-cover sm:flex-[unset] sm:self-stretch"
                 alt=""
-                src="/ottisimage@2x.png"
+                src="/ottisimage1@2x.png"
               />
               <div className="flex-1 flex flex-col items-start justify-start gap-[11.14px] sm:flex-[unset] sm:self-stretch">
                 <div className="self-stretch relative text-[35.1px] leading-[96.75%]">
@@ -654,12 +654,12 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-516@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download11@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
@@ -674,7 +674,7 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture11@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
@@ -684,7 +684,7 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images11@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
@@ -694,7 +694,7 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-114@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
@@ -711,12 +711,12 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-517@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download11@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
@@ -731,7 +731,7 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture11@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
@@ -741,7 +741,7 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images11@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
@@ -751,7 +751,7 @@ const ProductServices: NextPage = () => {
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-115@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"

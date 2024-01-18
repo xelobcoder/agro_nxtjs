@@ -39,7 +39,7 @@ const Desktop: NextPage = () => {
         data-animate-on-scroll
       >{`Digitalization `}</b>
       <div
-        className="w-[1248.3px] flex flex-row items-center justify-start gap-[15px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-76xl-1"
+        className="self-stretch flex flex-row items-center justify-start gap-[15px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-76xl-1"
         data-animate-on-scroll
       >
         <div className="rounded-[11.89px] bg-goldenrod-200 w-[498.3px] flex flex-row items-center justify-center py-[5.94444465637207px] px-[11.88888931274414px] box-border hover:bg-gray-500 hover:animate-[1s_ease_0s_1_normal_none_shadow-pop-tr] hover:opacity-[1]">
@@ -72,12 +72,12 @@ const Desktop: NextPage = () => {
           <img
             className="absolute top-[18.8px] left-[65.8px] w-[13px] h-[13px]"
             alt=""
-            src="/group-188.svg"
+            src="/group-1886.svg"
           />
           <img
             className="absolute top-[18.8px] left-[112.8px] w-[13px] h-[13px]"
             alt=""
-            src="/group-188.svg"
+            src="/group-1886.svg"
           />
         </div>
         <div className="relative w-[42px] h-[18px]">

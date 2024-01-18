@@ -316,7 +316,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base1@2x.png"
                     />
                     <div className="absolute top-[172px] left-[11px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[250px]">
                       A flagship program of the MoFA(Ghana) that used
@@ -340,7 +340,7 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base2@2x.png"
                       />
                       <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] inline-block w-[242px]">
                         <span className="font-light">{`A credit program spearheaded by `}</span>
@@ -370,7 +370,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base3@2x.png"
                     />
                     <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[235px]">
                       An enumeration program by the Government of Ghana through
@@ -392,7 +392,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base4@2x.png"
                     />
                     <div className="absolute top-[170px] left-[11px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[250px]">{`Our climate-smart solution empowers farmers across languages with vital information like weather forecasts, disaster preparedness & agro-advice.`}</div>
                     <div className="absolute top-[128px] left-[-2px] w-44 h-[33.7px] text-smi text-darkslategray-200">
@@ -415,7 +415,7 @@ const Projectspartners: NextPage = () => {
                     <img
                       className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-contain"
                       alt=""
-                      src="/base@2x.png"
+                      src="/base5@2x.png"
                     />
                     <div className="absolute top-[170px] left-[12px] text-xs tracking-[0.01em] leading-[15px] font-light inline-block w-[232px]">{`Imagine a future of digitization of the agribusiness were reliable technology become your allies for informed decision making `}</div>
                     <div className="absolute top-[129px] left-[-2px] w-[153px] h-[33.7px] text-smi text-darkslategray-200">
@@ -437,7 +437,7 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="absolute top-[0px] left-[-1px] w-[265px] h-[148px] object-cover"
                         alt=""
-                        src="/base@2x.png"
+                        src="/base6@2x.png"
                       />
                       <div className="absolute top-[170px] left-[10px] text-xs tracking-[0.01em] leading-[15px] inline-block w-[250px]">
                         <p className="m-0">
@@ -471,7 +471,7 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="relative w-[43.8px] h-[16.4px] object-cover"
                   alt=""
-                  src="/frame-1210.svg"
+                  src="/frame-1210.png"
                 />
                 <div className="relative w-[248px] h-[13px] overflow-hidden shrink-0">
                   <div className="absolute h-[14.62%] w-[112.9%] top-[-0.77%] right-[0%] bottom-[86.15%] left-[-12.9%] bg-gray-1400" />
@@ -508,12 +508,12 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="relative w-[171.4px] h-[81.1px] object-cover"
                         alt=""
-                        src="/capture@2x.png"
+                        src="/capture9@2x.png"
                       />
                       <img
                         className="relative w-[135.9px] h-[77.8px] object-cover"
                         alt=""
-                        src="/download-6@2x.png"
+                        src="/download-67@2x.png"
                       />
                     </section>
                   </div>
@@ -522,7 +522,7 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="relative w-[88.2px] h-[62.5px] object-cover"
                         alt=""
-                        src="/download-5@2x.png"
+                        src="/download-513@2x.png"
                       />
                       <img
                         className="relative w-[65.7px] h-[71.2px] object-cover"
@@ -532,19 +532,19 @@ const Projectspartners: NextPage = () => {
                       <img
                         className="relative w-[138px] h-[47px] object-cover mix-blend-difference"
                         alt=""
-                        src="/images@2x.png"
+                        src="/images9@2x.png"
                       />
                     </section>
                     <section className="h-[72.4px] flex flex-row items-center justify-start gap-[43.76px] text-left text-5xs-6 text-black font-montserrat lg:items-center lg:justify-center">
                       <img
                         className="relative w-[140px] h-[59.9px] object-cover"
                         alt=""
-                        src="/download-1@2x.png"
+                        src="/download-19@2x.png"
                       />
                       <img
                         className="relative w-[85.4px] h-[92.2px] object-cover"
                         alt=""
-                        src="/images-1@2x.png"
+                        src="/images-111@2x.png"
                       />
                       <div className="relative w-[55.9px] h-[71.5px]">
                         <div className="absolute top-[62.5px] left-[4.9px] tracking-[0.1em] font-medium flex items-center w-[46.9px] h-[9px]">
@@ -553,7 +553,7 @@ const Projectspartners: NextPage = () => {
                         <img
                           className="absolute top-[0px] left-[0px] w-[55.9px] h-[61.7px] object-cover"
                           alt=""
-                          src="/download@2x.png"
+                          src="/download9@2x.png"
                         />
                       </div>
                     </section>
@@ -582,12 +582,12 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-514@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download10@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
@@ -602,7 +602,7 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture10@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
@@ -612,17 +612,17 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images10@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                   alt=""
-                  src="/download-6@2x.png"
+                  src="/download-68@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-112@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"
@@ -639,12 +639,12 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[20px] left-[315px] w-[104px] h-[68px] object-cover"
                   alt=""
-                  src="/download-5@2x.png"
+                  src="/download-515@2x.png"
                 />
                 <img
                   className="absolute top-[7px] left-[1757px] w-[68px] h-[75px] object-cover"
                   alt=""
-                  src="/download@2x.png"
+                  src="/download10@2x.png"
                 />
                 <img
                   className="absolute top-[15px] left-[0px] w-[84px] h-[70px] object-cover"
@@ -659,7 +659,7 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[13px] left-[484px] w-[169px] h-[74px] object-cover"
                   alt=""
-                  src="/capture@2x.png"
+                  src="/capture10@2x.png"
                 />
                 <img
                   className="absolute top-[20px] left-[711px] w-[296px] h-[62px] object-cover"
@@ -669,17 +669,17 @@ const Projectspartners: NextPage = () => {
                 <img
                   className="absolute top-[29px] left-[1049px] w-[138px] h-[47px] object-cover mix-blend-difference"
                   alt=""
-                  src="/images@2x.png"
+                  src="/images10@2x.png"
                 />
                 <img
                   className="absolute top-[14px] left-[1223px] w-[124px] h-[71px] object-cover"
                   alt=""
-                  src="/download-6@2x.png"
+                  src="/download-68@2x.png"
                 />
                 <img
                   className="absolute top-[0px] left-[1396px] w-[100px] h-[100px] object-cover"
                   alt=""
-                  src="/images-1@2x.png"
+                  src="/images-113@2x.png"
                 />
                 <img
                   className="absolute top-[18px] left-[1549px] w-[164px] h-[65px] object-cover"

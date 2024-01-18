@@ -5528,7 +5528,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             <img
               className="absolute my-0 mx-[!important] top-[-163.7px] left-[-70.5px] w-[215.8px] h-[307.6px] z-[0]"
               alt=""
-              src="/vector-2321.svg"
+              src="/vector-23211.svg"
             />
             <div className="flex flex-col items-center justify-start pt-0 px-0 pb-[5.16522216796875px] gap-[1.29px] z-[1]">
               <div className="relative leading-[100%] font-extrabold">
@@ -5626,7 +5626,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             <img
               className="absolute my-0 mx-[!important] top-[414.5px] left-[276.3px] w-[215.8px] h-[307.6px] z-[5]"
               alt=""
-              src="/vector-2221.svg"
+              src="/vector-22211.svg"
             />
             <div className="relative w-[340px] h-[122px] z-[6] text-9xs-9 text-darkslategray-200 font-lexend-deca">
               <div
