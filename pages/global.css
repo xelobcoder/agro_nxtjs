@@ -145,12 +145,12 @@ body {
   }
 }
 
-@keyframes shadow-drop-bottom {
+@keyframes fade-in {
   0% {
-    box-shadow: 0 0 0 0 transparent;
+    opacity: 0;
   }
   100% {
-    box-shadow: 0 12px 20px -12px rgb(0 0 0 / 35%);
+    opacity: 1;
   }
 }
 
@@ -178,12 +178,12 @@ body {
   }
 }
 
-@keyframes fade-in {
+@keyframes shadow-drop-bottom {
   0% {
-    opacity: 0;
+    box-shadow: 0 0 0 0 transparent;
   }
   100% {
-    opacity: 1;
+    box-shadow: 0 12px 20px -12px rgb(0 0 0 / 35%);
   }
 }
 

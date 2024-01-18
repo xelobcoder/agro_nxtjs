@@ -67,7 +67,7 @@ const Leading: NextPage = () => {
           </div>
         </div>
         <img
-          className="self-stretch relative max-w-full overflow-hidden h-[424px] shrink-0 object-contain [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in] opacity-[0] mt-[-80px]"
+          className="self-stretch relative max-w-full overflow-hidden h-[424px] shrink-0 object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in] opacity-[0] mt-[-80px]"
           alt=""
           src="/unsplashyo5m9vczbcm@2x.png"
           data-animate-on-scroll

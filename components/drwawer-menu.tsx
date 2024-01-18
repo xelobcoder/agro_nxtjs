@@ -157,7 +157,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
               <img
                 className="absolute top-[10px] left-[-1px] w-8 h-[22px] object-contain mix-blend-exclusion"
                 alt=""
-                src="/images-2-13@2x.png"
+                src="/images-2-1@2x.png"
               />
             </button>
           </div>
