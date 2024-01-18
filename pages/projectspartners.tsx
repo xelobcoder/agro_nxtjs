@@ -21,7 +21,7 @@ const Projectspartners: NextPage = () => {
   }, []);
 
   const onAboutUsClick = useCallback(() => {
-    router.push("/");
+    router.push("/about-u-s-page");
   }, [router]);
 
   const onProducAndServicesClick = useCallback(() => {
@@ -124,9 +124,9 @@ const Projectspartners: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
                   <div
-                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -231,9 +231,9 @@ const Projectspartners: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos5]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos9]:hover:flex">
                   <div
-                    className="oursubsidiarylogos5 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos9 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -271,7 +271,7 @@ const Projectspartners: NextPage = () => {
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     id="logo"
                     alt=""
-                    src="/logo1@2x.png"
+                    src="/logo11@2x.png"
                   />
                 </div>
               </div>

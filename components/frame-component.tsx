@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useCallback, useEffect } from "react";
 
-const FrameComponent: NextPage = () => {
+const FrameComponent2: NextPage = () => {
   const onArrowIconClick = useCallback(() => {
     window.open(
       "https://www.google.com/maps/place/Agrospectrum+Limited/@5.6353051,-0.1755855,17z/data=!3m1!4b1!4m6!3m5!1s0xfdf9bbdee369f39:0xa57b6b7babf17392!8m2!3d5.6352998!4d-0.1730106!16s%2Fg%2F11v60sh254?entry=ttu"
@@ -123,4 +123,4 @@ const FrameComponent: NextPage = () => {
   );
 };
 
-export default FrameComponent;
+export default FrameComponent2;

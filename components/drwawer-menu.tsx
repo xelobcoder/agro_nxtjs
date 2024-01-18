@@ -38,6 +38,10 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
     };
   }, []);
 
+  const onLgoFrameClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
   const onBdp1ImageClick = useCallback(() => {
     window.location.href = "https://bdp.com.gh/";
     onClose && onClose();
@@ -53,8 +57,12 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
     onClose && onClose();
   }, []);
 
-  const onAboutUsClick = useCallback(() => {
+  const onHomeClick = useCallback(() => {
     router.push("/");
+  }, [router]);
+
+  const onAboutUsClick = useCallback(() => {
+    router.push("/about-u-s-page");
   }, [router]);
 
   const onProductsSevicesClick = useCallback(() => {
@@ -74,6 +82,10 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
   }, [router]);
 
   const onContactUsContainerClick = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
+
+  const onContactUsTextClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
@@ -105,7 +117,10 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
       <div className="absolute top-[29px] left-[44px] flex flex-col items-start justify-start py-0 px-5 gap-[22px]">
         <div className="flex flex-row items-center justify-start gap-[139px]">
           <div className="rounded-[137.35px] bg-darkslategray-400 [backdrop-filter:blur(347.67px)] w-[222px] h-[60.9px] flex flex-row items-center justify-start py-2.5 px-[27.747304916381836px] box-border gap-[40px]">
-            <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[89.3px] h-[56.1px]">
+            <button
+              className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[89.3px] h-[56.1px]"
+              onClick={onLgoFrameClick}
+            >
               <img
                 className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                 id="logo"
@@ -156,7 +171,10 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
           </button>
         </div>
         <div className="flex flex-col items-start justify-start py-0 px-[15px] gap-[9.17px]">
-          <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-lgi-7 leading-[26.73px] font-semibold font-poppins text-black text-center inline-block">{`Home `}</button>
+          <button
+            className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-lgi-7 leading-[26.73px] font-semibold font-poppins text-black text-center inline-block"
+            onClick={onHomeClick}
+          >{`Home `}</button>
           <button
             className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-lgi-7 leading-[26.73px] font-semibold font-poppins text-black text-center inline-block"
             onClick={onAboutUsClick}
@@ -188,7 +206,10 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
           className="cursor-pointer py-3 px-5 bg-white rounded-31xl box-border w-40 flex flex-row items-center justify-between border-[1px] border-solid border-darkolivegreen-200 hover:bg-olivedrab-200"
           onClick={onContactUsContainerClick}
         >
-          <div className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-darkolivegreen-300 text-center hover:text-whitesmoke-100">
+          <div
+            className="flex-1 relative text-mini leading-[20.4px] font-semibold font-inter text-darkolivegreen-300 text-center cursor-pointer hover:text-whitesmoke-100"
+            onClick={onContactUsTextClick}
+          >
             Contact Us
           </div>
         </button>

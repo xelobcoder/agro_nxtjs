@@ -28,6 +28,39 @@ const AboutUSPage: NextPage = () => {
     window.open("https://sfl.com.gh/");
   }, []);
 
+
+  const onAboutUsClick = useCallback(() => {
+    router.push("/about-u-s-page");
+  }, [router]);
+
+  const onProducAndServicesClick = useCallback(() => {
+    router.push("/product-services");
+  }, [router]);
+
+  const onClientspartnersClick = useCallback(() => {
+    router.push("/projectspartners");
+  }, [router]);
+
+  const onMediaClick = useCallback(() => {
+    router.push("/media");
+  }, [router]);
+
+  const onContactUsContainerClick = useCallback(() => {
+    router.push("/contact-p-age");
+  }, [router]);
+
+  const onClipPathGroup3Click = useCallback(() => {
+    window.open("https://bsl.com.gh/");
+  }, []);
+
+  const onClipPathGroup12Click = useCallback(() => {
+    window.open("https://isg.com.gh/");
+  }, []);
+
+  const onClipPathGroup22Click = useCallback(() => {
+    window.open("https://sfl.com.gh/");
+  }, []);
+
   const openDrwawerMenu = useCallback(() => {
     setDrwawerMenuOpen(true);
   }, []);
@@ -81,9 +114,9 @@ const AboutUSPage: NextPage = () => {
           >
             <div className="self-stretch flex flex-row items-center justify-between">
               <div className="relative w-[125.7px] h-[42.7px]">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos10]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
                   <div
-                    className="oursubsidiarylogos10 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -188,9 +221,9 @@ const AboutUSPage: NextPage = () => {
           >
             <div className="flex-1 flex flex-row items-center justify-between">
               <div className="self-stretch flex-1 relative">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos10]:hover:flex">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[9px] left-[77px] w-[34.7px] h-[34.7px] [&_.oursubsidiarylogos11]:hover:flex">
                   <div
-                    className="oursubsidiarylogos10 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
+                    className="oursubsidiarylogos11 absolute top-[1.4px] left-[44px] w-[395px] h-[29px] hidden"
                     id="ourSubsidiaries"
                   >
                     <img
@@ -227,7 +260,7 @@ const AboutUSPage: NextPage = () => {
                   <img
                     className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/logo1@2x.png"
+                    src="/logo11@2x.png"
                   />
                 </div>
               </div>
